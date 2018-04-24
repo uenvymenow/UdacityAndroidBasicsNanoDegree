@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TnT Musical Arts Studios</string>
+
+    <string name="business_name">TnT Musical Arts Studios</string>
+    <string name="business_address">123 Fake Street \n Nashville \n TN \n 00000</string>
+    <string name="business_phone">555.555.5555</string>
+    <string name="business_description">We are a business located near the Greater Nashville area specializing in the growth and love of the musical arts. We are a place where new and upcoming
+        artists can come to grow in their level of confidence and attempt to pursue a career in the music industry by creating a luanchpad for them. More than anything, we are business
+        dedicated to the passion of music, whether a beginner looking to learn to sing, play an instrument or even learn to DJ or an aspiring artist looking for their next step.</string>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="American Football" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Team A Vertical Layout -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TeamATextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team A" />
+
+            <TextView
+                android:id="@+id/TeamAScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/TeamATouchDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Touchdown"
+                android:onClick="teamATD"/>
+
+            <Button
+                android:id="@+id/TeamAExtraPoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Extra Point"
+                android:onClick="teamAExtraPoint"/>
+
+            <Button
+                android:id="@+id/TeamA2PtConversion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 Pt Conversion"
+                android:onClick="teamA2Pt"/>
+
+            <Button
+                android:id="@+id/TeamAFieldGoal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Field Goal"
+                android:onClick="teamAFieldGoal"/>
+
+            <Button
+                android:id="@+id/TeamASafety"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Safety"
+                android:onClick="teamASafety"/>
+
+        </LinearLayout>
+
+        <!-- Team B Vertical Layout -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TeamBTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team B" />
+
+            <TextView
+                android:id="@+id/TeamBScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/TeamBTouchDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Touchdown"
+                android:onClick="teamBTD"/>
+
+            <Button
+                android:id="@+id/TeamBExtraPoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Extra Point"
+                android:onClick="teamBExtraPoint"/>
+
+            <Button
+                android:id="@+id/TeamB2PtConversion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 Pt Conversion"
+                android:onClick="teamB2Pt"/>
+
+            <Button
+                android:id="@+id/TeamBFieldGoal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Field Goal"
+                android:onClick="teamBFieldGoal"/>
+
+            <Button
+                android:id="@+id/TeamBSafety"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Safety"
+                android:onClick="teamBSafety"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Reset" />
+
+</LinearLayout>

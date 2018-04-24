@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <!-- Image was retrieved as labeled for reuse from https://pxhere.com/en/photo/846852 -->
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

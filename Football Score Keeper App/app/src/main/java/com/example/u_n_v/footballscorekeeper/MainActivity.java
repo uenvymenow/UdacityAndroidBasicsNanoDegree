@@ -16,64 +16,62 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void displayScoreTeamA(int scoreTeamA) {
+    public void displayScoreTeamA(int scoreTeamA) { // sets text for Team A score
         TextView scoreTV = findViewById(R.id.TeamAScore);
-
         scoreTV.setText(String.valueOf(scoreTeamA));
     }
 
-    public void teamATD(View v){
+    public void teamATD(View v){ // adds touchdown points to score for Team A
         scoreTeamA += 6;
         displayScoreTeamA(scoreTeamA);
     }
 
-    public void teamAExtraPoint(View v){
+    public void teamAExtraPoint(View v){ // adds extra point to score for Team A
         scoreTeamA += 1;
         displayScoreTeamA(scoreTeamA);
     }
 
-    public void teamA2Pt(View v){
+    public void teamA2Pt(View v){ // adds 2 point conversion to score for Team A
         scoreTeamA += 2;
         displayScoreTeamA(scoreTeamA);
     }
 
-    public void teamAFieldGoal(View v){
+    public void teamAFieldGoal(View v){ // adds field goal to score for Team A
         scoreTeamA += 3;
         displayScoreTeamA(scoreTeamA);
     }
 
-    public void teamASafety(View v){
+    public void teamASafety(View v){ // adds safety to score for Team A
         scoreTeamA += 2;
         displayScoreTeamA(scoreTeamA);
     }
 
-    public void displayScoreTeamB(int scoreTeamA) {
+    public void displayScoreTeamB(int scoreTeamA) { // sets text for Team B score
         TextView scoreTV = findViewById(R.id.TeamBScore);
-
         scoreTV.setText(String.valueOf(scoreTeamA));
     }
 
-    public void teamBTD(View v){
+    public void teamBTD(View v){ // adds touchdown to score for Team B
         scoreTeamB += 6;
         displayScoreTeamB(scoreTeamB);
     }
 
-    public void teamBExtraPoint(View v){
+    public void teamBExtraPoint(View v){ // adds extra point to score for Team B
         scoreTeamB += 1;
         displayScoreTeamB(scoreTeamB);
     }
 
-    public void teamB2Pt(View v){
+    public void teamB2Pt(View v){ // adds 2 point conversion to score for Team B
         scoreTeamB += 2;
         displayScoreTeamB(scoreTeamB);
     }
 
-    public void teamBFieldGoal(View v){
+    public void teamBFieldGoal(View v){ // adds field goal to score for Team B
         scoreTeamB += 3;
         displayScoreTeamB(scoreTeamB);
     }
 
-    public void teamBSafety(View v){
+    public void teamBSafety(View v){ // adds safety to score for Team B
         scoreTeamB += 2;
         displayScoreTeamB(scoreTeamB);
     }

@@ -46,5 +46,44 @@ public class MainActivity extends AppCompatActivity {
         scoreTeamA += 2;
         displayScoreTeamA(scoreTeamA);
     }
+
+    public void displayScoreTeamB(int scoreTeamA) {
+        TextView scoreTV = findViewById(R.id.TeamBScore);
+
+        scoreTV.setText(String.valueOf(scoreTeamA));
+    }
+
+    public void teamBTD(View v){
+        scoreTeamB += 6;
+        displayScoreTeamB(scoreTeamB);
+    }
+
+    public void teamBExtraPoint(View v){
+        scoreTeamB += 1;
+        displayScoreTeamB(scoreTeamB);
+    }
+
+    public void teamB2Pt(View v){
+        scoreTeamB += 2;
+        displayScoreTeamB(scoreTeamB);
+    }
+
+    public void teamBFieldGoal(View v){
+        scoreTeamB += 3;
+        displayScoreTeamB(scoreTeamB);
+    }
+
+    public void teamBSafety(View v){
+        scoreTeamB += 2;
+        displayScoreTeamB(scoreTeamB);
+    }
+
+    public void resetButton(View v){
+        scoreTeamA = 0;
+        scoreTeamB = 0;
+
+        displayScoreTeamA(scoreTeamA);
+        displayScoreTeamB(scoreTeamB);
+    }
 }
 

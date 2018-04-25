@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="American Football" />
+        android:text="@string/american_football"
+        android:layout_marginBottom="12dp"/>
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -29,50 +29,80 @@
                 android:id="@+id/TeamATextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Team A" />
+                android:layout_gravity="center"
+                android:text="@string/teamA"
+                style="@style/teamName"/>
 
             <TextView
                 android:id="@+id/TeamAScore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0" />
+                android:layout_gravity="center"
+                android:text="0"
+                style="@style/teamScore"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:background="#000000" />
 
             <Button
                 android:id="@+id/TeamATouchDown"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Touchdown"
-                android:onClick="teamATD"/>
+                android:layout_gravity="center"
+                android:text="@string/touchdown"
+                android:onClick="teamATD"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"/>
 
             <Button
                 android:id="@+id/TeamAExtraPoint"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Extra Point"
-                android:onClick="teamAExtraPoint"/>
+                android:layout_gravity="center"
+                android:text="@string/extra_point"
+                android:onClick="teamAExtraPoint"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
 
             <Button
                 android:id="@+id/TeamA2PtConversion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2 Pt Conversion"
-                android:onClick="teamA2Pt"/>
+                android:layout_gravity="center"
+                android:text="@string/extra_2_point_conversion"
+                android:onClick="teamA2Pt"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
 
             <Button
                 android:id="@+id/TeamAFieldGoal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Field Goal"
-                android:onClick="teamAFieldGoal"/>
+                android:layout_gravity="center"
+                android:text="@string/field_goal"
+                android:onClick="teamAFieldGoal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
 
             <Button
                 android:id="@+id/TeamASafety"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Safety"
-                android:onClick="teamASafety"/>
+                android:layout_gravity="center"
+                android:text="@string/safety"
+                android:onClick="teamASafety"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
 
         </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
 
         <!-- Team B Vertical Layout -->
         <LinearLayout
@@ -85,48 +115,73 @@
                 android:id="@+id/TeamBTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Team B" />
+                android:layout_gravity="center"
+                android:text="@string/teamB"
+                style="@style/teamName"/>
 
             <TextView
                 android:id="@+id/TeamBScore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0" />
+                android:layout_gravity="center"
+                android:text="0"
+                style="@style/teamScore"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:background="#000000" />
 
             <Button
                 android:id="@+id/TeamBTouchDown"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Touchdown"
-                android:onClick="teamBTD"/>
+                android:layout_gravity="center"
+                android:text="@string/touchdown"
+                android:onClick="teamBTD"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
 
             <Button
                 android:id="@+id/TeamBExtraPoint"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Extra Point"
-                android:onClick="teamBExtraPoint"/>
+                android:layout_gravity="center"
+                android:text="@string/extra_point"
+                android:onClick="teamBExtraPoint"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
 
             <Button
                 android:id="@+id/TeamB2PtConversion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2 Pt Conversion"
-                android:onClick="teamB2Pt"/>
+                android:layout_gravity="center"
+                android:text="@string/extra_2_point_conversion"
+                android:onClick="teamB2Pt"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
 
             <Button
                 android:id="@+id/TeamBFieldGoal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Field Goal"
-                android:onClick="teamBFieldGoal"/>
+                android:layout_gravity="center"
+                android:text="@string/field_goal"
+                android:onClick="teamBFieldGoal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
 
             <Button
                 android:id="@+id/TeamBSafety"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Safety"
-                android:onClick="teamBSafety"/>
+                android:layout_gravity="center"
+                android:text="@string/safety"
+                android:onClick="teamBSafety"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
 
         </LinearLayout>
     </LinearLayout>
@@ -135,6 +190,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Reset" />
+        android:text="Reset"
+        android:onClick="resetButton"
+        android:layout_marginTop="24dp"/>
 
 </LinearLayout>

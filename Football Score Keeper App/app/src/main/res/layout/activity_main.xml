@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/american_football"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="12dp"/>
 
     <LinearLayout
@@ -140,7 +141,7 @@
                 android:layout_gravity="center"
                 android:text="@string/touchdown"
                 android:onClick="teamBTD"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="5dp"/>
 
             <Button

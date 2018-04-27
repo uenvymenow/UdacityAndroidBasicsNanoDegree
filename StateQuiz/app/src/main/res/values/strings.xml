@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">State Quiz</string>
+
+    <string name="question1">What is the state of Massachusetts?"</string>
+    <string name="question2">How many states are there in the United States?</string>
+    <string name="question3">What is the oldest state in the United States?</string>
+    <string name="question4">What state was most recently added to the United States?</string>
+    <string name="question5">Old Faithful in Yellowstone National Park is in what state?</string>
+    <string name="question6">Little Rock is the capital of which state?</string>
+    <string name="question7">What states have produces the most Presidents, where they were born?</string>
+    <string name="question8">How many states were in the original colonies?</string>
+    <string name="question9">What two states are not a part of the continental United States?</string>
+    <string name="question10">How many states does the Mississippi River flow through?</string>
+</resources>

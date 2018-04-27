@@ -53,7 +53,8 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:gravity="center"
-            android:text="@string/business_address" />
+            android:text="@string/business_address"
+            android:autoLink="map"/>
 
         <TextView
             android:id="@+id/businessPhone"
@@ -64,7 +65,8 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:gravity="center"
-            android:text="@string/business_phone" />
+            android:text="@string/business_phone"
+            android:autoLink="phone"/>
 
     </RelativeLayout>
 

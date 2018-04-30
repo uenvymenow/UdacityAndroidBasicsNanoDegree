@@ -2,42 +2,44 @@
     <string name="app_name">State Quiz</string>
 
     <!-- Question 1 -->
-    <string name="question1">What is the capital of Massachusetts?"</string>
+    <string name="question1">1) What is the capital of Massachusetts?"</string>
     <string name="question1correct">Boston</string>
 
     <!-- Question 2 -->
-    <string name="question2">How many states are there in the United States?</string>
-    <string name="question2correct"></string>
+    <string name="question2">2) How many states are there in the United States?</string>
+    <string name="question2correct">50</string>
 
     <!-- Question 3 -->
-    <string name="question3">What is the oldest state in the United States?</string>
-    <string name="question3correct"></string>
+    <string name="question3">3) What is the oldest state in the United States?</string>
+    <string name="question3Hint">Enter name of state</string>
+    <string name="question3correct">Delaware</string>
 
     <!-- Question 4 -->
-    <string name="question4">What state was most recently added to the United States?</string>
-    <string name="question4correct"></string>
+    <string name="question4">4) What state was most recently added to the United States?</string>
+    <string name="question4correct">Hawaii</string>
 
     <!-- Question 5 -->
-    <string name="question5">Old Faithful in Yellowstone National Park is in what state?</string>
-    <string name="question5correct"></string>
+    <string name="question5">5) Old Faithful in Yellowstone National Park is in what state?</string>
+    <string name="question5correct">Wyoming</string>
 
     <!-- Question 6 -->
-    <string name="question6">Little Rock is the capital of which state?</string>
-    <string name="question6correct"></string>
+    <string name="question6">6) Little Rock is the capital of which state?</string>
+    <string name="question6correct">Arkansas</string>
 
     <!-- Question 7 -->
-    <string name="question7">What states have produces the most Presidents, where they were born?</string>
-    <string name="question7correct"></string>
+    <string name="question7">7) What states have produces the most Presidents? Hint: According to where they were born?</string>
+    <string name="question7correct">Virginia</string>
 
     <!-- Question 8 -->
-    <string name="question8">How many states were in the original colonies?</string>
-    <string name="question8correct"></string>
+    <string name="question8">8) How many states were in the original colonies?</string>
+    <string name="question8correct">13</string>
 
     <!-- Question 9 -->
-    <string name="question9">What two states are not a part of the continental United States?</string>
-    <string name="question9correct"></string>
+    <string name="question9">9) What two states are not a part of the continental United States?</string>
+    <string name="question9correct1">Alaska</string>
+    <string name="question9correct2">Hawaii</string>
 
     <!-- Question 10 -->
-    <string name="question10">How many states does the Mississippi River flow through?</string>
-    <string name="question10correct"></string>
+    <string name="question10">10) How many states does the Mississippi River flow through?</string>
+    <string name="question10correct">10</string>
 </resources>

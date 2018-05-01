@@ -3,43 +3,73 @@
 
     <!-- Question 1 -->
     <string name="question1">1) What is the capital of Massachusetts?"</string>
-    <string name="question1correct">Boston</string>
+    <string name="question1Correct">Boston</string>
+    <string name="question1Incorrect1">Albany</string>
+    <string name="question1Incorrect2">Stanford</string>
+    <string name="question1Incorrect3">Liberty</string>
 
     <!-- Question 2 -->
     <string name="question2">2) How many states are there in the United States?</string>
-    <string name="question2correct">50</string>
+    <string name="question2Correct">50</string>
+    <string name="question2Incorrect1">25</string>
+    <string name="question2Incorrect2">40</string>
+    <string name="question2Incorrect3">55</string>
 
     <!-- Question 3 -->
     <string name="question3">3) What is the oldest state in the United States?</string>
     <string name="question3Hint">Enter name of state</string>
-    <string name="question3correct">Delaware</string>
+    <string name="question3Correct">Delaware</string>
 
     <!-- Question 4 -->
     <string name="question4">4) What state was most recently added to the United States?</string>
-    <string name="question4correct">Hawaii</string>
+    <string name="question4Correct">Hawaii</string>
+    <string name="question4Incorrect1">California</string>
+    <string name="question4Incorrect2">Alaska</string>
+    <string name="question4Incorrect3">New Mexico</string>
 
     <!-- Question 5 -->
     <string name="question5">5) Old Faithful in Yellowstone National Park is in what state?</string>
-    <string name="question5correct">Wyoming</string>
+    <string name="question5Correct">Wyoming</string>
+    <string name="question5Incorrect1">Montana</string>
+    <string name="question5Incorrect2">Idaho</string>
+    <string name="question5Incorrect3">South Dakota</string>
 
     <!-- Question 6 -->
     <string name="question6">6) Little Rock is the capital of which state?</string>
-    <string name="question6correct">Arkansas</string>
+    <string name="question6Correct">Arkansas</string>
+    <string name="question6Incorrect1">Mississippi</string>
+    <string name="question6Incorrect2">Louisiana</string>
+    <string name="question6Incorrect3">Kansas</string>
 
     <!-- Question 7 -->
     <string name="question7">7) What states have produces the most Presidents? Hint: According to where they were born?</string>
-    <string name="question7correct">Virginia</string>
+    <string name="question7Correct">Virginia</string>
+    <string name="question7Incorrect1">Illinois</string>
+    <string name="question7Incorrect2">Pennsylvania</string>
+    <string name="question7Incorrect3">Delaware</string>
 
     <!-- Question 8 -->
     <string name="question8">8) How many states were in the original colonies?</string>
-    <string name="question8correct">13</string>
+    <string name="question8Correct">13</string>
+    <string name="question8Incorrect1">7</string>
+    <string name="question8Incorrect2">9</string>
+    <string name="question8Incorrect3">11</string>
 
     <!-- Question 9 -->
     <string name="question9">9) What two states are not a part of the continental United States?</string>
-    <string name="question9correct1">Alaska</string>
-    <string name="question9correct2">Hawaii</string>
+    <string name="question9Correct1">Alaska</string>
+    <string name="question9Correct2">Hawaii</string>
+    <string name="question9Incorrect1">Oregon</string>
+    <string name="question9Incorrect2">Washington</string>
 
     <!-- Question 10 -->
     <string name="question10">10) How many states does the Mississippi River flow through?</string>
-    <string name="question10correct">10</string>
+    <string name="question10Correct">10</string>
+    <string name="question10Incorrect1">8</string>
+    <string name="question10Incorrect2">12</string>
+    <string name="question10Incorrect3">14</string>
+
+    <!-- Buttons -->
+    <string name="submitButton">Submit</string>
+    <string name="resetButton">Reset</string>
 </resources>

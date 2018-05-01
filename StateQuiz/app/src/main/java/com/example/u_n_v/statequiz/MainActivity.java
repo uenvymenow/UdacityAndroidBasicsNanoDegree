@@ -1,18 +1,14 @@
 package com.example.u_n_v.statequiz;
 
-import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
-import java.io.Console;
-import java.util.logging.ConsoleHandler;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -146,14 +142,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Grabs the question9 correct answer check boxes and sees if they are checked or not
-    public void question9CB(View v){
+    public void question9CB(View v) {
         CheckBox correctAnswer1 = findViewById(R.id.question9CorrectOne);
         CheckBox correctAnswer2 = findViewById(R.id.question9CorrectTwo);
 
-        if (correctAnswer1.isChecked() && correctAnswer2.isChecked()){
+        if (correctAnswer1.isChecked() && correctAnswer2.isChecked()) {
             question9Score = 1;
-        }
-        else {
+        } else {
             question9Score = 0;
         }
     }
@@ -172,17 +167,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Displays Toast Message of final score
-    public void displayScore(){
+    public void displayScore() {
         Toast.makeText(this, "Your final score is " + calculateFinalScore(calculateCorrectScore(), totalQuestions) + "%", Toast.LENGTH_SHORT).show();
     }
 
     // Process displayScore method when submit button is clicked
-    public void submitButton(View v){
+    public void submitButton(View v) {
         displayScore();
     }
 
     // Calculates the score of correct answers
-    public int calculateCorrectScore(){
+    public int calculateCorrectScore() {
         // Calls correct score from question 3 EditText
         question3Score = question3EditText();
 
@@ -198,7 +193,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Resets the scores for each question and the final score
-    public void resetButton(View view){
+    public void resetButton(View view) {
         Intent resetApp = getBaseContext().getPackageManager().getLaunchIntentForPackage(getBaseContext().getPackageName());
         resetApp.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(resetApp);

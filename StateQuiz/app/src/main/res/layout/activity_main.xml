@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,6 +10,13 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
+        <!-- Image retrieved from https://pixabay.com/en/usa-flag-america-american-1127885/ by user Prawny under CC License -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cropToPadding="true"
+            android:src="@drawable/usa_flag"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -23,35 +31,41 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/question1" />
+                    android:text="@string/question1"
+                    app:fontFamily="@font/cabin_medium"
+                    style="@style/textView"/>
 
                 <RadioButton
                     android:id="@+id/question1Incorrect1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question1RadioButton"
-                    android:text="@string/question1Incorrect1" />
+                    android:text="@string/question1Incorrect1"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question1CorrectAnswer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question1RadioButton"
-                    android:text="@string/question1Correct" />
+                    android:text="@string/question1Correct"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question1Incorrect2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question1RadioButton"
-                    android:text="@string/question1Incorrect2" />
+                    android:text="@string/question1Incorrect2"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question1Incorrect3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question1RadioButton"
-                    android:text="@string/question1Incorrect3" />
+                    android:text="@string/question1Incorrect3"
+                    style="@style/radioButton"/>
             </RadioGroup>
 
             <!-- Question 2 -->
@@ -62,49 +76,59 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/question2" />
+                    android:text="@string/question2"
+                    app:fontFamily="@font/cabin_medium"
+                    style="@style/textView"/>
 
                 <RadioButton
                     android:id="@+id/question2Incorrect1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question2RadioButton"
-                    android:text="@string/question2Incorrect1" />
+                    android:text="@string/question2Incorrect1"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question2Incorrect2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question2RadioButton"
-                    android:text="@string/question2Incorrect2" />
+                    android:text="@string/question2Incorrect2"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question2CorrectAnswer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question2RadioButton"
-                    android:text="@string/question2Correct" />
+                    android:text="@string/question2Correct"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question2Incorrect3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question2RadioButton"
-                    android:text="@string/question2Incorrect3" />
+                    android:text="@string/question2Incorrect3"
+                    style="@style/radioButton"/>
             </RadioGroup>
 
             <!-- Question 3 -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question3" />
+                android:text="@string/question3"
+                app:fontFamily="@font/cabin_medium"
+                style="@style/textView"/>
 
             <EditText
                 android:id="@+id/question3Answer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:focusedByDefault="false"
                 android:inputType="text"
-                android:text="@string/question3Hint" />
+                android:text="@string/question3Hint"
+                style="@style/editText"/>
             <!-- End Question 3 -->
 
             <!-- Question 4 -->
@@ -115,35 +139,41 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/question4" />
+                    android:text="@string/question4"
+                    app:fontFamily="@font/cabin_medium"
+                    style="@style/textView"/>
 
                 <RadioButton
                     android:id="@+id/question4Incorrect1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question4RadioButton"
-                    android:text="@string/question4Incorrect1" />
+                    android:text="@string/question4Incorrect1"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question4Incorrect2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question4RadioButton"
-                    android:text="@string/question4Incorrect2" />
+                    android:text="@string/question4Incorrect2"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question4Incorrect3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question4RadioButton"
-                    android:text="@string/question4Incorrect3" />
+                    android:text="@string/question4Incorrect3"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question4CorrectAnswer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question4RadioButton"
-                    android:text="@string/question4Correct" />
+                    android:text="@string/question4Correct"
+                    style="@style/radioButton"/>
             </RadioGroup>
 
             <!-- Question 5 -->
@@ -154,35 +184,41 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/question5" />
+                    android:text="@string/question5"
+                    app:fontFamily="@font/cabin_medium"
+                    style="@style/textView"/>
 
                 <RadioButton
                     android:id="@+id/question5Incorrect1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question5RadioButton"
-                    android:text="@string/question5Incorrect1" />
+                    android:text="@string/question5Incorrect1"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question5Incorrect2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question5RadioButton"
-                    android:text="@string/question5Incorrect2" />
+                    android:text="@string/question5Incorrect2"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question5Incorrect3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question5RadioButton"
-                    android:text="@string/question5Incorrect3" />
+                    android:text="@string/question5Incorrect3"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question5CorrectAnswer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question5RadioButton"
-                    android:text="@string/question5Correct" />
+                    android:text="@string/question5Correct"
+                    style="@style/radioButton"/>
             </RadioGroup>
 
             <!-- Question 6 -->
@@ -193,35 +229,41 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/question6" />
+                    android:text="@string/question6"
+                    app:fontFamily="@font/cabin_medium"
+                    style="@style/textView"/>
 
                 <RadioButton
                     android:id="@+id/question6Incorrect1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question6RadioButton"
-                    android:text="@string/question6Incorrect1" />
+                    android:text="@string/question6Incorrect1"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question6Incorrect2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question6RadioButton"
-                    android:text="@string/question6Incorrect2" />
+                    android:text="@string/question6Incorrect2"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question6CorrectAnswer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question6RadioButton"
-                    android:text="@string/question6Correct" />
+                    android:text="@string/question6Correct"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question6Incorrect3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question6RadioButton"
-                    android:text="@string/question6Incorrect3" />
+                    android:text="@string/question6Incorrect3"
+                    style="@style/radioButton"/>
             </RadioGroup>
 
             <!-- Question 7 -->
@@ -232,35 +274,41 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/question7" />
+                    android:text="@string/question7"
+                    app:fontFamily="@font/cabin_medium"
+                    style="@style/textView"/>
 
                 <RadioButton
                     android:id="@+id/question7Incorrect1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question7RadioButton"
-                    android:text="@string/question7Incorrect1" />
+                    android:text="@string/question7Incorrect1"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question7CorrectAnswer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question7RadioButton"
-                    android:text="@string/question7Correct" />
+                    android:text="@string/question7Correct"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question7Incorrect2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question7RadioButton"
-                    android:text="@string/question7Incorrect2" />
+                    android:text="@string/question7Incorrect2"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question7Incorrect3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question7RadioButton"
-                    android:text="@string/question7Incorrect3" />
+                    android:text="@string/question7Incorrect3"
+                    style="@style/radioButton"/>
             </RadioGroup>
 
             <!-- Question 8 -->
@@ -271,35 +319,41 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/question8" />
+                    android:text="@string/question8"
+                    app:fontFamily="@font/cabin_medium"
+                    style="@style/textView"/>
 
                 <RadioButton
                     android:id="@+id/question8Incorrect1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question8RadioButton"
-                    android:text="@string/question8Incorrect1" />
+                    android:text="@string/question8Incorrect1"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question8Incorrect2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question8RadioButton"
-                    android:text="@string/question8Incorrect2" />
+                    android:text="@string/question8Incorrect2"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question8Incorrect3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question8RadioButton"
-                    android:text="@string/question8Incorrect3" />
+                    android:text="@string/question8Incorrect3"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question8CorrectAnswer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question8RadioButton"
-                    android:text="@string/question8Correct" />
+                    android:text="@string/question8Correct"
+                    style="@style/radioButton"/>
 
             </RadioGroup>
 
@@ -307,35 +361,41 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question9" />
+                android:text="@string/question9"
+                app:fontFamily="@font/cabin_medium"
+                style="@style/textView"/>
 
             <CheckBox
                 android:id="@+id/question9CorrectOne"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="question9CB"
-                android:text="@string/question9Correct1" />
+                android:text="@string/question9Correct1"
+                style="@style/checkBox"/>
 
             <CheckBox
                 android:id="@+id/question9Incorrect1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="question9CB"
-                android:text="@string/question9Incorrect1" />
+                android:text="@string/question9Incorrect1"
+                style="@style/checkBox"/>
 
             <CheckBox
                 android:id="@+id/question9CorrectTwo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="question9CB"
-                android:text="@string/question9Correct2" />
+                android:text="@string/question9Correct2"
+                style="@style/checkBox"/>
 
             <CheckBox
                 android:id="@+id/question9Incorrect2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="question9CB"
-                android:text="@string/question9Incorrect2" />
+                android:text="@string/question9Incorrect2"
+                style="@style/checkBox"/>
 
             <!-- Question 10 -->
             <RadioGroup
@@ -345,40 +405,46 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/question10" />
+                    android:text="@string/question10"
+                    app:fontFamily="@font/cabin_medium"
+                    style="@style/textView"/>
 
                 <RadioButton
                     android:id="@+id/question10Incorrect1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question10RadioButton"
-                    android:text="@string/question10Incorrect1" />
+                    android:text="@string/question10Incorrect1"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question10CorrectAnswer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question10RadioButton"
-                    android:text="@string/question10Correct" />
+                    android:text="@string/question10Correct"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question10Incorrect2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question10RadioButton"
-                    android:text="@string/question10Incorrect2" />
+                    android:text="@string/question10Incorrect2"
+                    style="@style/radioButton"/>
 
                 <RadioButton
                     android:id="@+id/question10Incorrect3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="question10RadioButton"
-                    android:text="@string/question10Incorrect3" />
+                    android:text="@string/question10Incorrect3"
+                    style="@style/radioButton"/>
             </RadioGroup>
 
         </LinearLayout>
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -388,16 +454,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="submitButton"
-                android:text="@string/submitButton" />
+                android:text="@string/submitButton"
+                style="@style/submitButton"/>
 
             <!-- Reset Button -->
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="resetButton"
-                android:text="@string/resetButton" />
+                android:layout_alignParentRight="true"
+                android:text="@string/resetButton"
+                style="@style/resetButton"/>
 
-        </LinearLayout>
+        </RelativeLayout>
 
     </LinearLayout>
 

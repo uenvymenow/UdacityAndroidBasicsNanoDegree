@@ -145,8 +145,10 @@ public class MainActivity extends AppCompatActivity {
     public void question9CB(View v) {
         CheckBox correctAnswer1 = findViewById(R.id.question9CorrectOne);
         CheckBox correctAnswer2 = findViewById(R.id.question9CorrectTwo);
+        CheckBox incorrectAnswer1 = findViewById(R.id.question9Incorrect1);
+        CheckBox incorrectAnswer2 = findViewById(R.id.question9Incorrect2);
 
-        if (correctAnswer1.isChecked() && correctAnswer2.isChecked()) {
+        if (correctAnswer1.isChecked() && correctAnswer2.isChecked() && (!incorrectAnswer1.isChecked()) && !incorrectAnswer2.isChecked()) {
             question9Score = 1;
         } else {
             question9Score = 0;

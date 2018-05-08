@@ -33,14 +33,10 @@ public class NumbersActivity extends AppCompatActivity {
         // Inflate view for each word in ArrayList
         LinearLayout rootView = (LinearLayout) findViewById(R.id.rootView);
 
-        int index = 0;
-
-        while (index < words.size()){
+        for (int index = 0; index < words.size(); index++){
             TextView wordView = new TextView(this);
             wordView.setText(words.get(index));
             rootView.addView(wordView);
-
-            index = index + 1;
         }
     }
 }

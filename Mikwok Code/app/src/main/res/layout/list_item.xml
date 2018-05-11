@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/miwokWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample 1"
+        style="@style/miwokWordView"/>
+
+    <TextView
+        android:id="@+id/defaultWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample 2"
+        style="@style/defaultWordView"/>
+
+</LinearLayout>

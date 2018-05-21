@@ -16,7 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ArtistActivity"></activity>
+        <activity android:name=".ClassicRock" />
+        <activity android:name=".JazzActivity" />
+        <activity android:name=".AlternativeRock" />
+        <activity android:name=".Country" />
+        <activity android:name=".Rap" />
+        <activity android:name=".PopRock" />
+        <activity android:name=".Soundtracks"></activity>
     </application>
 
 </manifest>

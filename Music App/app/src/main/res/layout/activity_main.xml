@@ -3,14 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Genres"
-        style="@style/genres"/>
+        android:orientation="vertical">
+        <TextView
+            style="@style/genres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Genres" />
 
+    </LinearLayout>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -20,41 +26,54 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="Jazz"
-            style="@style/genreList"/>
+            <TextView
+                android:id="@+id/classic_rock"
+                style="@style/genreList"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Classic Rock" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="Alternative"
-            style="@style/genreList"/>
+            <TextView
+                android:id="@+id/jazz"
+                style="@style/genreList"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Jazz" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="Country"
-            style="@style/genreList"/>
+            <TextView
+                android:id="@+id/alternative_rock"
+                style="@style/genreList"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Alternative" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="Rap"
-            style="@style/genreList"/>
+            <TextView
+                android:id="@+id/country"
+                style="@style/genreList"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Country" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="Pop"
-            style="@style/genreList"/>
+            <TextView
+                android:id="@+id/rap"
+                style="@style/genreList"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Rap" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="Soundtracks"
-            style="@style/genreList"/>
+            <TextView
+                android:id="@+id/pop_rock"
+                style="@style/genreList"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Pop" />
+
+            <TextView
+                android:id="@+id/soundtracks"
+                style="@style/genreList"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Soundtracks" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

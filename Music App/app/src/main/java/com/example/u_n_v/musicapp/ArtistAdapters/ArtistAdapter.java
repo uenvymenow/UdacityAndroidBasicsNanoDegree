@@ -18,8 +18,8 @@ import java.util.List;
 
 public class ArtistAdapter extends ArrayAdapter<Artists> {
 
-    public ArtistAdapter(Context context, ArrayList<Artists> list){
-        super(context, 0, list);
+    public ArtistAdapter(Context context, ArrayList<Artists> artistList){
+        super(context, 0, artistList);
     }
 
     @NonNull

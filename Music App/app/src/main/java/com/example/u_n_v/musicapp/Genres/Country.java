@@ -1,4 +1,4 @@
-package com.example.u_n_v.musicapp;
+package com.example.u_n_v.musicapp.Genres;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import com.example.u_n_v.musicapp.R;
 
 import java.util.ArrayList;
 
-public class ClassicRock extends AppCompatActivity {
+public class Country extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,7 @@ public class ClassicRock extends AppCompatActivity {
         // Create the Artist Array List object
         ArrayList<Artists> artistList = new ArrayList<>();
 
-        artistList.add(new Artists(R.drawable.bon_jovi, "Bon Jovi"));
+        artistList.add(new Artists(R.drawable.toby_keith, "Toby Keith"));
 
         ArtistAdapter artistAdapter = new ArtistAdapter(this, artistList);
 

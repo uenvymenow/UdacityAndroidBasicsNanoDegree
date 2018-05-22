@@ -8,6 +8,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Artist Images are HxW of 60x50 -->
+    <!-- Album Cover Images are HxW 50x50 -->
+
     <style name="genres">
         <item name="android:gravity">center</item>
     </style>

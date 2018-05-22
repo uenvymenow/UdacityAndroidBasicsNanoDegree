@@ -1,4 +1,4 @@
-package com.example.u_n_v.musicapp;
+package com.example.u_n_v.musicapp.Genres;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,10 +6,11 @@ import android.widget.ListView;
 
 import com.example.u_n_v.musicapp.ArtistAdapters.ArtistAdapter;
 import com.example.u_n_v.musicapp.ArtistAdapters.Artists;
+import com.example.u_n_v.musicapp.R;
 
 import java.util.ArrayList;
 
-public class AlternativeRock extends AppCompatActivity {
+public class Rap extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +20,7 @@ public class AlternativeRock extends AppCompatActivity {
         // Create the Artist Array List object
         ArrayList<Artists> artistList = new ArrayList<>();
 
-        artistList.add(new Artists(R.drawable.green_day, "Green Day"));
+        artistList.add(new Artists(R.drawable.cent_50, "50 Cent"));
 
         ArtistAdapter artistAdapter = new ArtistAdapter(this, artistList);
 

@@ -32,7 +32,8 @@
         <activity android:name=".Artists.ClassicRockArtists.LedZeppelin" />
         <activity android:name=".Artists.CountryArtists.TobyKeith" />
         <activity android:name=".Artists.CountryArtists.LukeBryan" />
-        <activity android:name=".Artists.CountryArtists.TimMcGraw"></activity>
+        <activity android:name=".Artists.CountryArtists.TimMcGraw" />
+        <activity android:name=".Artists.AlternativeRockArtists.GreenDayAlbums.Dookie"></activity>
     </application>
 
 </manifest>

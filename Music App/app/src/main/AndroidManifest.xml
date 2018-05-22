@@ -27,7 +27,12 @@
         <activity android:name=".Artists.AlternativeRockArtists.PearlJam" />
         <activity android:name=".Artists.AlternativeRockArtists.LinkinPark" />
         <activity android:name=".Artists.ClassicRockArtists.BonJovi" />
-        <activity android:name=".Genres.ClassicRock"></activity>
+        <activity android:name=".Genres.ClassicRock" />
+        <activity android:name=".Artists.ClassicRockArtists.Aerosmith" />
+        <activity android:name=".Artists.ClassicRockArtists.LedZeppelin" />
+        <activity android:name=".Artists.CountryArtists.TobyKeith" />
+        <activity android:name=".Artists.CountryArtists.LukeBryan" />
+        <activity android:name=".Artists.CountryArtists.TimMcGraw"></activity>
     </application>
 
 </manifest>

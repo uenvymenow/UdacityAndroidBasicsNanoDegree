@@ -12,7 +12,9 @@ import com.example.u_n_v.musicapp.ArtistAdapters.Artists;
 import com.example.u_n_v.musicapp.Artists.AlternativeRockArtists.GreenDay;
 import com.example.u_n_v.musicapp.Artists.AlternativeRockArtists.LinkinPark;
 import com.example.u_n_v.musicapp.Artists.AlternativeRockArtists.PearlJam;
+import com.example.u_n_v.musicapp.Artists.ClassicRockArtists.Aerosmith;
 import com.example.u_n_v.musicapp.Artists.ClassicRockArtists.BonJovi;
+import com.example.u_n_v.musicapp.Artists.ClassicRockArtists.LedZeppelin;
 import com.example.u_n_v.musicapp.R;
 
 import java.util.ArrayList;
@@ -28,6 +30,8 @@ public class ClassicRock extends AppCompatActivity {
         final ArrayList<Artists> artistList = new ArrayList<>();
 
         artistList.add(new Artists(R.drawable.bon_jovi, "Bon Jovi"));
+        artistList.add(new Artists(R.drawable.aerosmith, "Aerosmith"));
+        artistList.add(new Artists(R.drawable.led_zeppelin, "Led Zeppelin"));
 
 
         ArtistAdapter artistAdapter = new ArtistAdapter(this, artistList);
@@ -45,6 +49,12 @@ public class ClassicRock extends AppCompatActivity {
                 if (currentArtistName == "Bon Jovi"){
                     Intent bonJoviIntent = new Intent(ClassicRock.this, BonJovi.class);
                     startActivity(bonJoviIntent);
+                } else if (currentArtistName == "Aerosmith"){
+                    Intent aerosmithIntent = new Intent(ClassicRock.this, Aerosmith.class);
+                    startActivity(aerosmithIntent);
+                } else if (currentArtistName == "Led Zeppelin"){
+                    Intent ledZeppelinIntent = new Intent(ClassicRock.this, LedZeppelin.class);
+                    startActivity(ledZeppelinIntent);
                 }
             }
         });

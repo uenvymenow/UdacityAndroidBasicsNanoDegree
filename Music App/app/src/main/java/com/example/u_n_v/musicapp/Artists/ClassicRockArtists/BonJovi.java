@@ -20,7 +20,7 @@ public class BonJovi extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.drawable.the_ultimate_collection_album_bon_jovi,"The Ultimate Collection"));
+        albumList.add(new Albums(R.drawable.the_ultimate_collection_album_bon_jovi,"The Ultimate Collection")); // Image Retrieved from https://itunes.apple.com/us/album/greatest-hits-the-ultimate-collection/397237803
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 

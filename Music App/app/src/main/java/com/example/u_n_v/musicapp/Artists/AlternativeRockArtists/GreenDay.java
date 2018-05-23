@@ -27,7 +27,7 @@ public class GreenDay extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.drawable.dookie_album_green_day,"Dookie"));
+        albumList.add(new Albums(R.drawable.dookie_album_green_day,"Dookie")); // Image retrieved from https://en.wikipedia.org/wiki/Dookie
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 

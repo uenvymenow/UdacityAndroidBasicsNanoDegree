@@ -20,7 +20,7 @@ public class TobyKeith extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.drawable.bullets_in_the_gun_album_toby_keith,"Bullets in the Gun"));
+        albumList.add(new Albums(R.drawable.bullets_in_the_gun_album_toby_keith,"Bullets in the Gun")); // Image retrieved from https://www.imdb.com/title/tt5931886/
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 

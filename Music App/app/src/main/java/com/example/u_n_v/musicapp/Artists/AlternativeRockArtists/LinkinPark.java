@@ -20,7 +20,7 @@ public class LinkinPark extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.drawable.hybrid_theory_album_linkin_park,"Hybrid Theory"));
+        albumList.add(new Albums(R.drawable.hybrid_theory_album_linkin_park,"Hybrid Theory")); // Image retrieved from https://en.wikipedia.org/wiki/Hybrid_Theory
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 

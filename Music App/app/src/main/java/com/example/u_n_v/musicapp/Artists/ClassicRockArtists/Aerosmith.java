@@ -20,7 +20,7 @@ public class Aerosmith extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.drawable.toys_in_the_attic_album_aerosmith,"Toys in the Attic"));
+        albumList.add(new Albums(R.drawable.toys_in_the_attic_album_aerosmith,"Toys in the Attic")); // Image retrieved from http://www.subjectivesounds.com/musicblog/2016/1/5/aerosmith-toys-in-the-attic
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 

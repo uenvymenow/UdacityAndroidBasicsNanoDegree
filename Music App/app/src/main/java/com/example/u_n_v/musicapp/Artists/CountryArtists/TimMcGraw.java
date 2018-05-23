@@ -20,7 +20,7 @@ public class TimMcGraw extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.drawable.let_it_go_album_tim_mcgraw,"Let It Go"));
+        albumList.add(new Albums(R.drawable.let_it_go_album_tim_mcgraw,"Let It Go")); // Image retrieved from https://en.wikipedia.org/wiki/Let_It_Go_(Tim_McGraw_album)
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 

@@ -20,7 +20,7 @@ public class LukeBryan extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.drawable.kill_the_lights_album_luke_bryan,"Kill the Lights"));
+        albumList.add(new Albums(R.drawable.kill_the_lights_album_luke_bryan,"Kill the Lights")); // Image retrieved from https://en.wikipedia.org/wiki/Kill_the_Lights_(Luke_Bryan_album)
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 

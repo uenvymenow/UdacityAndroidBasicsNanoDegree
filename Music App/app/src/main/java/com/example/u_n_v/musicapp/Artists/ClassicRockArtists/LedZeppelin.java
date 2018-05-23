@@ -20,7 +20,7 @@ public class LedZeppelin extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.drawable.led_zeppelin_album_led_zeppelin,"Led Zeppelin"));
+        albumList.add(new Albums(R.drawable.led_zeppelin_album_led_zeppelin,"Led Zeppelin")); // Image retrieved from https://en.wikipedia.org/wiki/Led_Zeppelin_(album)
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 

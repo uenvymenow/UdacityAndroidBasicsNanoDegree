@@ -23,8 +23,6 @@ import java.util.ArrayList;
 
 public class Dookie extends AppCompatActivity {
 
-    private boolean playDookie = false;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

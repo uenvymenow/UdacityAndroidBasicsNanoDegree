@@ -34,7 +34,13 @@
         <activity android:name=".Artists.CountryArtists.LukeBryan" />
         <activity android:name=".Artists.CountryArtists.TimMcGraw" />
         <activity android:name=".Artists.AlternativeRockArtists.GreenDayAlbums.Dookie" />
-        <activity android:name=".TestActivity"></activity>
+        <activity android:name=".TestActivity" />
+        <activity android:name=".Artists.JazzArtists.JohnColtrane" />
+        <activity android:name=".Artists.JazzArtists.JohnColtraneAlbums.ALoveSupreme" />
+        <activity android:name=".Artists.JazzArtists.JohnColtraneAlbums.GiantSteps" />
+        <activity android:name=".Artists.JazzArtists.JohnColtraneAlbums.BlueTrain" />
+        <activity android:name=".Artists.JazzArtists.LouisDanielArmstrong" />
+        <activity android:name=".Artists.JazzArtists.LouisArmstrongAlbums.LouisUnderTheStars"></activity>
     </application>
 
 </manifest>

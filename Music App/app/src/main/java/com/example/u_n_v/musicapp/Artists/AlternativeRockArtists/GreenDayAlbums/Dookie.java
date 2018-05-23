@@ -2,7 +2,11 @@ package com.example.u_n_v.musicapp.Artists.AlternativeRockArtists.GreenDayAlbums
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.example.u_n_v.musicapp.AlbumAdapters.AlbumAdapter;
 import com.example.u_n_v.musicapp.AlbumAdapters.Albums;
@@ -42,5 +46,29 @@ public class Dookie extends AppCompatActivity {
         final ListView listView = findViewById(R.id.song_list);
 
         listView.setAdapter(songAdapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Songs currentSong = songList.get(position);
+                String currentSongName = currentSong.getSongName();
+
+                if (currentSongName == "Burnout"){
+                    // Find Song Name TextView
+                    TextView currentSongNameTextView = listView.findViewById(R.id.song_name);
+                    currentSongNameTextView.setText(currentSongName);
+                    isPlaying();
+                }
+            }
+        });
+    }
+
+    public void isPlaying(){
+        boolean playButton = true;
+
+        while (playButton){
+            ImageView playButtonImageView = findViewById(R.id.play_stop_song_image);
+            playButtonImageView.setImageResource(R.drawable.play_song);
+        }
     }
 }

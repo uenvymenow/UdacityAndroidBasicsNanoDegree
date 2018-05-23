@@ -28,9 +28,9 @@ public class Country extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Artists> artistList = new ArrayList<>();
 
-        artistList.add(new Artists(R.drawable.toby_keith, "Toby Keith"));
-        artistList.add(new Artists(R.drawable.luke_bryan, "Luke Bryan"));
-        artistList.add(new Artists(R.drawable.tim_mcgraw, "Tim McGraw"));
+        artistList.add(new Artists(R.drawable.toby_keith, "Toby Keith")); // Image retrieved from https://carolinacountrymusicfest.com/artist/toby-keith/
+        artistList.add(new Artists(R.drawable.luke_bryan, "Luke Bryan")); // Image retrieved from http://www.cmt.com/news/1783517/when-luke-bryan-borrows-your-phone/
+        artistList.add(new Artists(R.drawable.tim_mcgraw, "Tim McGraw")); // Image retrieved from https://www.biography.com/people/tim-mcgraw-9542412
 
         ArtistAdapter artistAdapter = new ArtistAdapter(this, artistList);
 

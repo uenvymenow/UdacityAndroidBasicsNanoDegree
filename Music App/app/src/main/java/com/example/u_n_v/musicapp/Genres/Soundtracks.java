@@ -20,7 +20,7 @@ public class Soundtracks extends AppCompatActivity {
         // Create the Artist Array List object
         ArrayList<Artists> artistList = new ArrayList<>();
 
-        artistList.add(new Artists(R.drawable.john_williams, "John Williams"));
+        artistList.add(new Artists(R.drawable.john_williams, "John Williams")); // Image retrieved from https://www.grammy.com/grammys/artists/john-williams
 
         ArtistAdapter artistAdapter = new ArtistAdapter(this, artistList);
 

@@ -20,7 +20,7 @@ public class PopRock extends AppCompatActivity {
         // Create the Artist Array List object
         ArrayList<Artists> artistList = new ArrayList<>();
 
-        artistList.add(new Artists(R.drawable.taylor_swift, "Taylor Swift"));
+        artistList.add(new Artists(R.drawable.taylor_swift, "Taylor Swift")); // Image retrieved from https://en.wikipedia.org/wiki/Taylor_Swift
 
         ArtistAdapter artistAdapter = new ArtistAdapter(this, artistList);
 

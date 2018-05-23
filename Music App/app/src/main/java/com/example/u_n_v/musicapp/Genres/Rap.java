@@ -20,7 +20,7 @@ public class Rap extends AppCompatActivity {
         // Create the Artist Array List object
         ArrayList<Artists> artistList = new ArrayList<>();
 
-        artistList.add(new Artists(R.drawable.cent_50, "50 Cent"));
+        artistList.add(new Artists(R.drawable.cent_50, "50 Cent")); // Image retrieved from https://www.imdb.com/name/nm1265067/
 
         ArtistAdapter artistAdapter = new ArtistAdapter(this, artistList);
 

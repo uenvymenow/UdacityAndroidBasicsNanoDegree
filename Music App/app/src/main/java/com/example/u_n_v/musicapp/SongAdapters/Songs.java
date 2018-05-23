@@ -22,10 +22,12 @@ public class Songs {
         return mSongName;
     }
 
+    // Returns the albumID
     public int getAlbumImageID(){
         return mAlbumImageID;
     }
 
+    // Checks if there is an album image
     public boolean hasAlbumImageID(){
         return mAlbumImageID != NO_IMAGE_PROVIDED;
     }

@@ -33,7 +33,8 @@
         <activity android:name=".Artists.CountryArtists.TobyKeith" />
         <activity android:name=".Artists.CountryArtists.LukeBryan" />
         <activity android:name=".Artists.CountryArtists.TimMcGraw" />
-        <activity android:name=".Artists.AlternativeRockArtists.GreenDayAlbums.Dookie"></activity>
+        <activity android:name=".Artists.AlternativeRockArtists.GreenDayAlbums.Dookie" />
+        <activity android:name=".TestActivity"></activity>
     </application>
 
 </manifest>

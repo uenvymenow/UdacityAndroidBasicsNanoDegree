@@ -20,7 +20,7 @@ public class JazzActivity extends AppCompatActivity {
         // Create the Artist Array List object
         ArrayList<Artists> artistList = new ArrayList<>();
 
-        artistList.add(new Artists(R.drawable.john_coltrane, "John Coltrane"));
+        artistList.add(new Artists(R.drawable.john_coltrane, "John Coltrane")); // Image retrieved from https://en.wikipedia.org/wiki/John_Coltrane
 
         ArtistAdapter artistAdapter = new ArtistAdapter(this, artistList);
 

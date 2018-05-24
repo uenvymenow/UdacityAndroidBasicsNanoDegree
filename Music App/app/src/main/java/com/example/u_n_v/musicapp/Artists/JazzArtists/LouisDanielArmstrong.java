@@ -11,6 +11,8 @@ import com.example.u_n_v.musicapp.AlbumAdapters.AlbumAdapter;
 import com.example.u_n_v.musicapp.AlbumAdapters.Albums;
 import com.example.u_n_v.musicapp.Artists.AlternativeRockArtists.GreenDay;
 import com.example.u_n_v.musicapp.Artists.AlternativeRockArtists.GreenDayAlbums.Dookie;
+import com.example.u_n_v.musicapp.Artists.JazzArtists.LouisArmstrongAlbums.LouisAndTheAngels;
+import com.example.u_n_v.musicapp.Artists.JazzArtists.LouisArmstrongAlbums.LouisArmstrongsTownHallConcert;
 import com.example.u_n_v.musicapp.Artists.JazzArtists.LouisArmstrongAlbums.LouisUnderTheStars;
 import com.example.u_n_v.musicapp.R;
 
@@ -27,6 +29,9 @@ public class LouisDanielArmstrong extends AppCompatActivity {
         final ArrayList<Albums> albumList = new ArrayList<>();
 
         albumList.add(new Albums(R.drawable.louis_under_the_stars_album_louis_armstrong,"Louis Under the Stars")); // Image retrieved from https://en.wikipedia.org/wiki/Louis_Under_the_Stars
+        albumList.add(new Albums(R.drawable.louis_and_the_angels_album_louis_armstrong,"Louis and the Angels")); // Image retrieved from https://www.discogs.com/Louis-Armstrong-Louis-And-The-Angels/release/3923396
+        albumList.add(new Albums(R.drawable.louis_armstrongs_town_hall_concert_album_louis_armstrong,"Louis Armstrong's Town Hall Concert")); // Image retrieved from https://www.discogs.com/Louis-Armstrong-Louis-Armstrongs-Town-Hall-Concert/master/613835
+
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 
@@ -43,6 +48,12 @@ public class LouisDanielArmstrong extends AppCompatActivity {
                 if (currentAlbumName == "Louis Under the Stars"){
                     Intent louisUnderTheStarsIntent = new Intent(LouisDanielArmstrong.this, LouisUnderTheStars.class);
                     startActivity(louisUnderTheStarsIntent);
+                } else if (currentAlbumName == "Louis and the Angels"){
+                    Intent louisAndTheAngelsIntent = new Intent(LouisDanielArmstrong.this, LouisAndTheAngels.class);
+                    startActivity(louisAndTheAngelsIntent);
+                } else if (currentAlbumName == "Louis Armstrong's Town Hall Concert"){
+                    Intent louisTownHallConcertIntent = new Intent(LouisDanielArmstrong.this, LouisArmstrongsTownHallConcert.class);
+                    startActivity(louisTownHallConcertIntent);
                 }
             }
         });

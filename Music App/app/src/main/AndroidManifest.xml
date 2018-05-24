@@ -40,7 +40,9 @@
         <activity android:name=".Artists.JazzArtists.JohnColtraneAlbums.GiantSteps" />
         <activity android:name=".Artists.JazzArtists.JohnColtraneAlbums.BlueTrain" />
         <activity android:name=".Artists.JazzArtists.LouisDanielArmstrong" />
-        <activity android:name=".Artists.JazzArtists.LouisArmstrongAlbums.LouisUnderTheStars"></activity>
+        <activity android:name=".Artists.JazzArtists.LouisArmstrongAlbums.LouisUnderTheStars" />
+        <activity android:name=".Artists.JazzArtists.LouisArmstrongAlbums.LouisAndTheAngels" />
+        <activity android:name=".Artists.JazzArtists.LouisArmstrongAlbums.LouisArmstrongsTownHallConcert"></activity>
     </application>
 
 </manifest>

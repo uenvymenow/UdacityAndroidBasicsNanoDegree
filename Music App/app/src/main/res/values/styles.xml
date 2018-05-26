@@ -11,21 +11,49 @@
     <!-- Artist Images are HxW of 60x50 -->
     <!-- Album Cover Images are HxW 50x50 -->
 
+    <!-- Genre Styling -->
     <style name="genres">
         <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
     </style>
+
+    <!-- Genre List Styling -->
 
     <style name="genreList">
         <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
     </style>
+
+    <!-- Artist List Styling Styling -->
 
     <style name="artistListImage">
         <item name="android:gravity">center</item>
     </style>
 
+    <!-- Artist List Name styling-->
+
     <style name="artistListName">
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Song List Styling Styling -->
+
+    <style name="songListImage">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Song List Name styling-->
+
+    <style name="songListName">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
 </resources>

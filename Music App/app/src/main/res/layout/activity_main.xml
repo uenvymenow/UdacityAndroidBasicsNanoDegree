@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+        <!-- Genre TextView -->
         <TextView
             style="@style/genres"
             android:layout_width="match_parent"
@@ -26,6 +27,12 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000"/>
+
+            <!-- Classic Rock TextView -->
             <TextView
                 android:id="@+id/classic_rock"
                 style="@style/genreList"
@@ -33,6 +40,12 @@
                 android:layout_height="100dp"
                 android:text="Classic Rock" />
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000"/>
+
+            <!-- Jazz TextView -->
             <TextView
                 android:id="@+id/jazz"
                 style="@style/genreList"
@@ -40,6 +53,12 @@
                 android:layout_height="100dp"
                 android:text="Jazz" />
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000"/>
+
+            <!-- Alternative Rock TextView -->
             <TextView
                 android:id="@+id/alternative_rock"
                 style="@style/genreList"
@@ -47,6 +66,12 @@
                 android:layout_height="100dp"
                 android:text="Alternative" />
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000"/>
+
+            <!-- Country TextView -->
             <TextView
                 android:id="@+id/country"
                 style="@style/genreList"
@@ -54,13 +79,12 @@
                 android:layout_height="100dp"
                 android:text="Country" />
 
-            <TextView
-                android:id="@+id/rap"
-                style="@style/genreList"
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text="Rap" />
+                android:layout_height="1dp"
+                android:background="#000000"/>
 
+            <!-- Pop Rock TextView -->
             <TextView
                 android:id="@+id/pop_rock"
                 style="@style/genreList"
@@ -68,12 +92,6 @@
                 android:layout_height="100dp"
                 android:text="Pop" />
 
-            <TextView
-                android:id="@+id/soundtracks"
-                style="@style/genreList"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text="Soundtracks" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

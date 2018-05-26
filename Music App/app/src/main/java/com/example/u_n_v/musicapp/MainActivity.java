@@ -6,14 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.u_n_v.musicapp.ArtistAdapters.Artists;
 import com.example.u_n_v.musicapp.Genres.AlternativeRock;
 import com.example.u_n_v.musicapp.Genres.ClassicRock;
 import com.example.u_n_v.musicapp.Genres.Country;
 import com.example.u_n_v.musicapp.Genres.JazzActivity;
 import com.example.u_n_v.musicapp.Genres.PopRock;
-import com.example.u_n_v.musicapp.Genres.Rap;
-import com.example.u_n_v.musicapp.Genres.Soundtracks;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -62,15 +59,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Find Rap Genre
-        final TextView rap = findViewById(R.id.rap);
-        rap.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent rapIntent = new Intent(MainActivity.this, Rap.class);
-                startActivity(rapIntent);
-            }
-        });
 
         // Find PopRock Genre
         final TextView popRock = findViewById(R.id.pop_rock);
@@ -82,14 +70,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Find Soundtrack Genre
-        final TextView soundtracks = findViewById(R.id.soundtracks);
-        soundtracks.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent soundtracksIntent = new Intent(MainActivity.this, Soundtracks.class);
-                startActivity(soundtracksIntent);
-            }
-        });
     }
 }

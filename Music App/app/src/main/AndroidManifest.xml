@@ -16,33 +16,82 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ArtistAdapters.Artists$ClassicRock" />
-        <activity android:name=".Genres.JazzActivity" />
-        <activity android:name=".Genres.AlternativeRock" />
-        <activity android:name=".Genres.Country" />
-        <activity android:name=".Genres.Rap" />
-        <activity android:name=".Genres.PopRock" />
-        <activity android:name=".Genres.Soundtracks" />
-        <activity android:name=".Artists.AlternativeRockArtists.GreenDay" />
-        <activity android:name=".Artists.AlternativeRockArtists.PearlJam" />
-        <activity android:name=".Artists.AlternativeRockArtists.LinkinPark" />
-        <activity android:name=".Artists.ClassicRockArtists.BonJovi" />
-        <activity android:name=".Genres.ClassicRock" />
-        <activity android:name=".Artists.ClassicRockArtists.Aerosmith" />
-        <activity android:name=".Artists.ClassicRockArtists.LedZeppelin" />
-        <activity android:name=".Artists.CountryArtists.TobyKeith" />
-        <activity android:name=".Artists.CountryArtists.LukeBryan" />
-        <activity android:name=".Artists.CountryArtists.TimMcGraw" />
-        <activity android:name=".Artists.AlternativeRockArtists.GreenDayAlbums.Dookie" />
-        <activity android:name=".TestActivity" />
-        <activity android:name=".Artists.JazzArtists.JohnColtrane" />
-        <activity android:name=".Artists.JazzArtists.JohnColtraneAlbums.ALoveSupreme" />
-        <activity android:name=".Artists.JazzArtists.JohnColtraneAlbums.GiantSteps" />
-        <activity android:name=".Artists.JazzArtists.JohnColtraneAlbums.BlueTrain" />
-        <activity android:name=".Artists.JazzArtists.LouisDanielArmstrong" />
-        <activity android:name=".Artists.JazzArtists.LouisArmstrongAlbums.LouisUnderTheStars" />
-        <activity android:name=".Artists.JazzArtists.LouisArmstrongAlbums.LouisAndTheAngels" />
-        <activity android:name=".Artists.JazzArtists.LouisArmstrongAlbums.LouisArmstrongsTownHallConcert"></activity>
+        <activity
+            android:name=".Genres.JazzActivity"
+            android:label="Jazz" />
+        <activity
+            android:name=".Genres.AlternativeRock"
+            android:label="Alternative Rock" />
+        <activity
+            android:name=".Genres.Country"
+            android:label="Country" />
+        <activity
+            android:name=".Genres.PopRock"
+            android:label="Pop Rock" />
+        <activity
+            android:name=".Artists.AlternativeRockArtists.GreenDay"
+            android:label="Green Day" />
+        <activity
+            android:name=".Artists.AlternativeRockArtists.PearlJam"
+            android:label="Pearl Jam" />
+        <activity
+            android:name=".Artists.AlternativeRockArtists.LinkinPark"
+            android:label="Linkin Park" />
+        <activity
+            android:name=".Artists.ClassicRockArtists.BonJovi"
+            android:label="Bon Jovi" />
+        <activity
+            android:name=".Genres.ClassicRock"
+            android:label="Classic Rock" />
+        <activity
+            android:name=".Artists.ClassicRockArtists.Aerosmith"
+            android:label="Aerosmith" />
+        <activity
+            android:name=".Artists.ClassicRockArtists.LedZeppelin"
+            android:label="Led Zeppelin" />
+        <activity
+            android:name=".Artists.CountryArtists.TobyKeith"
+            android:label="Toby Keith" />
+        <activity
+            android:name=".Artists.CountryArtists.LukeBryan"
+            android:label="Luke Bryan" />
+        <activity
+            android:name=".Artists.CountryArtists.TimMcGraw"
+            android:label="Tim McGraw" />
+        <activity
+            android:name=".Artists.AlternativeRockArtists.GreenDayAlbums.Dookie"
+            android:label="Dookie" />
+        <activity
+            android:name=".Artists.JazzArtists.JohnColtrane"
+            android:label="John Coltrane" />
+        <activity
+            android:name=".Artists.JazzArtists.JohnColtraneAlbums.ALoveSupreme"
+            android:label="A Love Supreme" />
+        <activity
+            android:name=".Artists.JazzArtists.JohnColtraneAlbums.GiantSteps"
+            android:label="Giant Steps" />
+        <activity
+            android:name=".Artists.JazzArtists.JohnColtraneAlbums.BlueTrain"
+            android:label="Blue Train" />
+        <activity
+            android:name=".Artists.JazzArtists.LouisDanielArmstrong"
+            android:label="Louis Daniel Armstrong" />
+        <activity
+            android:name=".Artists.JazzArtists.LouisArmstrongAlbums.LouisUnderTheStars"
+            android:label="Louis Under the Stars" />
+        <activity
+            android:name=".Artists.JazzArtists.LouisArmstrongAlbums.LouisAndTheAngels"
+            android:label="Louis and the Angels" />
+        <activity
+            android:name=".Artists.JazzArtists.LouisArmstrongAlbums.LouisArmstrongsTownHallConcert"
+            android:label="Louis Armstrong&apos;s Town Hall Concert" />
+        <activity android:name=".Artists.PopRockArtists.TaylorSwift" />
+        <activity android:name=".Artists.PopRockArtists.KatyPerry" />
+        <activity android:name=".Artists.PopRockArtists.JustinBieber" />
+        <activity android:name=".Artists.JazzArtists.ChetBaker" />
+        <activity android:name=".Artists.JazzArtists.ChetBakerAlbums.Chet" />
+        <activity android:name=".Artists.JazzArtists.ChetBakerAlbums.SheWasTooGoodToMe" />
+        <activity android:name=".Artists.JazzArtists.ChetBakerAlbums.ItCouldHappenToYou"></activity>
     </application>
 
 </manifest>

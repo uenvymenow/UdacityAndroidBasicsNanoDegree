@@ -4,11 +4,15 @@
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
+    <!-- Song's ImageView -->
+
     <ImageView
         android:id="@+id/song_album_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center" />
+
+    <!-- Song Name TextView -->
 
     <TextView
         android:id="@+id/song_name"

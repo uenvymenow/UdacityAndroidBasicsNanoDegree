@@ -4,12 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!-- Artists's ImageView -->
+
     <ImageView
         android:id="@+id/artistImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         style="@style/artistListImage"/>
 
+    <!-- Artist's Name TextView -->
     <TextView
         android:id="@+id/artistNameTextView"
         android:layout_width="wrap_content"

@@ -1,13 +1,15 @@
-package com.example.u_n_v.musicapp;
+package com.example.u_n_v.musicapp.Artists.PopRockArtists;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class TestActivity extends AppCompatActivity {
+import com.example.u_n_v.musicapp.R;
+
+public class TaylorSwift extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_test);
+        setContentView(R.layout.album_list);
     }
 }

@@ -1,23 +1,15 @@
 package com.example.u_n_v.musicapp.Artists.AlternativeRockArtists.GreenDayAlbums;
 
-import android.content.Intent;
-import android.nfc.Tag;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.u_n_v.musicapp.AlbumAdapters.AlbumAdapter;
-import com.example.u_n_v.musicapp.AlbumAdapters.Albums;
 import com.example.u_n_v.musicapp.R;
 import com.example.u_n_v.musicapp.SongAdapters.SongAdapter;
 import com.example.u_n_v.musicapp.SongAdapters.Songs;
-import com.example.u_n_v.musicapp.TestActivity;
 
 import java.util.ArrayList;
 

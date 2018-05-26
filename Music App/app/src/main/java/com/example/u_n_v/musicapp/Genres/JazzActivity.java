@@ -12,6 +12,7 @@ import com.example.u_n_v.musicapp.ArtistAdapters.Artists;
 import com.example.u_n_v.musicapp.Artists.AlternativeRockArtists.GreenDay;
 import com.example.u_n_v.musicapp.Artists.AlternativeRockArtists.LinkinPark;
 import com.example.u_n_v.musicapp.Artists.AlternativeRockArtists.PearlJam;
+import com.example.u_n_v.musicapp.Artists.JazzArtists.ChetBaker;
 import com.example.u_n_v.musicapp.Artists.JazzArtists.JohnColtrane;
 import com.example.u_n_v.musicapp.Artists.JazzArtists.LouisDanielArmstrong;
 import com.example.u_n_v.musicapp.R;
@@ -30,6 +31,8 @@ public class JazzActivity extends AppCompatActivity {
 
         artistList.add(new Artists(R.drawable.john_coltrane, "John Coltrane")); // Image retrieved from https://en.wikipedia.org/wiki/John_Coltrane
         artistList.add(new Artists(R.drawable.louis_armstrong, "Louis Daniel Armstrong")); // Image retrieved from https://www.jazzmusics.com/jazz-musicians/top-10-amazing-facts-about-louis-armstrong/
+        artistList.add(new Artists(R.drawable.chet_baker, "Chet Baker")); // Image retrieved from https://www.goodreads.com/author/show/297032.Chet_Baker
+
 
         ArtistAdapter artistAdapter = new ArtistAdapter(this, artistList);
 
@@ -49,6 +52,9 @@ public class JazzActivity extends AppCompatActivity {
                 } else if (currentArtistName == "Louis Daniel Armstrong"){
                     Intent louisArmstrong = new Intent(JazzActivity.this, LouisDanielArmstrong.class);
                     startActivity(louisArmstrong);
+                } else if (currentArtistName == "Chet Baker"){
+                    Intent chetBaker = new Intent(JazzActivity.this, ChetBaker.class);
+                    startActivity(chetBaker);
                 }
             }
         });

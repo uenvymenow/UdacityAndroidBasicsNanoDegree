@@ -91,7 +91,9 @@
         <activity android:name=".Artists.JazzArtists.ChetBaker" />
         <activity android:name=".Artists.JazzArtists.ChetBakerAlbums.Chet" />
         <activity android:name=".Artists.JazzArtists.ChetBakerAlbums.SheWasTooGoodToMe" />
-        <activity android:name=".Artists.JazzArtists.ChetBakerAlbums.ItCouldHappenToYou"></activity>
+        <activity android:name=".Artists.JazzArtists.ChetBakerAlbums.ItCouldHappenToYou" />
+        <activity android:name=".Artists.AlternativeRockArtists.GreenDayAlbums.Nimrod" />
+        <activity android:name=".Artists.AlternativeRockArtists.GreenDayAlbums.AmericanIdiot"></activity>
     </application>
 
 </manifest>

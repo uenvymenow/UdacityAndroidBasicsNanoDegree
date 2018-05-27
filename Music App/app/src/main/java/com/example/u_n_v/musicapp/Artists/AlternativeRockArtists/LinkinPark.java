@@ -1,11 +1,18 @@
 package com.example.u_n_v.musicapp.Artists.AlternativeRockArtists;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.example.u_n_v.musicapp.AlbumAdapters.AlbumAdapter;
 import com.example.u_n_v.musicapp.AlbumAdapters.Albums;
+import com.example.u_n_v.musicapp.Artists.AlternativeRockArtists.GreenDayAlbums.AmericanIdiot;
+import com.example.u_n_v.musicapp.Artists.AlternativeRockArtists.GreenDayAlbums.Dookie;
+import com.example.u_n_v.musicapp.Artists.AlternativeRockArtists.GreenDayAlbums.Nimrod;
+import com.example.u_n_v.musicapp.Artists.AlternativeRockArtists.LinkinParkAlbums.HybridTheory;
 import com.example.u_n_v.musicapp.R;
 
 import java.util.ArrayList;
@@ -27,5 +34,18 @@ public class LinkinPark extends AppCompatActivity {
         final ListView listView = findViewById(R.id.album_list);
 
         listView.setAdapter(albumAdapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Albums currentArtist = albumList.get(position);
+                String currentAlbumName = currentArtist.getAlbumName();
+
+                if (currentAlbumName == "Hybrid Theory"){
+                    Intent hybridTheoryIntent = new Intent(LinkinPark.this, HybridTheory.class);
+                    startActivity(hybridTheoryIntent);
+                }
+            }
+        });
     }
 }

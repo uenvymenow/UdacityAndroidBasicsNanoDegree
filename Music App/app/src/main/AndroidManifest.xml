@@ -94,7 +94,12 @@
         <activity android:name=".Artists.JazzArtists.ChetBakerAlbums.ItCouldHappenToYou" />
         <activity android:name=".Artists.AlternativeRockArtists.GreenDayAlbums.Nimrod" />
         <activity android:name=".Artists.AlternativeRockArtists.GreenDayAlbums.AmericanIdiot" />
-        <activity android:name=".Artists.AlternativeRockArtists.LinkinParkAlbums.HybridTheory"></activity>
+        <activity android:name=".Artists.AlternativeRockArtists.LinkinParkAlbums.HybridTheory" />
+        <activity android:name=".Artists.AlternativeRockArtists.LinkinParkAlbums.Meteora" />
+        <activity android:name=".Artists.AlternativeRockArtists.LinkinParkAlbums.MinutesToMidnight" />
+        <activity android:name=".Artists.AlternativeRockArtists.PearlJameAlbums.Ten" />
+        <activity android:name=".Artists.AlternativeRockArtists.PearlJameAlbums.Vitalogy" />
+        <activity android:name=".Artists.AlternativeRockArtists.PearlJameAlbums.NoCode"></activity>
     </application>
 
 </manifest>

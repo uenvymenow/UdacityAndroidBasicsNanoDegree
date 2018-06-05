@@ -117,7 +117,10 @@
         <activity android:name=".Artists.CountryArtists.TimMcGrawAlbums.SundownHeavenTown" />
         <activity android:name=".Artists.CountryArtists.TobyKeithAlbums.BulletsInTheGun" />
         <activity android:name=".Artists.CountryArtists.TobyKeithAlbums.BigDogDaddy" />
-        <activity android:name=".Artists.CountryArtists.TobyKeithAlbums.ClancysTavern"></activity>
+        <activity android:name=".Artists.CountryArtists.TobyKeithAlbums.ClancysTavern" />
+        <activity android:name=".Artists.PopRockArtists.JustinBieberAlbums.MyWorld20" />
+        <activity android:name=".Artists.PopRockArtists.JustinBieberAlbums.Believe" />
+        <activity android:name=".Artists.PopRockArtists.JustinBieberAlbums.Purpose"></activity>
     </application>
 
 </manifest>

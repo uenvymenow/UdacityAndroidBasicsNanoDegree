@@ -108,7 +108,13 @@
         <activity android:name=".Artists.ClassicRockArtists.AerosmithAlbums.GetAGrip" />
         <activity android:name=".Artists.ClassicRockArtists.LedZeppelinAlbums.LedZeppelin" />
         <activity android:name=".Artists.ClassicRockArtists.LedZeppelinAlbums.PhysicalGraffiti" />
-        <activity android:name=".Artists.ClassicRockArtists.LedZeppelinAlbums.Presence"></activity>
+        <activity android:name=".Artists.ClassicRockArtists.LedZeppelinAlbums.Presence" />
+        <activity android:name=".Artists.CountryArtists.LukeBryanAlbums.KillTheLights" />
+        <activity android:name=".Artists.CountryArtists.LukeBryanAlbums.TailgatesAndTanlines" />
+        <activity android:name=".Artists.CountryArtists.LukeBryanAlbums.WhatMakesYouCountry" />
+        <activity android:name=".Artists.CountryArtists.TimMcGrawAlbums.LetItGo" />
+        <activity android:name=".Artists.CountryArtists.TimMcGrawAlbums.TwoLanesOfFreedom" />
+        <activity android:name=".Artists.CountryArtists.TimMcGrawAlbums.SundownHeavenTown"></activity>
     </application>
 
 </manifest>

@@ -114,7 +114,10 @@
         <activity android:name=".Artists.CountryArtists.LukeBryanAlbums.WhatMakesYouCountry" />
         <activity android:name=".Artists.CountryArtists.TimMcGrawAlbums.LetItGo" />
         <activity android:name=".Artists.CountryArtists.TimMcGrawAlbums.TwoLanesOfFreedom" />
-        <activity android:name=".Artists.CountryArtists.TimMcGrawAlbums.SundownHeavenTown"></activity>
+        <activity android:name=".Artists.CountryArtists.TimMcGrawAlbums.SundownHeavenTown" />
+        <activity android:name=".Artists.CountryArtists.TobyKeithAlbums.BulletsInTheGun" />
+        <activity android:name=".Artists.CountryArtists.TobyKeithAlbums.BigDogDaddy" />
+        <activity android:name=".Artists.CountryArtists.TobyKeithAlbums.ClancysTavern"></activity>
     </application>
 
 </manifest>

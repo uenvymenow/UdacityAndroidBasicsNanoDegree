@@ -14,6 +14,7 @@ import com.example.u_n_v.musicapp.Artists.ClassicRockArtists.BonJovi;
 import com.example.u_n_v.musicapp.Artists.ClassicRockArtists.LedZeppelin;
 import com.example.u_n_v.musicapp.Artists.CountryArtists.LukeBryan;
 import com.example.u_n_v.musicapp.Artists.CountryArtists.TimMcGraw;
+import com.example.u_n_v.musicapp.Artists.CountryArtists.TobyKeith;
 import com.example.u_n_v.musicapp.R;
 
 import java.util.ArrayList;
@@ -45,7 +46,7 @@ public class Country extends AppCompatActivity {
                 String currentArtistName = currentArtist.getArtistName();
 
                 if (currentArtistName == "Toby Keith"){
-                    Intent tobyKeithIntent = new Intent(Country.this, BonJovi.class);
+                    Intent tobyKeithIntent = new Intent(Country.this, TobyKeith.class);
                     startActivity(tobyKeithIntent);
                 } else if (currentArtistName == "Luke Bryan"){
                     Intent lukeBryanIntent = new Intent(Country.this, LukeBryan.class);

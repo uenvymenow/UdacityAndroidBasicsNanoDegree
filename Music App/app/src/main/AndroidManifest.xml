@@ -99,7 +99,16 @@
         <activity android:name=".Artists.AlternativeRockArtists.LinkinParkAlbums.MinutesToMidnight" />
         <activity android:name=".Artists.AlternativeRockArtists.PearlJameAlbums.Ten" />
         <activity android:name=".Artists.AlternativeRockArtists.PearlJameAlbums.Vitalogy" />
-        <activity android:name=".Artists.AlternativeRockArtists.PearlJameAlbums.NoCode"></activity>
+        <activity android:name=".Artists.AlternativeRockArtists.PearlJameAlbums.NoCode" />
+        <activity android:name=".Artists.ClassicRockArtists.BonJoviAlbums.NewJersey" />
+        <activity android:name=".Artists.ClassicRockArtists.BonJoviAlbums.HaveANiceDay" />
+        <activity android:name=".Artists.ClassicRockArtists.BonJoviAlbums.ThisHouseIsNotForSale" />
+        <activity android:name=".Artists.ClassicRockArtists.AerosmithAlbums.ToysInTheAttic" />
+        <activity android:name=".Artists.ClassicRockArtists.AerosmithAlbums.Pump" />
+        <activity android:name=".Artists.ClassicRockArtists.AerosmithAlbums.GetAGrip" />
+        <activity android:name=".Artists.ClassicRockArtists.LedZeppelinAlbums.LedZeppelin" />
+        <activity android:name=".Artists.ClassicRockArtists.LedZeppelinAlbums.PhysicalGraffiti" />
+        <activity android:name=".Artists.ClassicRockArtists.LedZeppelinAlbums.Presence"></activity>
     </application>
 
 </manifest>

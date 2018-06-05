@@ -120,7 +120,13 @@
         <activity android:name=".Artists.CountryArtists.TobyKeithAlbums.ClancysTavern" />
         <activity android:name=".Artists.PopRockArtists.JustinBieberAlbums.MyWorld20" />
         <activity android:name=".Artists.PopRockArtists.JustinBieberAlbums.Believe" />
-        <activity android:name=".Artists.PopRockArtists.JustinBieberAlbums.Purpose"></activity>
+        <activity android:name=".Artists.PopRockArtists.JustinBieberAlbums.Purpose" />
+        <activity android:name=".Artists.PopRockArtists.KatyPerryAlbums.OneOfTheBoys" />
+        <activity android:name=".Artists.PopRockArtists.KatyPerryAlbums.Prism" />
+        <activity android:name=".Artists.PopRockArtists.KatyPerryAlbums.Witness" />
+        <activity android:name=".Artists.PopRockArtists.TaylorSwiftAlbums.TS1989" />
+        <activity android:name=".Artists.PopRockArtists.TaylorSwiftAlbums.Red" />
+        <activity android:name=".Artists.PopRockArtists.TaylorSwiftAlbums.Reputation"></activity>
     </application>
 
 </manifest>

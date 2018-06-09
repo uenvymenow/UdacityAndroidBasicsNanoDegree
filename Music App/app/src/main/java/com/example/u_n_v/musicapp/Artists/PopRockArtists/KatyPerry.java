@@ -29,9 +29,9 @@ public class KatyPerry extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.drawable.one_of_the_boys_album_katy_perry,"One of the Boys")); // Image retrieved from https://en.wikipedia.org/wiki/One_of_the_Boys_(Katy_Perry_album)
-        albumList.add(new Albums(R.drawable.prism_album_katy_perry,"Prism")); // Image retrieved from https://en.wikipedia.org/wiki/Prism_(Katy_Perry_album)
-        albumList.add(new Albums(R.drawable.witness_album_katy_perry,"Witness")); // Image retrieved from https://en.wikipedia.org/wiki/Witness_(Katy_Perry_album)
+        albumList.add(new Albums(R.mipmap.one_of_the_boys_album_katy_perry,"One of the Boys")); // Image retrieved from https://en.wikipedia.org/wiki/One_of_the_Boys_(Katy_Perry_album)
+        albumList.add(new Albums(R.mipmap.prism_album_katy_perry,"Prism")); // Image retrieved from https://en.wikipedia.org/wiki/Prism_(Katy_Perry_album)
+        albumList.add(new Albums(R.mipmap.witness_album_katy_perry,"Witness")); // Image retrieved from https://en.wikipedia.org/wiki/Witness_(Katy_Perry_album)
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 

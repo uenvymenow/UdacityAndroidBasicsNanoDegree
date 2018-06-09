@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Collection - Music Library"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -18,115 +18,264 @@
         </activity>
         <activity
             android:name=".Genres.JazzActivity"
-            android:label="Jazz" />
+            android:label="Jazz"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Genres.AlternativeRock"
-            android:label="Alternative Rock" />
+            android:label="Alternative Rock"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Genres.Country"
-            android:label="Country" />
+            android:label="Country"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Genres.PopRock"
-            android:label="Pop Rock" />
+            android:label="Pop Rock"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Artists.AlternativeRockArtists.GreenDay"
-            android:label="Green Day" />
+            android:label="Green Day"
+            android:parentActivityName=".Genres.AlternativeRock" />
         <activity
             android:name=".Artists.AlternativeRockArtists.PearlJam"
-            android:label="Pearl Jam" />
+            android:label="Pearl Jam"
+            android:parentActivityName=".Genres.AlternativeRock" />
         <activity
             android:name=".Artists.AlternativeRockArtists.LinkinPark"
-            android:label="Linkin Park" />
+            android:label="Linkin Park"
+            android:parentActivityName=".Genres.AlternativeRock" />
         <activity
             android:name=".Artists.ClassicRockArtists.BonJovi"
-            android:label="Bon Jovi" />
+            android:label="Bon Jovi"
+            android:parentActivityName=".Genres.ClassicRock" />
         <activity
             android:name=".Genres.ClassicRock"
-            android:label="Classic Rock" />
+            android:label="Classic Rock"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Artists.ClassicRockArtists.Aerosmith"
-            android:label="Aerosmith" />
+            android:label="Aerosmith"
+            android:parentActivityName=".Genres.ClassicRock" />
         <activity
             android:name=".Artists.ClassicRockArtists.LedZeppelin"
-            android:label="Led Zeppelin" />
+            android:label="Led Zeppelin"
+            android:parentActivityName=".Genres.ClassicRock" />
         <activity
             android:name=".Artists.CountryArtists.TobyKeith"
-            android:label="Toby Keith" />
+            android:label="Toby Keith"
+            android:parentActivityName=".Genres.Country" />
         <activity
             android:name=".Artists.CountryArtists.LukeBryan"
-            android:label="Luke Bryan" />
+            android:label="Luke Bryan"
+            android:parentActivityName=".Genres.Country" />
         <activity
             android:name=".Artists.CountryArtists.TimMcGraw"
-            android:label="Tim McGraw" />
+            android:label="Tim McGraw"
+            android:parentActivityName=".Genres.Country" />
         <activity
             android:name=".Artists.AlternativeRockArtists.GreenDayAlbums.Dookie"
-            android:label="Dookie" />
+            android:label="Dookie"
+            android:parentActivityName=".Artists.AlternativeRockArtists.GreenDay" />
         <activity
             android:name=".Artists.JazzArtists.JohnColtrane"
-            android:label="John Coltrane" />
+            android:label="John Coltrane"
+            android:parentActivityName=".Genres.JazzActivity" />
         <activity
             android:name=".Artists.JazzArtists.JohnColtraneAlbums.ALoveSupreme"
-            android:label="A Love Supreme" />
+            android:label="A Love Supreme"
+            android:parentActivityName=".Artists.JazzArtists.JohnColtrane" />
         <activity
             android:name=".Artists.JazzArtists.JohnColtraneAlbums.GiantSteps"
-            android:label="Giant Steps" />
+            android:label="Giant Steps"
+            android:parentActivityName=".Artists.JazzArtists.JohnColtrane" />
         <activity
             android:name=".Artists.JazzArtists.JohnColtraneAlbums.BlueTrain"
-            android:label="Blue Train" />
+            android:label="Blue Train"
+            android:parentActivityName=".Artists.JazzArtists.JohnColtrane" />
         <activity
             android:name=".Artists.JazzArtists.LouisDanielArmstrong"
-            android:label="Louis Daniel Armstrong" />
+            android:label="Louis Daniel Armstrong"
+            android:parentActivityName=".Artists.JazzArtists.LouisDanielArmstrong" />
         <activity
             android:name=".Artists.JazzArtists.LouisArmstrongAlbums.LouisUnderTheStars"
-            android:label="Louis Under the Stars" />
+            android:label="Louis Under the Stars"
+            android:parentActivityName=".Artists.JazzArtists.LouisDanielArmstrong" />
         <activity
             android:name=".Artists.JazzArtists.LouisArmstrongAlbums.LouisAndTheAngels"
-            android:label="Louis and the Angels" />
+            android:label="Louis and the Angels"
+            android:parentActivityName=".Artists.JazzArtists.LouisDanielArmstrong" />
         <activity
             android:name=".Artists.JazzArtists.LouisArmstrongAlbums.LouisArmstrongsTownHallConcert"
-            android:label="Louis Armstrong&apos;s Town Hall Concert" />
-        <activity android:name=".Artists.PopRockArtists.TaylorSwift" />
-        <activity android:name=".Artists.PopRockArtists.KatyPerry" />
-        <activity android:name=".Artists.PopRockArtists.JustinBieber" />
-        <activity android:name=".Artists.JazzArtists.ChetBaker" />
-        <activity android:name=".Artists.JazzArtists.ChetBakerAlbums.Chet" />
-        <activity android:name=".Artists.JazzArtists.ChetBakerAlbums.SheWasTooGoodToMe" />
-        <activity android:name=".Artists.JazzArtists.ChetBakerAlbums.ItCouldHappenToYou" />
-        <activity android:name=".Artists.AlternativeRockArtists.GreenDayAlbums.Nimrod" />
-        <activity android:name=".Artists.AlternativeRockArtists.GreenDayAlbums.AmericanIdiot" />
-        <activity android:name=".Artists.AlternativeRockArtists.LinkinParkAlbums.HybridTheory" />
-        <activity android:name=".Artists.AlternativeRockArtists.LinkinParkAlbums.Meteora" />
-        <activity android:name=".Artists.AlternativeRockArtists.LinkinParkAlbums.MinutesToMidnight" />
-        <activity android:name=".Artists.AlternativeRockArtists.PearlJameAlbums.Ten" />
-        <activity android:name=".Artists.AlternativeRockArtists.PearlJameAlbums.Vitalogy" />
-        <activity android:name=".Artists.AlternativeRockArtists.PearlJameAlbums.NoCode" />
-        <activity android:name=".Artists.ClassicRockArtists.BonJoviAlbums.NewJersey" />
-        <activity android:name=".Artists.ClassicRockArtists.BonJoviAlbums.HaveANiceDay" />
-        <activity android:name=".Artists.ClassicRockArtists.BonJoviAlbums.ThisHouseIsNotForSale" />
-        <activity android:name=".Artists.ClassicRockArtists.AerosmithAlbums.ToysInTheAttic" />
-        <activity android:name=".Artists.ClassicRockArtists.AerosmithAlbums.Pump" />
-        <activity android:name=".Artists.ClassicRockArtists.AerosmithAlbums.GetAGrip" />
-        <activity android:name=".Artists.ClassicRockArtists.LedZeppelinAlbums.LedZeppelin" />
-        <activity android:name=".Artists.ClassicRockArtists.LedZeppelinAlbums.PhysicalGraffiti" />
-        <activity android:name=".Artists.ClassicRockArtists.LedZeppelinAlbums.Presence" />
-        <activity android:name=".Artists.CountryArtists.LukeBryanAlbums.KillTheLights" />
-        <activity android:name=".Artists.CountryArtists.LukeBryanAlbums.TailgatesAndTanlines" />
-        <activity android:name=".Artists.CountryArtists.LukeBryanAlbums.WhatMakesYouCountry" />
-        <activity android:name=".Artists.CountryArtists.TimMcGrawAlbums.LetItGo" />
-        <activity android:name=".Artists.CountryArtists.TimMcGrawAlbums.TwoLanesOfFreedom" />
-        <activity android:name=".Artists.CountryArtists.TimMcGrawAlbums.SundownHeavenTown" />
-        <activity android:name=".Artists.CountryArtists.TobyKeithAlbums.BulletsInTheGun" />
-        <activity android:name=".Artists.CountryArtists.TobyKeithAlbums.BigDogDaddy" />
-        <activity android:name=".Artists.CountryArtists.TobyKeithAlbums.ClancysTavern" />
-        <activity android:name=".Artists.PopRockArtists.JustinBieberAlbums.MyWorld20" />
-        <activity android:name=".Artists.PopRockArtists.JustinBieberAlbums.Believe" />
-        <activity android:name=".Artists.PopRockArtists.JustinBieberAlbums.Purpose" />
-        <activity android:name=".Artists.PopRockArtists.KatyPerryAlbums.OneOfTheBoys" />
-        <activity android:name=".Artists.PopRockArtists.KatyPerryAlbums.Prism" />
-        <activity android:name=".Artists.PopRockArtists.KatyPerryAlbums.Witness" />
-        <activity android:name=".Artists.PopRockArtists.TaylorSwiftAlbums.TS1989" />
-        <activity android:name=".Artists.PopRockArtists.TaylorSwiftAlbums.Red" />
-        <activity android:name=".Artists.PopRockArtists.TaylorSwiftAlbums.Reputation"></activity>
+            android:label="Louis Armstrong&apos;s Town Hall Concert"
+            android:parentActivityName=".Artists.JazzArtists.LouisDanielArmstrong" />
+        <activity
+            android:name=".Artists.PopRockArtists.TaylorSwift"
+            android:label="Taylor Swift"
+            android:parentActivityName=".Genres.PopRock" />
+        <activity
+            android:name=".Artists.PopRockArtists.KatyPerry"
+            android:label="Katy Perry"
+            android:parentActivityName=".Genres.PopRock" />
+        <activity
+            android:name=".Artists.PopRockArtists.JustinBieber"
+            android:label="Justin Bieber"
+            android:parentActivityName=".Genres.PopRock" />
+        <activity
+            android:name=".Artists.JazzArtists.ChetBaker"
+            android:label="Chet Baker"
+            android:parentActivityName=".Genres.JazzActivity" />
+        <activity
+            android:name=".Artists.JazzArtists.ChetBakerAlbums.Chet"
+            android:label="Chet"
+            android:parentActivityName=".Artists.JazzArtists.ChetBaker" />
+        <activity
+            android:name=".Artists.JazzArtists.ChetBakerAlbums.SheWasTooGoodToMe"
+            android:label="She Was Too Good To Me"
+            android:parentActivityName=".Artists.JazzArtists.ChetBaker"/>
+        <activity
+            android:name=".Artists.JazzArtists.ChetBakerAlbums.ItCouldHappenToYou"
+            android:label="It Could Happen To You"
+            android:parentActivityName=".Artists.JazzArtists.ChetBaker"/>
+        <activity
+            android:name=".Artists.AlternativeRockArtists.GreenDayAlbums.Nimrod"
+            android:label="Nimrod"
+            android:parentActivityName=".Artists.AlternativeRockArtists.GreenDay"/>
+        <activity
+            android:name=".Artists.AlternativeRockArtists.GreenDayAlbums.AmericanIdiot"
+            android:label="American Idiot"
+            android:parentActivityName=".Artists.AlternativeRockArtists.GreenDay"/>
+        <activity
+            android:name=".Artists.AlternativeRockArtists.LinkinParkAlbums.HybridTheory"
+            android:label="Hybrid Theory"
+            android:parentActivityName=".Artists.AlternativeRockArtists.LinkinPark"/>
+        <activity
+            android:name=".Artists.AlternativeRockArtists.LinkinParkAlbums.Meteora"
+            android:label="Meteora"
+            android:parentActivityName=".Artists.AlternativeRockArtists.LinkinPark"/>
+        <activity
+            android:name=".Artists.AlternativeRockArtists.LinkinParkAlbums.MinutesToMidnight"
+            android:label="Minutes to Midnight"
+            android:parentActivityName=".Artists.AlternativeRockArtists.LinkinPark"/>
+        <activity
+            android:name=".Artists.AlternativeRockArtists.PearlJameAlbums.Ten"
+            android:label="Ten"
+            android:parentActivityName=".Artists.AlternativeRockArtists.PearlJam"/>
+        <activity
+            android:name=".Artists.AlternativeRockArtists.PearlJameAlbums.Vitalogy"
+            android:label="Vitalogy"
+            android:parentActivityName=".Artists.AlternativeRockArtists.PearlJam"/>
+        <activity
+            android:name=".Artists.AlternativeRockArtists.PearlJameAlbums.NoCode"
+            android:label="No Code"
+            android:parentActivityName=".Artists.AlternativeRockArtists.PearlJam"/>
+        <activity
+            android:name=".Artists.ClassicRockArtists.BonJoviAlbums.NewJersey"
+            android:label="New Jersey"
+            android:parentActivityName=".Artists.ClassicRockArtists.BonJovi"/>
+        <activity
+            android:name=".Artists.ClassicRockArtists.BonJoviAlbums.HaveANiceDay"
+            android:label="Have a Nice Day"
+            android:parentActivityName=".Artists.ClassicRockArtists.BonJovi"/>
+        <activity
+            android:name=".Artists.ClassicRockArtists.BonJoviAlbums.ThisHouseIsNotForSale"
+            android:label="This House Is Not For Sale"
+            android:parentActivityName=".Artists.ClassicRockArtists.BonJovi"/>
+        <activity
+            android:name=".Artists.ClassicRockArtists.AerosmithAlbums.ToysInTheAttic"
+            android:label="Toys in the Attic"
+            android:parentActivityName=".Artists.ClassicRockArtists.Aerosmith"/>
+        <activity
+            android:name=".Artists.ClassicRockArtists.AerosmithAlbums.Pump"
+            android:label="Pump"
+            android:parentActivityName=".Artists.ClassicRockArtists.Aerosmith"/>
+        <activity
+            android:name=".Artists.ClassicRockArtists.AerosmithAlbums.GetAGrip"
+            android:label="Get a Grip"
+            android:parentActivityName=".Artists.ClassicRockArtists.Aerosmith"/>
+        <activity
+            android:name=".Artists.ClassicRockArtists.LedZeppelinAlbums.LedZeppelin"
+            android:label="Led Zeppelin"
+            android:parentActivityName=".Artists.ClassicRockArtists.LedZeppelin"/>
+        <activity
+            android:name=".Artists.ClassicRockArtists.LedZeppelinAlbums.PhysicalGraffiti"
+            android:label="Physical Graffiti"
+            android:parentActivityName=".Artists.ClassicRockArtists.LedZeppelin"/>
+        <activity
+            android:name=".Artists.ClassicRockArtists.LedZeppelinAlbums.Presence"
+            android:label="Presence"
+            android:parentActivityName=".Artists.ClassicRockArtists.LedZeppelin"/>
+        <activity
+            android:name=".Artists.CountryArtists.LukeBryanAlbums.KillTheLights"
+            android:label="Kill the Lights"
+            android:parentActivityName=".Artists.CountryArtists.LukeBryan"/>
+        <activity
+            android:name=".Artists.CountryArtists.LukeBryanAlbums.TailgatesAndTanlines"
+            android:label="Tailgates and Tanlines"
+            android:parentActivityName=".Artists.CountryArtists.LukeBryan"/>
+        <activity
+            android:name=".Artists.CountryArtists.LukeBryanAlbums.WhatMakesYouCountry"
+            android:label="What Makes You Country"
+            android:parentActivityName=".Artists.CountryArtists.LukeBryan"/>
+        <activity
+            android:name=".Artists.CountryArtists.TimMcGrawAlbums.LetItGo"
+            android:label="Let It Go"
+            android:parentActivityName=".Artists.CountryArtists.TimMcGraw"/>
+        <activity
+            android:name=".Artists.CountryArtists.TimMcGrawAlbums.TwoLanesOfFreedom"
+            android:label="Two Lanes of Freedom"
+            android:parentActivityName=".Artists.CountryArtists.TimMcGraw"/>
+        <activity
+            android:name=".Artists.CountryArtists.TimMcGrawAlbums.SundownHeavenTown"
+            android:label="Sundown Heaven Town"
+            android:parentActivityName=".Artists.CountryArtists.TimMcGraw"/>
+        <activity
+            android:name=".Artists.CountryArtists.TobyKeithAlbums.BulletsInTheGun"
+            android:label="Bullets in the Gun"
+            android:parentActivityName=".Artists.CountryArtists.TobyKeith"/>
+        <activity
+            android:name=".Artists.CountryArtists.TobyKeithAlbums.BigDogDaddy"
+            android:label="Big Dog Daddy"
+            android:parentActivityName=".Artists.CountryArtists.TobyKeith"/>
+        <activity
+            android:name=".Artists.CountryArtists.TobyKeithAlbums.ClancysTavern"
+            android:label="Clancy's Tavern"
+            android:parentActivityName=".Artists.CountryArtists.TobyKeith"/>
+        <activity
+            android:name=".Artists.PopRockArtists.JustinBieberAlbums.MyWorld20"
+            android:label="My World 2.0"
+            android:parentActivityName=".Artists.PopRockArtists.JustinBieber"/>
+        <activity
+            android:name=".Artists.PopRockArtists.JustinBieberAlbums.Believe"
+            android:label="Believe"
+            android:parentActivityName=".Artists.PopRockArtists.JustinBieber"/>
+        <activity
+            android:name=".Artists.PopRockArtists.JustinBieberAlbums.Purpose"
+            android:label="Purpose"
+            android:parentActivityName=".Artists.PopRockArtists.JustinBieber"/>
+        <activity
+            android:name=".Artists.PopRockArtists.KatyPerryAlbums.OneOfTheBoys"
+            android:label="One of the Boys"
+            android:parentActivityName=".Artists.PopRockArtists.KatyPerry"/>
+        <activity
+            android:name=".Artists.PopRockArtists.KatyPerryAlbums.Prism"
+            android:label="Prism"
+            android:parentActivityName=".Artists.PopRockArtists.KatyPerry"/>
+        <activity
+            android:name=".Artists.PopRockArtists.KatyPerryAlbums.Witness"
+            android:label="Witness"
+            android:parentActivityName=".Artists.PopRockArtists.KatyPerry"/>
+        <activity
+            android:name=".Artists.PopRockArtists.TaylorSwiftAlbums.TS1989"
+            android:label="1989"
+            android:parentActivityName=".Artists.PopRockArtists.TaylorSwift"/>
+        <activity
+            android:name=".Artists.PopRockArtists.TaylorSwiftAlbums.Red"
+            android:label="Red"
+            android:parentActivityName=".Artists.PopRockArtists.TaylorSwift"/>
+        <activity
+            android:name=".Artists.PopRockArtists.TaylorSwiftAlbums.Reputation"
+            android:label="Reputation"
+            android:parentActivityName=".Artists.PopRockArtists.TaylorSwift"/>
     </application>
 
 </manifest>

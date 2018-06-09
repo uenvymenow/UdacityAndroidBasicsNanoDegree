@@ -28,9 +28,9 @@ public class LouisDanielArmstrong extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.drawable.louis_under_the_stars_album_louis_armstrong,"Louis Under the Stars")); // Image retrieved from https://en.wikipedia.org/wiki/Louis_Under_the_Stars
-        albumList.add(new Albums(R.drawable.louis_and_the_angels_album_louis_armstrong,"Louis and the Angels")); // Image retrieved from https://www.discogs.com/Louis-Armstrong-Louis-And-The-Angels/release/3923396
-        albumList.add(new Albums(R.drawable.louis_armstrongs_town_hall_concert_album_louis_armstrong,"Louis Armstrong's Town Hall Concert")); // Image retrieved from https://www.discogs.com/Louis-Armstrong-Louis-Armstrongs-Town-Hall-Concert/master/613835
+        albumList.add(new Albums(R.mipmap.louis_under_the_stars_album_louis_armstrong,"Louis Under the Stars")); // Image retrieved from https://en.wikipedia.org/wiki/Louis_Under_the_Stars
+        albumList.add(new Albums(R.mipmap.louis_and_the_angels_album_louis_armstrong,"Louis and the Angels")); // Image retrieved from https://www.discogs.com/Louis-Armstrong-Louis-And-The-Angels/release/3923396
+        albumList.add(new Albums(R.mipmap.louis_armstrongs_town_hall_concert_album_louis_armstrong,"Louis Armstrong's Town Hall Concert")); // Image retrieved from https://www.discogs.com/Louis-Armstrong-Louis-Armstrongs-Town-Hall-Concert/master/613835
 
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);

@@ -24,20 +24,20 @@ public class TailgatesAndTanlines extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.tailgates_and_tanlines_album_luke_bryan, "Country Girl (Shake It for Me)"));
-        songList.add(new Songs(R.drawable.tailgates_and_tanlines_album_luke_bryan, "Kiss Tomorrow Goodbye"));
-        songList.add(new Songs(R.drawable.tailgates_and_tanlines_album_luke_bryan, "Drunk on You"));
-        songList.add(new Songs(R.drawable.tailgates_and_tanlines_album_luke_bryan, "Too Damn Young"));
-        songList.add(new Songs(R.drawable.tailgates_and_tanlines_album_luke_bryan, "I Don't Want This Night to End"));
-        songList.add(new Songs(R.drawable.tailgates_and_tanlines_album_luke_bryan, "You Don't Know Jack"));
-        songList.add(new Songs(R.drawable.tailgates_and_tanlines_album_luke_bryan, "Harvest Time"));
-        songList.add(new Songs(R.drawable.tailgates_and_tanlines_album_luke_bryan, "I Know You're Gonna Be There"));
-        songList.add(new Songs(R.drawable.tailgates_and_tanlines_album_luke_bryan, "Muckalee Creek Water"));
-        songList.add(new Songs(R.drawable.tailgates_and_tanlines_album_luke_bryan, "Tailgate Blues"));
-        songList.add(new Songs(R.drawable.tailgates_and_tanlines_album_luke_bryan, "Been There, Done That"));
-        songList.add(new Songs(R.drawable.tailgates_and_tanlines_album_luke_bryan, "Faded Away"));
-        songList.add(new Songs(R.drawable.tailgates_and_tanlines_album_luke_bryan, "I Knew You That Way"));
-        songList.add(new Songs(R.drawable.tailgates_and_tanlines_album_luke_bryan, "That Don't Just Happen [Bonus Track]"));
+        songList.add(new Songs(R.mipmap.tailgates_and_tanlines_album_luke_bryan, "Country Girl (Shake It for Me)"));
+        songList.add(new Songs(R.mipmap.tailgates_and_tanlines_album_luke_bryan, "Kiss Tomorrow Goodbye"));
+        songList.add(new Songs(R.mipmap.tailgates_and_tanlines_album_luke_bryan, "Drunk on You"));
+        songList.add(new Songs(R.mipmap.tailgates_and_tanlines_album_luke_bryan, "Too Damn Young"));
+        songList.add(new Songs(R.mipmap.tailgates_and_tanlines_album_luke_bryan, "I Don't Want This Night to End"));
+        songList.add(new Songs(R.mipmap.tailgates_and_tanlines_album_luke_bryan, "You Don't Know Jack"));
+        songList.add(new Songs(R.mipmap.tailgates_and_tanlines_album_luke_bryan, "Harvest Time"));
+        songList.add(new Songs(R.mipmap.tailgates_and_tanlines_album_luke_bryan, "I Know You're Gonna Be There"));
+        songList.add(new Songs(R.mipmap.tailgates_and_tanlines_album_luke_bryan, "Muckalee Creek Water"));
+        songList.add(new Songs(R.mipmap.tailgates_and_tanlines_album_luke_bryan, "Tailgate Blues"));
+        songList.add(new Songs(R.mipmap.tailgates_and_tanlines_album_luke_bryan, "Been There, Done That"));
+        songList.add(new Songs(R.mipmap.tailgates_and_tanlines_album_luke_bryan, "Faded Away"));
+        songList.add(new Songs(R.mipmap.tailgates_and_tanlines_album_luke_bryan, "I Knew You That Way"));
+        songList.add(new Songs(R.mipmap.tailgates_and_tanlines_album_luke_bryan, "That Don't Just Happen [Bonus Track]"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

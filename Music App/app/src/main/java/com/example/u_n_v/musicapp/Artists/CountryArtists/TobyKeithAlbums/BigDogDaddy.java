@@ -24,17 +24,17 @@ public class BigDogDaddy extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "High Maintenance Woman"));
-        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Love Me If You Can"));
-        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "White Rose"));
-        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Get My Drink On"));
-        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Wouldn't Wanna Be Ya"));
-        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Big Dog Daddy"));
-        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "I Know She Hung the Moon"));
-        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Pump Jack"));
-        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Burnin' Moonlight"));
-        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Walk It Off"));
-        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Hit It"));
+        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "High Maintenance Woman"));
+        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "Love Me If You Can"));
+        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "White Rose"));
+        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "Get My Drink On"));
+        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "Wouldn't Wanna Be Ya"));
+        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "Big Dog Daddy"));
+        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "I Know She Hung the Moon"));
+        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "Pump Jack"));
+        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "Burnin' Moonlight"));
+        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "Walk It Off"));
+        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "Hit It"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

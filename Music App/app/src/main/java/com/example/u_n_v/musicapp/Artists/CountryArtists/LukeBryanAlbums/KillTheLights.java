@@ -24,19 +24,19 @@ public class KillTheLights extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.kill_the_lights_album_luke_bryan, "Kick the Dust Up"));
-        songList.add(new Songs(R.drawable.kill_the_lights_album_luke_bryan, "Kill the Lights"));
-        songList.add(new Songs(R.drawable.kill_the_lights_album_luke_bryan, "Strip It Down"));
-        songList.add(new Songs(R.drawable.kill_the_lights_album_luke_bryan, "Home Alone Tonight"));
-        songList.add(new Songs(R.drawable.kill_the_lights_album_luke_bryan, "Razor Blade"));
-        songList.add(new Songs(R.drawable.kill_the_lights_album_luke_bryan, "Fast"));
-        songList.add(new Songs(R.drawable.kill_the_lights_album_luke_bryan, "Move"));
-        songList.add(new Songs(R.drawable.kill_the_lights_album_luke_bryan, "Just Over"));
-        songList.add(new Songs(R.drawable.kill_the_lights_album_luke_bryan, "Love It Gone"));
-        songList.add(new Songs(R.drawable.kill_the_lights_album_luke_bryan, "Way Way Back"));
-        songList.add(new Songs(R.drawable.kill_the_lights_album_luke_bryan, "To the Moon and Back"));
-        songList.add(new Songs(R.drawable.kill_the_lights_album_luke_bryan, "Huntin', Fishin' and Lovin' Every Day"));
-        songList.add(new Songs(R.drawable.kill_the_lights_album_luke_bryan, "Scarecrows"));
+        songList.add(new Songs(R.mipmap.kill_the_lights_album_luke_bryan, "Kick the Dust Up"));
+        songList.add(new Songs(R.mipmap.kill_the_lights_album_luke_bryan, "Kill the Lights"));
+        songList.add(new Songs(R.mipmap.kill_the_lights_album_luke_bryan, "Strip It Down"));
+        songList.add(new Songs(R.mipmap.kill_the_lights_album_luke_bryan, "Home Alone Tonight"));
+        songList.add(new Songs(R.mipmap.kill_the_lights_album_luke_bryan, "Razor Blade"));
+        songList.add(new Songs(R.mipmap.kill_the_lights_album_luke_bryan, "Fast"));
+        songList.add(new Songs(R.mipmap.kill_the_lights_album_luke_bryan, "Move"));
+        songList.add(new Songs(R.mipmap.kill_the_lights_album_luke_bryan, "Just Over"));
+        songList.add(new Songs(R.mipmap.kill_the_lights_album_luke_bryan, "Love It Gone"));
+        songList.add(new Songs(R.mipmap.kill_the_lights_album_luke_bryan, "Way Way Back"));
+        songList.add(new Songs(R.mipmap.kill_the_lights_album_luke_bryan, "To the Moon and Back"));
+        songList.add(new Songs(R.mipmap.kill_the_lights_album_luke_bryan, "Huntin', Fishin' and Lovin' Every Day"));
+        songList.add(new Songs(R.mipmap.kill_the_lights_album_luke_bryan, "Scarecrows"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

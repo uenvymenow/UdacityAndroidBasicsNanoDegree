@@ -24,15 +24,15 @@ public class ToysInTheAttic extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Toys in the Attic"));
-        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Uncle Salty"));
-        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Adam's Apple"));
-        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Walk This Way"));
-        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Big Ten Inch Record"));
-        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Sweet Emotion"));
-        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "No More No More"));
-        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Round and Round"));
-        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "You See Me Crying"));
+        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Toys in the Attic","Toys in the Attic"));
+        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Toys in the Attic","Uncle Salty"));
+        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Toys in the Attic","Adam's Apple"));
+        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Toys in the Attic","Walk This Way"));
+        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Toys in the Attic","Big Ten Inch Record"));
+        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Toys in the Attic","Sweet Emotion"));
+        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Toys in the Attic","No More No More"));
+        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Toys in the Attic","Round and Round"));
+        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Toys in the Attic","You See Me Crying"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

@@ -24,14 +24,14 @@ public class LouisUnderTheStars extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.louis_under_the_stars_album_louis_armstrong, "Top Hat, White Tie and Tails"));
-        songList.add(new Songs(R.drawable.louis_under_the_stars_album_louis_armstrong, "Have You Met Miss Jones?"));
-        songList.add(new Songs(R.drawable.louis_under_the_stars_album_louis_armstrong, "I Only Have Eyes for You"));
-        songList.add(new Songs(R.drawable.louis_under_the_stars_album_louis_armstrong, "Stormy Weather"));
-        songList.add(new Songs(R.drawable.louis_under_the_stars_album_louis_armstrong, "Home (When Shadows Fall)"));
-        songList.add(new Songs(R.drawable.louis_under_the_stars_album_louis_armstrong, "East of the Sun, West of the Moon"));
-        songList.add(new Songs(R.drawable.louis_under_the_stars_album_louis_armstrong, "You're Blase"));
-        songList.add(new Songs(R.drawable.louis_under_the_stars_album_louis_armstrong, "Body and Soul"));
+        songList.add(new Songs(R.mipmap.louis_under_the_stars_album_louis_armstrong, "Top Hat, White Tie and Tails"));
+        songList.add(new Songs(R.mipmap.louis_under_the_stars_album_louis_armstrong, "Have You Met Miss Jones?"));
+        songList.add(new Songs(R.mipmap.louis_under_the_stars_album_louis_armstrong, "I Only Have Eyes for You"));
+        songList.add(new Songs(R.mipmap.louis_under_the_stars_album_louis_armstrong, "Stormy Weather"));
+        songList.add(new Songs(R.mipmap.louis_under_the_stars_album_louis_armstrong, "Home (When Shadows Fall)"));
+        songList.add(new Songs(R.mipmap.louis_under_the_stars_album_louis_armstrong, "East of the Sun, West of the Moon"));
+        songList.add(new Songs(R.mipmap.louis_under_the_stars_album_louis_armstrong, "You're Blase"));
+        songList.add(new Songs(R.mipmap.louis_under_the_stars_album_louis_armstrong, "Body and Soul"));
 
         SongAdapter songAdapter = new SongAdapter(this, songList);
 

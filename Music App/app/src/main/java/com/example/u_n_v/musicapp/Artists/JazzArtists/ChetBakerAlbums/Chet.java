@@ -24,16 +24,16 @@ public class Chet extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.chet_album_chet_baker, "Alone Together"));
-        songList.add(new Songs(R.drawable.chet_album_chet_baker, "How High the Moon"));
-        songList.add(new Songs(R.drawable.chet_album_chet_baker, "It Never Entered My Mind"));
-        songList.add(new Songs(R.drawable.chet_album_chet_baker, "'Tis Autumn"));
-        songList.add(new Songs(R.drawable.chet_album_chet_baker, "If You Could See Me Now"));
-        songList.add(new Songs(R.drawable.chet_album_chet_baker, "September Song"));
-        songList.add(new Songs(R.drawable.chet_album_chet_baker, "You'd Be So Nice to Come Home To"));
-        songList.add(new Songs(R.drawable.chet_album_chet_baker, "Time on My Hands (You in My Arms)"));
-        songList.add(new Songs(R.drawable.chet_album_chet_baker, "You and the Night and the Music"));
-        songList.add(new Songs(R.drawable.chet_album_chet_baker, "Early Morning Mood"));
+        songList.add(new Songs(R.mipmap.chet_album_chet_baker, "Alone Together"));
+        songList.add(new Songs(R.mipmap.chet_album_chet_baker, "How High the Moon"));
+        songList.add(new Songs(R.mipmap.chet_album_chet_baker, "It Never Entered My Mind"));
+        songList.add(new Songs(R.mipmap.chet_album_chet_baker, "'Tis Autumn"));
+        songList.add(new Songs(R.mipmap.chet_album_chet_baker, "If You Could See Me Now"));
+        songList.add(new Songs(R.mipmap.chet_album_chet_baker, "September Song"));
+        songList.add(new Songs(R.mipmap.chet_album_chet_baker, "You'd Be So Nice to Come Home To"));
+        songList.add(new Songs(R.mipmap.chet_album_chet_baker, "Time on My Hands (You in My Arms)"));
+        songList.add(new Songs(R.mipmap.chet_album_chet_baker, "You and the Night and the Music"));
+        songList.add(new Songs(R.mipmap.chet_album_chet_baker, "Early Morning Mood"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

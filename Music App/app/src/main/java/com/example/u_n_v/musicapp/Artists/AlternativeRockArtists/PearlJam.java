@@ -29,9 +29,9 @@ public class PearlJam extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.drawable.ten_album_pearl_jam,"Ten")); // Image retrieved from https://en.wikipedia.org/wiki/Ten_(Pearl_Jam_album)
-        albumList.add(new Albums(R.drawable.vitalogy_album_pearl_jam,"Vitalogy")); // Image retrieved from https://en.wikipedia.org/wiki/Ten_(Pearl_Jam_album)
-        albumList.add(new Albums(R.drawable.no_code_album_pearl_jam,"No Code")); // Image retrieved from https://en.wikipedia.org/wiki/No_Code
+        albumList.add(new Albums(R.mipmap.ten_album_pearl_jam,"Ten")); // Image retrieved from https://en.wikipedia.org/wiki/Ten_(Pearl_Jam_album)
+        albumList.add(new Albums(R.mipmap.vitalogy_album_pearl_jam,"Vitalogy")); // Image retrieved from https://en.wikipedia.org/wiki/Ten_(Pearl_Jam_album)
+        albumList.add(new Albums(R.mipmap.no_code_album_pearl_jam,"No Code")); // Image retrieved from https://en.wikipedia.org/wiki/No_Code
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 

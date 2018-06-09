@@ -24,15 +24,15 @@ public class LedZeppelin extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.led_zeppelin_album_led_zeppelin, "Good Times Bad Times"));
-        songList.add(new Songs(R.drawable.led_zeppelin_album_led_zeppelin, "Babe I'm Gonna Leave You"));
-        songList.add(new Songs(R.drawable.led_zeppelin_album_led_zeppelin, "You Shook Me"));
-        songList.add(new Songs(R.drawable.led_zeppelin_album_led_zeppelin, "Dazed and Confused"));
-        songList.add(new Songs(R.drawable.led_zeppelin_album_led_zeppelin, "Your Time Is Gonna Come"));
-        songList.add(new Songs(R.drawable.led_zeppelin_album_led_zeppelin, "Black Mountain Side (instrumental)"));
-        songList.add(new Songs(R.drawable.led_zeppelin_album_led_zeppelin, "Communication Breakdown"));
-        songList.add(new Songs(R.drawable.led_zeppelin_album_led_zeppelin, "I Can't Quit You Baby"));
-        songList.add(new Songs(R.drawable.led_zeppelin_album_led_zeppelin, "How Many More Times"));
+        songList.add(new Songs(R.mipmap.led_zeppelin_album_led_zeppelin, "Good Times Bad Times"));
+        songList.add(new Songs(R.mipmap.led_zeppelin_album_led_zeppelin, "Babe I'm Gonna Leave You"));
+        songList.add(new Songs(R.mipmap.led_zeppelin_album_led_zeppelin, "You Shook Me"));
+        songList.add(new Songs(R.mipmap.led_zeppelin_album_led_zeppelin, "Dazed and Confused"));
+        songList.add(new Songs(R.mipmap.led_zeppelin_album_led_zeppelin, "Your Time Is Gonna Come"));
+        songList.add(new Songs(R.mipmap.led_zeppelin_album_led_zeppelin, "Black Mountain Side (instrumental)"));
+        songList.add(new Songs(R.mipmap.led_zeppelin_album_led_zeppelin, "Communication Breakdown"));
+        songList.add(new Songs(R.mipmap.led_zeppelin_album_led_zeppelin, "I Can't Quit You Baby"));
+        songList.add(new Songs(R.mipmap.led_zeppelin_album_led_zeppelin, "How Many More Times"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

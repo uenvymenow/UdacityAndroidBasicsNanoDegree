@@ -24,18 +24,18 @@ public class ThisHouseIsNotForSale extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.this_house_is_not_for_sale_album_bon_jovi, "This House Is Not For Sale"));
-        songList.add(new Songs(R.drawable.this_house_is_not_for_sale_album_bon_jovi, "Living With the Ghost"));
-        songList.add(new Songs(R.drawable.this_house_is_not_for_sale_album_bon_jovi, "Knockout"));
-        songList.add(new Songs(R.drawable.this_house_is_not_for_sale_album_bon_jovi, "Labor of Love"));
-        songList.add(new Songs(R.drawable.this_house_is_not_for_sale_album_bon_jovi, "Born Again Tomorrow"));
-        songList.add(new Songs(R.drawable.this_house_is_not_for_sale_album_bon_jovi, "Roller Coaster"));
-        songList.add(new Songs(R.drawable.this_house_is_not_for_sale_album_bon_jovi, "New Year's Day"));
-        songList.add(new Songs(R.drawable.this_house_is_not_for_sale_album_bon_jovi, "The Devil's in the Temple"));
-        songList.add(new Songs(R.drawable.this_house_is_not_for_sale_album_bon_jovi, "Scars on This Guitar"));
-        songList.add(new Songs(R.drawable.this_house_is_not_for_sale_album_bon_jovi, "God Bless This Mess"));
-        songList.add(new Songs(R.drawable.this_house_is_not_for_sale_album_bon_jovi, "Reunion"));
-        songList.add(new Songs(R.drawable.this_house_is_not_for_sale_album_bon_jovi, "Come On Up to Our House"));
+        songList.add(new Songs(R.mipmap.this_house_is_not_for_sale_album_bon_jovi, "This House Is Not For Sale"));
+        songList.add(new Songs(R.mipmap.this_house_is_not_for_sale_album_bon_jovi, "Living With the Ghost"));
+        songList.add(new Songs(R.mipmap.this_house_is_not_for_sale_album_bon_jovi, "Knockout"));
+        songList.add(new Songs(R.mipmap.this_house_is_not_for_sale_album_bon_jovi, "Labor of Love"));
+        songList.add(new Songs(R.mipmap.this_house_is_not_for_sale_album_bon_jovi, "Born Again Tomorrow"));
+        songList.add(new Songs(R.mipmap.this_house_is_not_for_sale_album_bon_jovi, "Roller Coaster"));
+        songList.add(new Songs(R.mipmap.this_house_is_not_for_sale_album_bon_jovi, "New Year's Day"));
+        songList.add(new Songs(R.mipmap.this_house_is_not_for_sale_album_bon_jovi, "The Devil's in the Temple"));
+        songList.add(new Songs(R.mipmap.this_house_is_not_for_sale_album_bon_jovi, "Scars on This Guitar"));
+        songList.add(new Songs(R.mipmap.this_house_is_not_for_sale_album_bon_jovi, "God Bless This Mess"));
+        songList.add(new Songs(R.mipmap.this_house_is_not_for_sale_album_bon_jovi, "Reunion"));
+        songList.add(new Songs(R.mipmap.this_house_is_not_for_sale_album_bon_jovi, "Come On Up to Our House"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

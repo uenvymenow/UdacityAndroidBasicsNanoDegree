@@ -23,19 +23,19 @@ public class SundownHeavenTown extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.sundown_heaven_town_album_tim_mcgraw, "Overrated"));
-        songList.add(new Songs(R.drawable.sundown_heaven_town_album_tim_mcgraw, "City Lights"));
-        songList.add(new Songs(R.drawable.sundown_heaven_town_album_tim_mcgraw, "Shotgun Rider"));
-        songList.add(new Songs(R.drawable.sundown_heaven_town_album_tim_mcgraw, "Dust"));
-        songList.add(new Songs(R.drawable.sundown_heaven_town_album_tim_mcgraw, "Diamond Rings and Old Barstools"));
-        songList.add(new Songs(R.drawable.sundown_heaven_town_album_tim_mcgraw, "Words Are Medicine"));
-        songList.add(new Songs(R.drawable.sundown_heaven_town_album_tim_mcgraw, "Sick of Me"));
-        songList.add(new Songs(R.drawable.sundown_heaven_town_album_tim_mcgraw, "Meanwhile Back at Mama's"));
-        songList.add(new Songs(R.drawable.sundown_heaven_town_album_tim_mcgraw, "Keep On Truckin"));
-        songList.add(new Songs(R.drawable.sundown_heaven_town_album_tim_mcgraw, "Last Turn Home"));
-        songList.add(new Songs(R.drawable.sundown_heaven_town_album_tim_mcgraw, "Portland, Maine"));
-        songList.add(new Songs(R.drawable.sundown_heaven_town_album_tim_mcgraw, "Lookin' for That Girl"));
-        songList.add(new Songs(R.drawable.sundown_heaven_town_album_tim_mcgraw, "Still on the Line"));
+        songList.add(new Songs(R.mipmap.sundown_heaven_town_album_tim_mcgraw, "Overrated"));
+        songList.add(new Songs(R.mipmap.sundown_heaven_town_album_tim_mcgraw, "City Lights"));
+        songList.add(new Songs(R.mipmap.sundown_heaven_town_album_tim_mcgraw, "Shotgun Rider"));
+        songList.add(new Songs(R.mipmap.sundown_heaven_town_album_tim_mcgraw, "Dust"));
+        songList.add(new Songs(R.mipmap.sundown_heaven_town_album_tim_mcgraw, "Diamond Rings and Old Barstools"));
+        songList.add(new Songs(R.mipmap.sundown_heaven_town_album_tim_mcgraw, "Words Are Medicine"));
+        songList.add(new Songs(R.mipmap.sundown_heaven_town_album_tim_mcgraw, "Sick of Me"));
+        songList.add(new Songs(R.mipmap.sundown_heaven_town_album_tim_mcgraw, "Meanwhile Back at Mama's"));
+        songList.add(new Songs(R.mipmap.sundown_heaven_town_album_tim_mcgraw, "Keep On Truckin"));
+        songList.add(new Songs(R.mipmap.sundown_heaven_town_album_tim_mcgraw, "Last Turn Home"));
+        songList.add(new Songs(R.mipmap.sundown_heaven_town_album_tim_mcgraw, "Portland, Maine"));
+        songList.add(new Songs(R.mipmap.sundown_heaven_town_album_tim_mcgraw, "Lookin' for That Girl"));
+        songList.add(new Songs(R.mipmap.sundown_heaven_town_album_tim_mcgraw, "Still on the Line"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

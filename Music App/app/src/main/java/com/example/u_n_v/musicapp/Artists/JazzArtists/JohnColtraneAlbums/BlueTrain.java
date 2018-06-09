@@ -24,11 +24,11 @@ public class BlueTrain extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.blue_train_album_john_coltrane, "Blue Train"));
-        songList.add(new Songs(R.drawable.blue_train_album_john_coltrane, "Moment's Notice"));
-        songList.add(new Songs(R.drawable.blue_train_album_john_coltrane, "Locomotion"));
-        songList.add(new Songs(R.drawable.blue_train_album_john_coltrane, "I'm Old Fashioned"));
-        songList.add(new Songs(R.drawable.blue_train_album_john_coltrane, "Lazy Bird"));
+        songList.add(new Songs(R.mipmap.blue_train_album_john_coltrane, "Blue Train"));
+        songList.add(new Songs(R.mipmap.blue_train_album_john_coltrane, "Moment's Notice"));
+        songList.add(new Songs(R.mipmap.blue_train_album_john_coltrane, "Locomotion"));
+        songList.add(new Songs(R.mipmap.blue_train_album_john_coltrane, "I'm Old Fashioned"));
+        songList.add(new Songs(R.mipmap.blue_train_album_john_coltrane, "Lazy Bird"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

@@ -24,18 +24,18 @@ public class HybridTheory extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.hybrid_theory_album_linkin_park, "Papercut"));
-        songList.add(new Songs(R.drawable.hybrid_theory_album_linkin_park, "One Step Closer"));
-        songList.add(new Songs(R.drawable.hybrid_theory_album_linkin_park, "With You"));
-        songList.add(new Songs(R.drawable.hybrid_theory_album_linkin_park, "Points of Authority"));
-        songList.add(new Songs(R.drawable.hybrid_theory_album_linkin_park, "Crawling"));
-        songList.add(new Songs(R.drawable.hybrid_theory_album_linkin_park, "Runaway"));
-        songList.add(new Songs(R.drawable.hybrid_theory_album_linkin_park, "By Myself"));
-        songList.add(new Songs(R.drawable.hybrid_theory_album_linkin_park, "In the End"));
-        songList.add(new Songs(R.drawable.hybrid_theory_album_linkin_park, "A Place for My Head"));
-        songList.add(new Songs(R.drawable.hybrid_theory_album_linkin_park, "Forgotten"));
-        songList.add(new Songs(R.drawable.hybrid_theory_album_linkin_park, "Cure for the Itch"));
-        songList.add(new Songs(R.drawable.hybrid_theory_album_linkin_park, "Pushing Me Away"));
+        songList.add(new Songs(R.mipmap.hybrid_theory_album_linkin_park, "Hyrbrid Theory","Papercut"));
+        songList.add(new Songs(R.mipmap.hybrid_theory_album_linkin_park, "Hyrbrid Theory", "One Step Closer"));
+        songList.add(new Songs(R.mipmap.hybrid_theory_album_linkin_park, "Hyrbrid Theory","With You"));
+        songList.add(new Songs(R.mipmap.hybrid_theory_album_linkin_park, "Hyrbrid Theory","Points of Authority"));
+        songList.add(new Songs(R.mipmap.hybrid_theory_album_linkin_park, "Hyrbrid Theory","Crawling"));
+        songList.add(new Songs(R.mipmap.hybrid_theory_album_linkin_park, "Hyrbrid Theory","Runaway"));
+        songList.add(new Songs(R.mipmap.hybrid_theory_album_linkin_park, "Hyrbrid Theory","By Myself"));
+        songList.add(new Songs(R.mipmap.hybrid_theory_album_linkin_park, "Hyrbrid Theory","In the End"));
+        songList.add(new Songs(R.mipmap.hybrid_theory_album_linkin_park, "Hyrbrid Theory","A Place for My Head"));
+        songList.add(new Songs(R.mipmap.hybrid_theory_album_linkin_park, "Hyrbrid Theory","Forgotten"));
+        songList.add(new Songs(R.mipmap.hybrid_theory_album_linkin_park, "Hyrbrid Theory","Cure for the Itch"));
+        songList.add(new Songs(R.mipmap.hybrid_theory_album_linkin_park, "Hyrbrid Theory","Pushing Me Away"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

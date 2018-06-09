@@ -23,24 +23,24 @@ public class Nimrod extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.nimrod_album_green_day, "Nice Guys Finish Last"));
-        songList.add(new Songs(R.drawable.nimrod_album_green_day, "Hitchin' a Ride"));
-        songList.add(new Songs(R.drawable.nimrod_album_green_day, "The Grouch"));
-        songList.add(new Songs(R.drawable.nimrod_album_green_day, "Redundant"));
-        songList.add(new Songs(R.drawable.nimrod_album_green_day, "Scattered"));
-        songList.add(new Songs(R.drawable.nimrod_album_green_day, "All the Time"));
-        songList.add(new Songs(R.drawable.nimrod_album_green_day, "Worry Rock"));
-        songList.add(new Songs(R.drawable.nimrod_album_green_day, "Platypus (I Hate You)"));
-        songList.add(new Songs(R.drawable.nimrod_album_green_day, "Uptight"));
-        songList.add(new Songs(R.drawable.nimrod_album_green_day, "Last Ride In (Instrumental)"));
-        songList.add(new Songs(R.drawable.nimrod_album_green_day, "Jinx"));
-        songList.add(new Songs(R.drawable.nimrod_album_green_day, "Haushinka"));
-        songList.add(new Songs(R.drawable.nimrod_album_green_day, "Walking Alone"));
-        songList.add(new Songs(R.drawable.nimrod_album_green_day, "Reject"));
-        songList.add(new Songs(R.drawable.nimrod_album_green_day, "Take Back"));
-        songList.add(new Songs(R.drawable.nimrod_album_green_day, "King for a Day"));
-        songList.add(new Songs(R.drawable.nimrod_album_green_day, "Good Riddance (Time of Your Life)"));
-        songList.add(new Songs(R.drawable.nimrod_album_green_day, "Prosthetic Head"));
+        songList.add(new Songs(R.mipmap.nimrod_album_green_day, "Nimrod","Nice Guys Finish Last"));
+        songList.add(new Songs(R.mipmap.nimrod_album_green_day, "Nimrod","Hitchin' a Ride"));
+        songList.add(new Songs(R.mipmap.nimrod_album_green_day, "Nimrod","The Grouch"));
+        songList.add(new Songs(R.mipmap.nimrod_album_green_day, "Nimrod","Redundant"));
+        songList.add(new Songs(R.mipmap.nimrod_album_green_day, "Nimrod","Scattered"));
+        songList.add(new Songs(R.mipmap.nimrod_album_green_day, "Nimrod","All the Time"));
+        songList.add(new Songs(R.mipmap.nimrod_album_green_day, "Nimrod","Worry Rock"));
+        songList.add(new Songs(R.mipmap.nimrod_album_green_day, "Nimrod","Platypus (I Hate You)"));
+        songList.add(new Songs(R.mipmap.nimrod_album_green_day, "Nimrod","Uptight"));
+        songList.add(new Songs(R.mipmap.nimrod_album_green_day, "Nimrod","Last Ride In (Instrumental)"));
+        songList.add(new Songs(R.mipmap.nimrod_album_green_day, "Nimrod","Jinx"));
+        songList.add(new Songs(R.mipmap.nimrod_album_green_day, "Nimrod","Haushinka"));
+        songList.add(new Songs(R.mipmap.nimrod_album_green_day, "Nimrod","Walking Alone"));
+        songList.add(new Songs(R.mipmap.nimrod_album_green_day, "Nimrod","Reject"));
+        songList.add(new Songs(R.mipmap.nimrod_album_green_day, "Nimrod","Take Back"));
+        songList.add(new Songs(R.mipmap.nimrod_album_green_day, "Nimrod","King for a Day"));
+        songList.add(new Songs(R.mipmap.nimrod_album_green_day, "Nimrod","Good Riddance (Time of Your Life)"));
+        songList.add(new Songs(R.mipmap.nimrod_album_green_day, "Nimrod","Prosthetic Head"));
 
         SongAdapter songAdapter = new SongAdapter(this, songList);
 

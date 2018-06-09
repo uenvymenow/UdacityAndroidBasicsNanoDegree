@@ -46,6 +46,10 @@ public class SongAdapter extends ArrayAdapter<Songs> {
         TextView songNameTextView = songListView.findViewById(R.id.song_name);
         songNameTextView.setText(currentSong.getSongName());
 
+        // Find Song Album TextView
+        TextView songAlbumTextView = songListView.findViewById(R.id.song_album);
+        songAlbumTextView.setText(currentSong.getAlbumName());
+
         return songListView;
     }
 }

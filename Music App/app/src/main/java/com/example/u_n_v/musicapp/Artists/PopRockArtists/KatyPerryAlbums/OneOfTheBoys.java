@@ -24,18 +24,18 @@ public class OneOfTheBoys extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.one_of_the_boys_album_katy_perry, "One of the Boys"));
-        songList.add(new Songs(R.drawable.one_of_the_boys_album_katy_perry, "I Kissed a Girl"));
-        songList.add(new Songs(R.drawable.one_of_the_boys_album_katy_perry, "Waking Up in Vegas"));
-        songList.add(new Songs(R.drawable.one_of_the_boys_album_katy_perry, "Thinking of You"));
-        songList.add(new Songs(R.drawable.one_of_the_boys_album_katy_perry, "Mannequin"));
-        songList.add(new Songs(R.drawable.one_of_the_boys_album_katy_perry, "Ur So Gay"));
-        songList.add(new Songs(R.drawable.one_of_the_boys_album_katy_perry, "Hot n Cold"));
-        songList.add(new Songs(R.drawable.one_of_the_boys_album_katy_perry, "If You Can Afford Me"));
-        songList.add(new Songs(R.drawable.one_of_the_boys_album_katy_perry, "Lost"));
-        songList.add(new Songs(R.drawable.one_of_the_boys_album_katy_perry, "Self Inflicted"));
-        songList.add(new Songs(R.drawable.one_of_the_boys_album_katy_perry, "I'm Still Breathing"));
-        songList.add(new Songs(R.drawable.one_of_the_boys_album_katy_perry, "Fingerprints"));
+        songList.add(new Songs(R.mipmap.one_of_the_boys_album_katy_perry, "One of the Boys"));
+        songList.add(new Songs(R.mipmap.one_of_the_boys_album_katy_perry, "I Kissed a Girl"));
+        songList.add(new Songs(R.mipmap.one_of_the_boys_album_katy_perry, "Waking Up in Vegas"));
+        songList.add(new Songs(R.mipmap.one_of_the_boys_album_katy_perry, "Thinking of You"));
+        songList.add(new Songs(R.mipmap.one_of_the_boys_album_katy_perry, "Mannequin"));
+        songList.add(new Songs(R.mipmap.one_of_the_boys_album_katy_perry, "Ur So Gay"));
+        songList.add(new Songs(R.mipmap.one_of_the_boys_album_katy_perry, "Hot n Cold"));
+        songList.add(new Songs(R.mipmap.one_of_the_boys_album_katy_perry, "If You Can Afford Me"));
+        songList.add(new Songs(R.mipmap.one_of_the_boys_album_katy_perry, "Lost"));
+        songList.add(new Songs(R.mipmap.one_of_the_boys_album_katy_perry, "Self Inflicted"));
+        songList.add(new Songs(R.mipmap.one_of_the_boys_album_katy_perry, "I'm Still Breathing"));
+        songList.add(new Songs(R.mipmap.one_of_the_boys_album_katy_perry, "Fingerprints"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

@@ -29,9 +29,9 @@ public class TaylorSwift extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.drawable.ts_1989_album_taylor_swift,"1989")); // Image retrieved from https://en.wikipedia.org/wiki/1989_(Taylor_Swift_album)
-        albumList.add(new Albums(R.drawable.red_album_taylor_swift,"Red")); // Image retrieved from https://en.wikipedia.org/wiki/Red_(Taylor_Swift_album)
-        albumList.add(new Albums(R.drawable.reputation_album_taylor_swift,"Reputation")); // Image retrieved from https://en.wikipedia.org/wiki/Reputation_(Taylor_Swift_album)
+        albumList.add(new Albums(R.mipmap.ts_1989_album_taylor_swift,"1989")); // Image retrieved from https://en.wikipedia.org/wiki/1989_(Taylor_Swift_album)
+        albumList.add(new Albums(R.mipmap.red_album_taylor_swift,"Red")); // Image retrieved from https://en.wikipedia.org/wiki/Red_(Taylor_Swift_album)
+        albumList.add(new Albums(R.mipmap.reputation_album_taylor_swift,"Reputation")); // Image retrieved from https://en.wikipedia.org/wiki/Reputation_(Taylor_Swift_album)
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 

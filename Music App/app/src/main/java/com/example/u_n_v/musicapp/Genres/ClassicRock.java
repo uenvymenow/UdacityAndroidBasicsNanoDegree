@@ -29,9 +29,9 @@ public class ClassicRock extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Artists> artistList = new ArrayList<>();
 
-        artistList.add(new Artists(R.drawable.bon_jovi, "Bon Jovi")); // Image retrieved from https://www.straight.com/music/911311/lets-talk-about-albert-hammond-travis-scott-jon-bon-jovi-and-moby
-        artistList.add(new Artists(R.drawable.aerosmith, "Aerosmith")); // Image retrieved from https://open.spotify.com/artist/7Ey4PD4MYsKc5I2dolUwbH
-        artistList.add(new Artists(R.drawable.led_zeppelin, "Led Zeppelin")); // Image retrieved from http://ultimateclassicrock.com/tags/led-zeppelin/
+        artistList.add(new Artists(R.mipmap.bon_jovi, "Bon Jovi")); // Image retrieved from https://www.straight.com/music/911311/lets-talk-about-albert-hammond-travis-scott-jon-bon-jovi-and-moby
+        artistList.add(new Artists(R.mipmap.aerosmith, "Aerosmith")); // Image retrieved from https://open.spotify.com/artist/7Ey4PD4MYsKc5I2dolUwbH
+        artistList.add(new Artists(R.mipmap.led_zeppelin, "Led Zeppelin")); // Image retrieved from http://ultimateclassicrock.com/tags/led-zeppelin/
 
 
         ArtistAdapter artistAdapter = new ArtistAdapter(this, artistList);

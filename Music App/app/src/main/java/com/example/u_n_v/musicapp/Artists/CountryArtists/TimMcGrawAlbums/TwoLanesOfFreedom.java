@@ -24,16 +24,16 @@ public class TwoLanesOfFreedom extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.two_lanes_of_freedom_album_tim_mcgraw, "Two Lanes of Freedom"));
-        songList.add(new Songs(R.drawable.two_lanes_of_freedom_album_tim_mcgraw, "One of Those Nights"));
-        songList.add(new Songs(R.drawable.two_lanes_of_freedom_album_tim_mcgraw, "Friend of a Friend"));
-        songList.add(new Songs(R.drawable.two_lanes_of_freedom_album_tim_mcgraw, "Southern Girl"));
-        songList.add(new Songs(R.drawable.two_lanes_of_freedom_album_tim_mcgraw, "Truck Yeah"));
-        songList.add(new Songs(R.drawable.two_lanes_of_freedom_album_tim_mcgraw, "Nashville Without You"));
-        songList.add(new Songs(R.drawable.two_lanes_of_freedom_album_tim_mcgraw, "Book of John"));
-        songList.add(new Songs(R.drawable.two_lanes_of_freedom_album_tim_mcgraw, "Mexicoma"));
-        songList.add(new Songs(R.drawable.two_lanes_of_freedom_album_tim_mcgraw, "Number 37405"));
-        songList.add(new Songs(R.drawable.two_lanes_of_freedom_album_tim_mcgraw, "Highway Don't Care"));
+        songList.add(new Songs(R.mipmap.two_lanes_of_freedom_album_tim_mcgraw, "Two Lanes of Freedom"));
+        songList.add(new Songs(R.mipmap.two_lanes_of_freedom_album_tim_mcgraw, "One of Those Nights"));
+        songList.add(new Songs(R.mipmap.two_lanes_of_freedom_album_tim_mcgraw, "Friend of a Friend"));
+        songList.add(new Songs(R.mipmap.two_lanes_of_freedom_album_tim_mcgraw, "Southern Girl"));
+        songList.add(new Songs(R.mipmap.two_lanes_of_freedom_album_tim_mcgraw, "Truck Yeah"));
+        songList.add(new Songs(R.mipmap.two_lanes_of_freedom_album_tim_mcgraw, "Nashville Without You"));
+        songList.add(new Songs(R.mipmap.two_lanes_of_freedom_album_tim_mcgraw, "Book of John"));
+        songList.add(new Songs(R.mipmap.two_lanes_of_freedom_album_tim_mcgraw, "Mexicoma"));
+        songList.add(new Songs(R.mipmap.two_lanes_of_freedom_album_tim_mcgraw, "Number 37405"));
+        songList.add(new Songs(R.mipmap.two_lanes_of_freedom_album_tim_mcgraw, "Highway Don't Care"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

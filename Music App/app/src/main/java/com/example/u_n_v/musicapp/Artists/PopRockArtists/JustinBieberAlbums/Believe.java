@@ -23,19 +23,19 @@ public class Believe extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.believe_album_justin_bieber, "All Around the World"));
-        songList.add(new Songs(R.drawable.believe_album_justin_bieber, "Boyfriend"));
-        songList.add(new Songs(R.drawable.believe_album_justin_bieber, "As Long As You Love Me"));
-        songList.add(new Songs(R.drawable.believe_album_justin_bieber, "Catching Feelings"));
-        songList.add(new Songs(R.drawable.believe_album_justin_bieber, "Take You"));
-        songList.add(new Songs(R.drawable.believe_album_justin_bieber, "Right Here"));
-        songList.add(new Songs(R.drawable.believe_album_justin_bieber, "Fall"));
-        songList.add(new Songs(R.drawable.believe_album_justin_bieber, "Die in Your Arms"));
-        songList.add(new Songs(R.drawable.believe_album_justin_bieber, "Thought of You"));
-        songList.add(new Songs(R.drawable.believe_album_justin_bieber, "Beauty and a Beat"));
-        songList.add(new Songs(R.drawable.believe_album_justin_bieber, "One Love"));
-        songList.add(new Songs(R.drawable.believe_album_justin_bieber, "Be Alright"));
-        songList.add(new Songs(R.drawable.believe_album_justin_bieber, "Believe"));
+        songList.add(new Songs(R.mipmap.believe_album_justin_bieber, "All Around the World"));
+        songList.add(new Songs(R.mipmap.believe_album_justin_bieber, "Boyfriend"));
+        songList.add(new Songs(R.mipmap.believe_album_justin_bieber, "As Long As You Love Me"));
+        songList.add(new Songs(R.mipmap.believe_album_justin_bieber, "Catching Feelings"));
+        songList.add(new Songs(R.mipmap.believe_album_justin_bieber, "Take You"));
+        songList.add(new Songs(R.mipmap.believe_album_justin_bieber, "Right Here"));
+        songList.add(new Songs(R.mipmap.believe_album_justin_bieber, "Fall"));
+        songList.add(new Songs(R.mipmap.believe_album_justin_bieber, "Die in Your Arms"));
+        songList.add(new Songs(R.mipmap.believe_album_justin_bieber, "Thought of You"));
+        songList.add(new Songs(R.mipmap.believe_album_justin_bieber, "Beauty and a Beat"));
+        songList.add(new Songs(R.mipmap.believe_album_justin_bieber, "One Love"));
+        songList.add(new Songs(R.mipmap.believe_album_justin_bieber, "Be Alright"));
+        songList.add(new Songs(R.mipmap.believe_album_justin_bieber, "Believe"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

@@ -23,18 +23,18 @@ public class MinutesToMidnight extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.minutes_to_midnight_album_linkin_park, "Wake"));
-        songList.add(new Songs(R.drawable.minutes_to_midnight_album_linkin_park, "Given Up"));
-        songList.add(new Songs(R.drawable.minutes_to_midnight_album_linkin_park, "Leave Out All the Rest"));
-        songList.add(new Songs(R.drawable.minutes_to_midnight_album_linkin_park, "Bleed It Out"));
-        songList.add(new Songs(R.drawable.minutes_to_midnight_album_linkin_park, "Shadow of the Day"));
-        songList.add(new Songs(R.drawable.minutes_to_midnight_album_linkin_park, "What I've Done"));
-        songList.add(new Songs(R.drawable.minutes_to_midnight_album_linkin_park, "Hands Held High"));
-        songList.add(new Songs(R.drawable.minutes_to_midnight_album_linkin_park, "No More Sorrow"));
-        songList.add(new Songs(R.drawable.minutes_to_midnight_album_linkin_park, "Valentine's Day"));
-        songList.add(new Songs(R.drawable.minutes_to_midnight_album_linkin_park, "In Between"));
-        songList.add(new Songs(R.drawable.minutes_to_midnight_album_linkin_park, "In Pieces"));
-        songList.add(new Songs(R.drawable.minutes_to_midnight_album_linkin_park, "The Little Things Give You Away"));
+        songList.add(new Songs(R.mipmap.minutes_to_midnight_album_linkin_park, "Minutes to Midnight", "Wake"));
+        songList.add(new Songs(R.mipmap.minutes_to_midnight_album_linkin_park, "Minutes to Midnight","Given Up"));
+        songList.add(new Songs(R.mipmap.minutes_to_midnight_album_linkin_park, "Minutes to Midnight","Leave Out All the Rest"));
+        songList.add(new Songs(R.mipmap.minutes_to_midnight_album_linkin_park, "Minutes to Midnight","Bleed It Out"));
+        songList.add(new Songs(R.mipmap.minutes_to_midnight_album_linkin_park, "Minutes to Midnight","Shadow of the Day"));
+        songList.add(new Songs(R.mipmap.minutes_to_midnight_album_linkin_park, "Minutes to Midnight","What I've Done"));
+        songList.add(new Songs(R.mipmap.minutes_to_midnight_album_linkin_park, "Minutes to Midnight","Hands Held High"));
+        songList.add(new Songs(R.mipmap.minutes_to_midnight_album_linkin_park, "Minutes to Midnight","No More Sorrow"));
+        songList.add(new Songs(R.mipmap.minutes_to_midnight_album_linkin_park, "Minutes to Midnight","Valentine's Day"));
+        songList.add(new Songs(R.mipmap.minutes_to_midnight_album_linkin_park, "Minutes to Midnight","In Between"));
+        songList.add(new Songs(R.mipmap.minutes_to_midnight_album_linkin_park, "Minutes to Midnight","In Pieces"));
+        songList.add(new Songs(R.mipmap.minutes_to_midnight_album_linkin_park, "Minutes to Midnight","The Little Things Give You Away"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

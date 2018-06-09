@@ -23,21 +23,21 @@ public class WhatMakesYouCountry extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.what_makes_you_country_album_luke_bryan, "What Makes You Country"));
-        songList.add(new Songs(R.drawable.what_makes_you_country_album_luke_bryan, "Out of Nowhere Girl"));
-        songList.add(new Songs(R.drawable.what_makes_you_country_album_luke_bryan, "Light It Up"));
-        songList.add(new Songs(R.drawable.what_makes_you_country_album_luke_bryan, "Most People Are Good"));
-        songList.add(new Songs(R.drawable.what_makes_you_country_album_luke_bryan, "Sunrise, Sunburn, Sunset"));
-        songList.add(new Songs(R.drawable.what_makes_you_country_album_luke_bryan, "Bad Lovers"));
-        songList.add(new Songs(R.drawable.what_makes_you_country_album_luke_bryan, "Drinking Again"));
-        songList.add(new Songs(R.drawable.what_makes_you_country_album_luke_bryan, "Land of a Million Songs"));
-        songList.add(new Songs(R.drawable.what_makes_you_country_album_luke_bryan, "Like You Say You Do"));
-        songList.add(new Songs(R.drawable.what_makes_you_country_album_luke_bryan, "Hooked on It"));
-        songList.add(new Songs(R.drawable.what_makes_you_country_album_luke_bryan, "She's a Hot One"));
-        songList.add(new Songs(R.drawable.what_makes_you_country_album_luke_bryan, "Hungover in a Hotel Room"));
-        songList.add(new Songs(R.drawable.what_makes_you_country_album_luke_bryan, "Pick It Up"));
-        songList.add(new Songs(R.drawable.what_makes_you_country_album_luke_bryan, "Driving This Thing"));
-        songList.add(new Songs(R.drawable.what_makes_you_country_album_luke_bryan, "Win Life"));
+        songList.add(new Songs(R.mipmap.what_makes_you_country_album_luke_bryan, "What Makes You Country"));
+        songList.add(new Songs(R.mipmap.what_makes_you_country_album_luke_bryan, "Out of Nowhere Girl"));
+        songList.add(new Songs(R.mipmap.what_makes_you_country_album_luke_bryan, "Light It Up"));
+        songList.add(new Songs(R.mipmap.what_makes_you_country_album_luke_bryan, "Most People Are Good"));
+        songList.add(new Songs(R.mipmap.what_makes_you_country_album_luke_bryan, "Sunrise, Sunburn, Sunset"));
+        songList.add(new Songs(R.mipmap.what_makes_you_country_album_luke_bryan, "Bad Lovers"));
+        songList.add(new Songs(R.mipmap.what_makes_you_country_album_luke_bryan, "Drinking Again"));
+        songList.add(new Songs(R.mipmap.what_makes_you_country_album_luke_bryan, "Land of a Million Songs"));
+        songList.add(new Songs(R.mipmap.what_makes_you_country_album_luke_bryan, "Like You Say You Do"));
+        songList.add(new Songs(R.mipmap.what_makes_you_country_album_luke_bryan, "Hooked on It"));
+        songList.add(new Songs(R.mipmap.what_makes_you_country_album_luke_bryan, "She's a Hot One"));
+        songList.add(new Songs(R.mipmap.what_makes_you_country_album_luke_bryan, "Hungover in a Hotel Room"));
+        songList.add(new Songs(R.mipmap.what_makes_you_country_album_luke_bryan, "Pick It Up"));
+        songList.add(new Songs(R.mipmap.what_makes_you_country_album_luke_bryan, "Driving This Thing"));
+        songList.add(new Songs(R.mipmap.what_makes_you_country_album_luke_bryan, "Win Life"));
 
         SongAdapter songAdapter = new SongAdapter(this, songList);
 

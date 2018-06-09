@@ -29,9 +29,9 @@ public class PopRock extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Artists> artistList = new ArrayList<>();
 
-        artistList.add(new Artists(R.drawable.taylor_swift, "Taylor Swift")); // Image retrieved from https://en.wikipedia.org/wiki/Taylor_Swift
-        artistList.add(new Artists(R.drawable.justin_bieber, "Justin Bieber")); // Image retrieved from https://www.wattpad.com/251974159-justin-bieber-imagines-justin-bieber-fight-breakup
-        artistList.add(new Artists(R.drawable.katy_perry, "Katy Perry")); // Image retrieved from https://en.wikipedia.org/wiki/Katy_Perry
+        artistList.add(new Artists(R.mipmap.taylor_swift, "Taylor Swift")); // Image retrieved from https://en.wikipedia.org/wiki/Taylor_Swift
+        artistList.add(new Artists(R.mipmap.justin_bieber, "Justin Bieber")); // Image retrieved from https://www.wattpad.com/251974159-justin-bieber-imagines-justin-bieber-fight-breakup
+        artistList.add(new Artists(R.mipmap.katy_perry, "Katy Perry")); // Image retrieved from https://en.wikipedia.org/wiki/Katy_Perry
 
         ArtistAdapter artistAdapter = new ArtistAdapter(this, artistList);
 

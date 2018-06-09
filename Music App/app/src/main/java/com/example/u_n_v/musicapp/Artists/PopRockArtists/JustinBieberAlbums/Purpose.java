@@ -23,19 +23,19 @@ public class Purpose extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.purpose_album_justin_bieber, "Mark My Words"));
-        songList.add(new Songs(R.drawable.purpose_album_justin_bieber, "I'll Show You"));
-        songList.add(new Songs(R.drawable.purpose_album_justin_bieber, "What Do You Mean?"));
-        songList.add(new Songs(R.drawable.purpose_album_justin_bieber, "Sorry"));
-        songList.add(new Songs(R.drawable.purpose_album_justin_bieber, "Love Yourself"));
-        songList.add(new Songs(R.drawable.purpose_album_justin_bieber, "Company"));
-        songList.add(new Songs(R.drawable.purpose_album_justin_bieber, "No Pressure"));
-        songList.add(new Songs(R.drawable.purpose_album_justin_bieber, "No Sense"));
-        songList.add(new Songs(R.drawable.purpose_album_justin_bieber, "The Feeling"));
-        songList.add(new Songs(R.drawable.purpose_album_justin_bieber, "Life Is Worth Living"));
-        songList.add(new Songs(R.drawable.purpose_album_justin_bieber, "Where Are U Now"));
-        songList.add(new Songs(R.drawable.purpose_album_justin_bieber, "Children"));
-        songList.add(new Songs(R.drawable.purpose_album_justin_bieber, "Purpose"));
+        songList.add(new Songs(R.mipmap.purpose_album_justin_bieber, "Mark My Words"));
+        songList.add(new Songs(R.mipmap.purpose_album_justin_bieber, "I'll Show You"));
+        songList.add(new Songs(R.mipmap.purpose_album_justin_bieber, "What Do You Mean?"));
+        songList.add(new Songs(R.mipmap.purpose_album_justin_bieber, "Sorry"));
+        songList.add(new Songs(R.mipmap.purpose_album_justin_bieber, "Love Yourself"));
+        songList.add(new Songs(R.mipmap.purpose_album_justin_bieber, "Company"));
+        songList.add(new Songs(R.mipmap.purpose_album_justin_bieber, "No Pressure"));
+        songList.add(new Songs(R.mipmap.purpose_album_justin_bieber, "No Sense"));
+        songList.add(new Songs(R.mipmap.purpose_album_justin_bieber, "The Feeling"));
+        songList.add(new Songs(R.mipmap.purpose_album_justin_bieber, "Life Is Worth Living"));
+        songList.add(new Songs(R.mipmap.purpose_album_justin_bieber, "Where Are U Now"));
+        songList.add(new Songs(R.mipmap.purpose_album_justin_bieber, "Children"));
+        songList.add(new Songs(R.mipmap.purpose_album_justin_bieber, "Purpose"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

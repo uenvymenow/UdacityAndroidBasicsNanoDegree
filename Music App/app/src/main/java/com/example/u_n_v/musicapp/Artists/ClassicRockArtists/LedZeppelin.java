@@ -29,9 +29,9 @@ public class LedZeppelin extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.drawable.led_zeppelin_album_led_zeppelin,"Led Zeppelin")); // Image retrieved from https://en.wikipedia.org/wiki/Led_Zeppelin_(album)
-        albumList.add(new Albums(R.drawable.physical_graffiti_album_led_zeppelin,"Physical Graffiti")); // Image retrieved from https://en.wikipedia.org/wiki/Physical_Graffiti
-        albumList.add(new Albums(R.drawable.presence_album_led_zeppelin,"Presence")); // Image retrieved from https://en.wikipedia.org/wiki/Presence_(album)
+        albumList.add(new Albums(R.mipmap.led_zeppelin_album_led_zeppelin,"Led Zeppelin")); // Image retrieved from https://en.wikipedia.org/wiki/Led_Zeppelin_(album)
+        albumList.add(new Albums(R.mipmap.physical_graffiti_album_led_zeppelin,"Physical Graffiti")); // Image retrieved from https://en.wikipedia.org/wiki/Physical_Graffiti
+        albumList.add(new Albums(R.mipmap.presence_album_led_zeppelin,"Presence")); // Image retrieved from https://en.wikipedia.org/wiki/Presence_(album)
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 
         final ListView listView = findViewById(R.id.album_list);

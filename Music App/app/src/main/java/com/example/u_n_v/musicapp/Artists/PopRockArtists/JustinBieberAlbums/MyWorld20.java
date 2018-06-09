@@ -24,16 +24,16 @@ public class MyWorld20 extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.my_world_2_0_album_justin_bieber, "Baby"));
-        songList.add(new Songs(R.drawable.my_world_2_0_album_justin_bieber, "Somebody to Love"));
-        songList.add(new Songs(R.drawable.my_world_2_0_album_justin_bieber, "Stuck in the Moment"));
-        songList.add(new Songs(R.drawable.my_world_2_0_album_justin_bieber, "U Smile"));
-        songList.add(new Songs(R.drawable.my_world_2_0_album_justin_bieber, "Runaway Love"));
-        songList.add(new Songs(R.drawable.my_world_2_0_album_justin_bieber, "Never Let You Go"));
-        songList.add(new Songs(R.drawable.my_world_2_0_album_justin_bieber, "Overboard"));
-        songList.add(new Songs(R.drawable.my_world_2_0_album_justin_bieber, "Eenie Meenie"));
-        songList.add(new Songs(R.drawable.my_world_2_0_album_justin_bieber, "Up"));
-        songList.add(new Songs(R.drawable.my_world_2_0_album_justin_bieber, "That Should Be Me"));
+        songList.add(new Songs(R.mipmap.my_world_2_0_album_justin_bieber, "Baby"));
+        songList.add(new Songs(R.mipmap.my_world_2_0_album_justin_bieber, "Somebody to Love"));
+        songList.add(new Songs(R.mipmap.my_world_2_0_album_justin_bieber, "Stuck in the Moment"));
+        songList.add(new Songs(R.mipmap.my_world_2_0_album_justin_bieber, "U Smile"));
+        songList.add(new Songs(R.mipmap.my_world_2_0_album_justin_bieber, "Runaway Love"));
+        songList.add(new Songs(R.mipmap.my_world_2_0_album_justin_bieber, "Never Let You Go"));
+        songList.add(new Songs(R.mipmap.my_world_2_0_album_justin_bieber, "Overboard"));
+        songList.add(new Songs(R.mipmap.my_world_2_0_album_justin_bieber, "Eenie Meenie"));
+        songList.add(new Songs(R.mipmap.my_world_2_0_album_justin_bieber, "Up"));
+        songList.add(new Songs(R.mipmap.my_world_2_0_album_justin_bieber, "That Should Be Me"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

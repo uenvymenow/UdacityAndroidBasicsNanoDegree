@@ -28,9 +28,9 @@ public class JohnColtrane extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.drawable.a_love_supreme_album_john_coltrane,"A Love Supreme (Deluxe Edition)")); // Image retrieved from https://www.discogs.com/John-Coltrane-A-Love-Supreme/release/2525657
-        albumList.add(new Albums(R.drawable.giant_steps_album_john_coltrane,"Giant Steps")); // Image retrieved from https://en.wikipedia.org/wiki/Giant_Steps
-        albumList.add(new Albums(R.drawable.blue_train_album_john_coltrane,"Blue Train")); // Image retrieved from https://en.wikipedia.org/wiki/Blue_Train_(album)
+        albumList.add(new Albums(R.mipmap.a_love_supreme_album_john_coltrane,"A Love Supreme (Deluxe Edition)")); // Image retrieved from https://www.discogs.com/John-Coltrane-A-Love-Supreme/release/2525657
+        albumList.add(new Albums(R.mipmap.giant_steps_album_john_coltrane,"Giant Steps")); // Image retrieved from https://en.wikipedia.org/wiki/Giant_Steps
+        albumList.add(new Albums(R.mipmap.blue_train_album_john_coltrane,"Blue Train")); // Image retrieved from https://en.wikipedia.org/wiki/Blue_Train_(album)
 
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);

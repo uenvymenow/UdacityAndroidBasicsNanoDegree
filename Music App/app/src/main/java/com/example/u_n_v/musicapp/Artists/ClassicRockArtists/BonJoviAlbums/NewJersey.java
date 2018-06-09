@@ -24,18 +24,18 @@ public class NewJersey extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.new_jersey_album_bon_jovi, "Lay Your Hands on Me"));
-        songList.add(new Songs(R.drawable.new_jersey_album_bon_jovi, "Bad Medicine"));
-        songList.add(new Songs(R.drawable.new_jersey_album_bon_jovi, "Born to Be My Baby"));
-        songList.add(new Songs(R.drawable.new_jersey_album_bon_jovi, "Living in Sin"));
-        songList.add(new Songs(R.drawable.new_jersey_album_bon_jovi, "Blood on Blood"));
-        songList.add(new Songs(R.drawable.new_jersey_album_bon_jovi, "Homebound Train"));
-        songList.add(new Songs(R.drawable.new_jersey_album_bon_jovi, "Wild Is the Wind"));
-        songList.add(new Songs(R.drawable.new_jersey_album_bon_jovi, "Ride Cowboy Ride"));
-        songList.add(new Songs(R.drawable.new_jersey_album_bon_jovi, "Stick to Your Guns"));
-        songList.add(new Songs(R.drawable.new_jersey_album_bon_jovi, "I'll Be There For You"));
-        songList.add(new Songs(R.drawable.new_jersey_album_bon_jovi, "99 in the Shade"));
-        songList.add(new Songs(R.drawable.new_jersey_album_bon_jovi, "Love for Sale"));
+        songList.add(new Songs(R.mipmap.new_jersey_album_bon_jovi, "Lay Your Hands on Me"));
+        songList.add(new Songs(R.mipmap.new_jersey_album_bon_jovi, "Bad Medicine"));
+        songList.add(new Songs(R.mipmap.new_jersey_album_bon_jovi, "Born to Be My Baby"));
+        songList.add(new Songs(R.mipmap.new_jersey_album_bon_jovi, "Living in Sin"));
+        songList.add(new Songs(R.mipmap.new_jersey_album_bon_jovi, "Blood on Blood"));
+        songList.add(new Songs(R.mipmap.new_jersey_album_bon_jovi, "Homebound Train"));
+        songList.add(new Songs(R.mipmap.new_jersey_album_bon_jovi, "Wild Is the Wind"));
+        songList.add(new Songs(R.mipmap.new_jersey_album_bon_jovi, "Ride Cowboy Ride"));
+        songList.add(new Songs(R.mipmap.new_jersey_album_bon_jovi, "Stick to Your Guns"));
+        songList.add(new Songs(R.mipmap.new_jersey_album_bon_jovi, "I'll Be There For You"));
+        songList.add(new Songs(R.mipmap.new_jersey_album_bon_jovi, "99 in the Shade"));
+        songList.add(new Songs(R.mipmap.new_jersey_album_bon_jovi, "Love for Sale"));
 
         SongAdapter songAdapter = new SongAdapter(this, songList);
 

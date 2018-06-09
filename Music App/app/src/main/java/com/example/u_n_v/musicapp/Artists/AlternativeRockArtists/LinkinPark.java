@@ -29,9 +29,9 @@ public class LinkinPark extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.drawable.hybrid_theory_album_linkin_park,"Hybrid Theory")); // Image retrieved from https://en.wikipedia.org/wiki/Hybrid_Theory
-        albumList.add(new Albums(R.drawable.meteora_album_linkin_park,"Meteora")); // Image retrieved from https://en.wikipedia.org/wiki/Meteora_(album)
-        albumList.add(new Albums(R.drawable.minutes_to_midnight_album_linkin_park,"Minutes to Midnight")); // Image retrieved from https://en.wikipedia.org/wiki/Minutes_to_Midnight_(Linkin_Park_album)
+        albumList.add(new Albums(R.mipmap.hybrid_theory_album_linkin_park,"Hybrid Theory")); // Image retrieved from https://en.wikipedia.org/wiki/Hybrid_Theory
+        albumList.add(new Albums(R.mipmap.meteora_album_linkin_park,"Meteora")); // Image retrieved from https://en.wikipedia.org/wiki/Meteora_(album)
+        albumList.add(new Albums(R.mipmap.minutes_to_midnight_album_linkin_park,"Minutes to Midnight")); // Image retrieved from https://en.wikipedia.org/wiki/Minutes_to_Midnight_(Linkin_Park_album)
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 

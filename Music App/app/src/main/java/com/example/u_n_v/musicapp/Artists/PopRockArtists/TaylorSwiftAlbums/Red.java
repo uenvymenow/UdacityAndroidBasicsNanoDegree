@@ -23,22 +23,22 @@ public class Red extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.drawable.red_album_taylor_swift, "State of Grace"));
-        songList.add(new Songs(R.drawable.red_album_taylor_swift, "Red"));
-        songList.add(new Songs(R.drawable.red_album_taylor_swift, "Treacherous"));
-        songList.add(new Songs(R.drawable.red_album_taylor_swift, "I Knew You Were Trouble"));
-        songList.add(new Songs(R.drawable.red_album_taylor_swift, "All Too Well"));
-        songList.add(new Songs(R.drawable.red_album_taylor_swift, "22"));
-        songList.add(new Songs(R.drawable.red_album_taylor_swift, "I Almost Do"));
-        songList.add(new Songs(R.drawable.red_album_taylor_swift, "We Are Never Ever Getting Back Together"));
-        songList.add(new Songs(R.drawable.red_album_taylor_swift, "Stay Stay Stay"));
-        songList.add(new Songs(R.drawable.red_album_taylor_swift, "The Last Time"));
-        songList.add(new Songs(R.drawable.red_album_taylor_swift, "Holy Ground"));
-        songList.add(new Songs(R.drawable.red_album_taylor_swift, "Sad Beautiful Tragic"));
-        songList.add(new Songs(R.drawable.red_album_taylor_swift, "The Lucky One"));
-        songList.add(new Songs(R.drawable.red_album_taylor_swift, "Everything Has Changed"));
-        songList.add(new Songs(R.drawable.red_album_taylor_swift, "Starlight"));
-        songList.add(new Songs(R.drawable.red_album_taylor_swift, "Begin Again"));
+        songList.add(new Songs(R.mipmap.red_album_taylor_swift, "State of Grace"));
+        songList.add(new Songs(R.mipmap.red_album_taylor_swift, "Red"));
+        songList.add(new Songs(R.mipmap.red_album_taylor_swift, "Treacherous"));
+        songList.add(new Songs(R.mipmap.red_album_taylor_swift, "I Knew You Were Trouble"));
+        songList.add(new Songs(R.mipmap.red_album_taylor_swift, "All Too Well"));
+        songList.add(new Songs(R.mipmap.red_album_taylor_swift, "22"));
+        songList.add(new Songs(R.mipmap.red_album_taylor_swift, "I Almost Do"));
+        songList.add(new Songs(R.mipmap.red_album_taylor_swift, "We Are Never Ever Getting Back Together"));
+        songList.add(new Songs(R.mipmap.red_album_taylor_swift, "Stay Stay Stay"));
+        songList.add(new Songs(R.mipmap.red_album_taylor_swift, "The Last Time"));
+        songList.add(new Songs(R.mipmap.red_album_taylor_swift, "Holy Ground"));
+        songList.add(new Songs(R.mipmap.red_album_taylor_swift, "Sad Beautiful Tragic"));
+        songList.add(new Songs(R.mipmap.red_album_taylor_swift, "The Lucky One"));
+        songList.add(new Songs(R.mipmap.red_album_taylor_swift, "Everything Has Changed"));
+        songList.add(new Songs(R.mipmap.red_album_taylor_swift, "Starlight"));
+        songList.add(new Songs(R.mipmap.red_album_taylor_swift, "Begin Again"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

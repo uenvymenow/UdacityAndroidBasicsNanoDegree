@@ -30,9 +30,9 @@ public class JustinBieber extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.mipmap.my_world_2_0_album_justin_bieber,"My World 2.0")); // Image retrieved from https://en.wikipedia.org/wiki/My_World_2.0
-        albumList.add(new Albums(R.mipmap.believe_album_justin_bieber,"Believe")); // Image retrieved from https://en.wikipedia.org/wiki/Believe_(Justin_Bieber_album)
-        albumList.add(new Albums(R.mipmap.purpose_album_justin_bieber,"Purpose")); // Image retrieved from https://en.wikipedia.org/wiki/Purpose_(Justin_Bieber_album)
+        albumList.add(new Albums(R.drawable.my_world_2_0_album_justin_bieber,"My World 2.0")); // Image retrieved from https://en.wikipedia.org/wiki/My_World_2.0
+        albumList.add(new Albums(R.drawable.believe_album_justin_bieber,"Believe")); // Image retrieved from https://en.wikipedia.org/wiki/Believe_(Justin_Bieber_album)
+        albumList.add(new Albums(R.drawable.purpose_album_justin_bieber,"Purpose")); // Image retrieved from https://en.wikipedia.org/wiki/Purpose_(Justin_Bieber_album)
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 

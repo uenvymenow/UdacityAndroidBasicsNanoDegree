@@ -24,21 +24,21 @@ public class PhysicalGraffiti extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.physical_graffiti_album_led_zeppelin, "Custard Pie"));
-        songList.add(new Songs(R.mipmap.physical_graffiti_album_led_zeppelin, "The Rover"));
-        songList.add(new Songs(R.mipmap.physical_graffiti_album_led_zeppelin, "In My Time of Dying"));
-        songList.add(new Songs(R.mipmap.physical_graffiti_album_led_zeppelin, "Houses of the Holy"));
-        songList.add(new Songs(R.mipmap.physical_graffiti_album_led_zeppelin, "Trampled Under Foot"));
-        songList.add(new Songs(R.mipmap.physical_graffiti_album_led_zeppelin, "Kashmir"));
-        songList.add(new Songs(R.mipmap.physical_graffiti_album_led_zeppelin, "In the Light"));
-        songList.add(new Songs(R.mipmap.physical_graffiti_album_led_zeppelin, "Bron-Yr-Aur"));
-        songList.add(new Songs(R.mipmap.physical_graffiti_album_led_zeppelin, "Down by the Seaside"));
-        songList.add(new Songs(R.mipmap.physical_graffiti_album_led_zeppelin, "Ten Years Gone"));
-        songList.add(new Songs(R.mipmap.physical_graffiti_album_led_zeppelin, "Night Flight"));
-        songList.add(new Songs(R.mipmap.physical_graffiti_album_led_zeppelin, "The Wanton Song"));
-        songList.add(new Songs(R.mipmap.physical_graffiti_album_led_zeppelin, "Boogie with Stu"));
-        songList.add(new Songs(R.mipmap.physical_graffiti_album_led_zeppelin, "Black Country Woman"));
-        songList.add(new Songs(R.mipmap.physical_graffiti_album_led_zeppelin, "Sick Again"));
+        songList.add(new Songs(R.drawable.physical_graffiti_album_led_zeppelin, "Physical Graffiti","Custard Pie"));
+        songList.add(new Songs(R.drawable.physical_graffiti_album_led_zeppelin, "Physical Graffiti","The Rover"));
+        songList.add(new Songs(R.drawable.physical_graffiti_album_led_zeppelin, "Physical Graffiti","In My Time of Dying"));
+        songList.add(new Songs(R.drawable.physical_graffiti_album_led_zeppelin, "Physical Graffiti","Houses of the Holy"));
+        songList.add(new Songs(R.drawable.physical_graffiti_album_led_zeppelin, "Physical Graffiti","Trampled Under Foot"));
+        songList.add(new Songs(R.drawable.physical_graffiti_album_led_zeppelin, "Physical Graffiti","Kashmir"));
+        songList.add(new Songs(R.drawable.physical_graffiti_album_led_zeppelin, "Physical Graffiti","In the Light"));
+        songList.add(new Songs(R.drawable.physical_graffiti_album_led_zeppelin, "Physical Graffiti","Bron-Yr-Aur"));
+        songList.add(new Songs(R.drawable.physical_graffiti_album_led_zeppelin, "Physical Graffiti","Down by the Seaside"));
+        songList.add(new Songs(R.drawable.physical_graffiti_album_led_zeppelin, "Physical Graffiti","Ten Years Gone"));
+        songList.add(new Songs(R.drawable.physical_graffiti_album_led_zeppelin, "Physical Graffiti","Night Flight"));
+        songList.add(new Songs(R.drawable.physical_graffiti_album_led_zeppelin, "Physical Graffiti","The Wanton Song"));
+        songList.add(new Songs(R.drawable.physical_graffiti_album_led_zeppelin, "Physical Graffiti","Boogie with Stu"));
+        songList.add(new Songs(R.drawable.physical_graffiti_album_led_zeppelin, "Physical Graffiti","Black Country Woman"));
+        songList.add(new Songs(R.drawable.physical_graffiti_album_led_zeppelin, "Physical Graffiti","Sick Again"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

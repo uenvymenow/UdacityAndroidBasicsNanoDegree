@@ -23,21 +23,21 @@ public class Witness extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.witness_album_katy_perry, "Witness"));
-        songList.add(new Songs(R.mipmap.witness_album_katy_perry, "Hey Hey Hey"));
-        songList.add(new Songs(R.mipmap.witness_album_katy_perry, "Roulette"));
-        songList.add(new Songs(R.mipmap.witness_album_katy_perry, "Swish Swish"));
-        songList.add(new Songs(R.mipmap.witness_album_katy_perry, "Deja Vu"));
-        songList.add(new Songs(R.mipmap.witness_album_katy_perry, "Power"));
-        songList.add(new Songs(R.mipmap.witness_album_katy_perry, "Mind Maze"));
-        songList.add(new Songs(R.mipmap.witness_album_katy_perry, "Miss You More"));
-        songList.add(new Songs(R.mipmap.witness_album_katy_perry, "Chained to the Rhythm"));
-        songList.add(new Songs(R.mipmap.witness_album_katy_perry, "Tsunami"));
-        songList.add(new Songs(R.mipmap.witness_album_katy_perry, "Bon Appetit"));
-        songList.add(new Songs(R.mipmap.witness_album_katy_perry, "Bigger Than Me"));
-        songList.add(new Songs(R.mipmap.witness_album_katy_perry, "Save as Draft"));
-        songList.add(new Songs(R.mipmap.witness_album_katy_perry, "Pendulum"));
-        songList.add(new Songs(R.mipmap.witness_album_katy_perry, "Into Me You See"));
+        songList.add(new Songs(R.drawable.witness_album_katy_perry, "Witness","Witness"));
+        songList.add(new Songs(R.drawable.witness_album_katy_perry, "Witness","Hey Hey Hey"));
+        songList.add(new Songs(R.drawable.witness_album_katy_perry, "Witness","Roulette"));
+        songList.add(new Songs(R.drawable.witness_album_katy_perry, "Witness","Swish Swish"));
+        songList.add(new Songs(R.drawable.witness_album_katy_perry, "Witness","Deja Vu"));
+        songList.add(new Songs(R.drawable.witness_album_katy_perry, "Witness","Power"));
+        songList.add(new Songs(R.drawable.witness_album_katy_perry, "Witness","Mind Maze"));
+        songList.add(new Songs(R.drawable.witness_album_katy_perry, "Witness","Miss You More"));
+        songList.add(new Songs(R.drawable.witness_album_katy_perry, "Witness","Chained to the Rhythm"));
+        songList.add(new Songs(R.drawable.witness_album_katy_perry, "Witness","Tsunami"));
+        songList.add(new Songs(R.drawable.witness_album_katy_perry, "Witness","Bon Appetit"));
+        songList.add(new Songs(R.drawable.witness_album_katy_perry, "Witness","Bigger Than Me"));
+        songList.add(new Songs(R.drawable.witness_album_katy_perry, "Witness","Save as Draft"));
+        songList.add(new Songs(R.drawable.witness_album_katy_perry, "Witness","Pendulum"));
+        songList.add(new Songs(R.drawable.witness_album_katy_perry, "Witness","Into Me You See"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

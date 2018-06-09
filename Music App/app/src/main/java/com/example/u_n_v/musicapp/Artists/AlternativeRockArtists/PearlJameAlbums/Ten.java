@@ -24,17 +24,17 @@ public class Ten extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.ten_album_pearl_jam, "Ten","Once"));
-        songList.add(new Songs(R.mipmap.ten_album_pearl_jam, "Ten","Even Flow"));
-        songList.add(new Songs(R.mipmap.ten_album_pearl_jam, "Ten","Alive"));
-        songList.add(new Songs(R.mipmap.ten_album_pearl_jam, "Ten","Why Go"));
-        songList.add(new Songs(R.mipmap.ten_album_pearl_jam, "Ten","Black"));
-        songList.add(new Songs(R.mipmap.ten_album_pearl_jam, "Ten","Jeremy"));
-        songList.add(new Songs(R.mipmap.ten_album_pearl_jam, "Ten","Oceans"));
-        songList.add(new Songs(R.mipmap.ten_album_pearl_jam, "Ten","Porch"));
-        songList.add(new Songs(R.mipmap.ten_album_pearl_jam, "Ten","Garden"));
-        songList.add(new Songs(R.mipmap.ten_album_pearl_jam, "Ten","Deep"));
-        songList.add(new Songs(R.mipmap.ten_album_pearl_jam, "Ten","Release"));
+        songList.add(new Songs(R.drawable.ten_album_pearl_jam, "Ten","Once"));
+        songList.add(new Songs(R.drawable.ten_album_pearl_jam, "Ten","Even Flow"));
+        songList.add(new Songs(R.drawable.ten_album_pearl_jam, "Ten","Alive"));
+        songList.add(new Songs(R.drawable.ten_album_pearl_jam, "Ten","Why Go"));
+        songList.add(new Songs(R.drawable.ten_album_pearl_jam, "Ten","Black"));
+        songList.add(new Songs(R.drawable.ten_album_pearl_jam, "Ten","Jeremy"));
+        songList.add(new Songs(R.drawable.ten_album_pearl_jam, "Ten","Oceans"));
+        songList.add(new Songs(R.drawable.ten_album_pearl_jam, "Ten","Porch"));
+        songList.add(new Songs(R.drawable.ten_album_pearl_jam, "Ten","Garden"));
+        songList.add(new Songs(R.drawable.ten_album_pearl_jam, "Ten","Deep"));
+        songList.add(new Songs(R.drawable.ten_album_pearl_jam, "Ten","Release"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

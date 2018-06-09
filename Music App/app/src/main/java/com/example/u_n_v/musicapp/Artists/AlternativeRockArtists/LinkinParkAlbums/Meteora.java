@@ -24,19 +24,19 @@ public class Meteora extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Meteora","Foreward"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Meteora","Don't Stay"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Meteora","Somewhere I Belong"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Meteora","Lying from You"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Meteora","Hit the Floor"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Meteora","Easier to Run"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Meteora","Faint"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Meteora","Figure.09"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Meteora","Breaking the Habit"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Meteora","From the Inside"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Meteora","Nobody's Listening"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Meteora","Session"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Meteora","Numb"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Meteora","Foreward"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Meteora","Don't Stay"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Meteora","Somewhere I Belong"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Meteora","Lying from You"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Meteora","Hit the Floor"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Meteora","Easier to Run"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Meteora","Faint"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Meteora","Figure.09"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Meteora","Breaking the Habit"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Meteora","From the Inside"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Meteora","Nobody's Listening"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Meteora","Session"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Meteora","Numb"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

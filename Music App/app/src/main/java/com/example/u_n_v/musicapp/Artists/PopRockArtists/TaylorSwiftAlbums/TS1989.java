@@ -24,19 +24,19 @@ public class TS1989 extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.ts_1989_album_taylor_swift, "Welcome to New York"));
-        songList.add(new Songs(R.mipmap.ts_1989_album_taylor_swift, "Blank Space"));
-        songList.add(new Songs(R.mipmap.ts_1989_album_taylor_swift, "Style"));
-        songList.add(new Songs(R.mipmap.ts_1989_album_taylor_swift, "Out of the Woods"));
-        songList.add(new Songs(R.mipmap.ts_1989_album_taylor_swift, "All You Had to Do Was Stay"));
-        songList.add(new Songs(R.mipmap.ts_1989_album_taylor_swift, "Shake It Off"));
-        songList.add(new Songs(R.mipmap.ts_1989_album_taylor_swift, "I Wish You Would"));
-        songList.add(new Songs(R.mipmap.ts_1989_album_taylor_swift, "Bad Blood"));
-        songList.add(new Songs(R.mipmap.ts_1989_album_taylor_swift, "Wildest Dreams"));
-        songList.add(new Songs(R.mipmap.ts_1989_album_taylor_swift, "How You Get the Girl"));
-        songList.add(new Songs(R.mipmap.ts_1989_album_taylor_swift, "This Love"));
-        songList.add(new Songs(R.mipmap.ts_1989_album_taylor_swift, "I Know Places"));
-        songList.add(new Songs(R.mipmap.ts_1989_album_taylor_swift, "Clean"));
+        songList.add(new Songs(R.drawable.ts_1989_album_taylor_swift, "1989","Welcome to New York"));
+        songList.add(new Songs(R.drawable.ts_1989_album_taylor_swift, "1989","Blank Space"));
+        songList.add(new Songs(R.drawable.ts_1989_album_taylor_swift, "1989","Style"));
+        songList.add(new Songs(R.drawable.ts_1989_album_taylor_swift, "1989","Out of the Woods"));
+        songList.add(new Songs(R.drawable.ts_1989_album_taylor_swift, "1989","All You Had to Do Was Stay"));
+        songList.add(new Songs(R.drawable.ts_1989_album_taylor_swift, "1989","Shake It Off"));
+        songList.add(new Songs(R.drawable.ts_1989_album_taylor_swift, "1989","I Wish You Would"));
+        songList.add(new Songs(R.drawable.ts_1989_album_taylor_swift, "1989","Bad Blood"));
+        songList.add(new Songs(R.drawable.ts_1989_album_taylor_swift, "1989","Wildest Dreams"));
+        songList.add(new Songs(R.drawable.ts_1989_album_taylor_swift, "1989","How You Get the Girl"));
+        songList.add(new Songs(R.drawable.ts_1989_album_taylor_swift, "1989","This Love"));
+        songList.add(new Songs(R.drawable.ts_1989_album_taylor_swift, "1989","I Know Places"));
+        songList.add(new Songs(R.drawable.ts_1989_album_taylor_swift, "1989","Clean"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

@@ -29,9 +29,9 @@ public class JazzActivity extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Artists> artistList = new ArrayList<>();
 
-        artistList.add(new Artists(R.mipmap.john_coltrane, "John Coltrane")); // Image retrieved from https://en.wikipedia.org/wiki/John_Coltrane
-        artistList.add(new Artists(R.mipmap.louis_armstrong, "Louis Daniel Armstrong")); // Image retrieved from https://www.jazzmusics.com/jazz-musicians/top-10-amazing-facts-about-louis-armstrong/
-        artistList.add(new Artists(R.mipmap.chet_baker, "Chet Baker")); // Image retrieved from https://www.goodreads.com/author/show/297032.Chet_Baker
+        artistList.add(new Artists(R.drawable.john_coltrane, "John Coltrane")); // Image retrieved from https://en.wikipedia.org/wiki/John_Coltrane
+        artistList.add(new Artists(R.drawable.louis_armstrong, "Louis Daniel Armstrong")); // Image retrieved from https://www.jazzmusics.com/jazz-musicians/top-10-amazing-facts-about-louis-armstrong/
+        artistList.add(new Artists(R.drawable.chet_baker, "Chet Baker")); // Image retrieved from https://www.goodreads.com/author/show/297032.Chet_Baker
 
 
         ArtistAdapter artistAdapter = new ArtistAdapter(this, artistList);

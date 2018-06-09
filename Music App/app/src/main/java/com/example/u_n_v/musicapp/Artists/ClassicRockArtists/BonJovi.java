@@ -30,9 +30,9 @@ public class BonJovi extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.mipmap.new_jersey_album_bon_jovi,"New Jersey")); // Image Retrieved from https://en.wikipedia.org/wiki/New_Jersey_(album)
-        albumList.add(new Albums(R.mipmap.have_a_nice_day_album_bon_jovi,"Have a Nice Day")); // Image Retrieved from https://en.wikipedia.org/wiki/Have_a_Nice_Day_(Bon_Jovi_album)
-        albumList.add(new Albums(R.mipmap.this_house_is_not_for_sale_album_bon_jovi,"This House Is Not For Sale")); // Image Retrieved from https://en.wikipedia.org/wiki/This_House_Is_Not_for_Sale
+        albumList.add(new Albums(R.drawable.new_jersey_album_bon_jovi,"New Jersey")); // Image Retrieved from https://en.wikipedia.org/wiki/New_Jersey_(album)
+        albumList.add(new Albums(R.drawable.have_a_nice_day_album_bon_jovi,"Have a Nice Day")); // Image Retrieved from https://en.wikipedia.org/wiki/Have_a_Nice_Day_(Bon_Jovi_album)
+        albumList.add(new Albums(R.drawable.this_house_is_not_for_sale_album_bon_jovi,"This House Is Not For Sale")); // Image Retrieved from https://en.wikipedia.org/wiki/This_House_Is_Not_for_Sale
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 

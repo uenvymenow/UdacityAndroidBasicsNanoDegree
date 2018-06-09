@@ -23,19 +23,19 @@ public class Prism extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.prism_album_katy_perry, "Roar"));
-        songList.add(new Songs(R.mipmap.prism_album_katy_perry, "Legendary Lovers"));
-        songList.add(new Songs(R.mipmap.prism_album_katy_perry, "Birthday"));
-        songList.add(new Songs(R.mipmap.prism_album_katy_perry, "Walking on Air"));
-        songList.add(new Songs(R.mipmap.prism_album_katy_perry, "Unconditionally"));
-        songList.add(new Songs(R.mipmap.prism_album_katy_perry, "Dark Horse"));
-        songList.add(new Songs(R.mipmap.prism_album_katy_perry, "This Is How We Do"));
-        songList.add(new Songs(R.mipmap.prism_album_katy_perry, "International Smile"));
-        songList.add(new Songs(R.mipmap.prism_album_katy_perry, "Ghost"));
-        songList.add(new Songs(R.mipmap.prism_album_katy_perry, "Love Me"));
-        songList.add(new Songs(R.mipmap.prism_album_katy_perry, "This Moment"));
-        songList.add(new Songs(R.mipmap.prism_album_katy_perry, "Double Rainbow"));
-        songList.add(new Songs(R.mipmap.prism_album_katy_perry, "By the Grace of God"));
+        songList.add(new Songs(R.drawable.prism_album_katy_perry, "Prism","Roar"));
+        songList.add(new Songs(R.drawable.prism_album_katy_perry, "Prism","Legendary Lovers"));
+        songList.add(new Songs(R.drawable.prism_album_katy_perry, "Prism","Birthday"));
+        songList.add(new Songs(R.drawable.prism_album_katy_perry, "Prism","Walking on Air"));
+        songList.add(new Songs(R.drawable.prism_album_katy_perry, "Prism","Unconditionally"));
+        songList.add(new Songs(R.drawable.prism_album_katy_perry, "Prism","Dark Horse"));
+        songList.add(new Songs(R.drawable.prism_album_katy_perry, "Prism","This Is How We Do"));
+        songList.add(new Songs(R.drawable.prism_album_katy_perry, "Prism","International Smile"));
+        songList.add(new Songs(R.drawable.prism_album_katy_perry, "Prism","Ghost"));
+        songList.add(new Songs(R.drawable.prism_album_katy_perry, "Prism","Love Me"));
+        songList.add(new Songs(R.drawable.prism_album_katy_perry, "Prism","This Moment"));
+        songList.add(new Songs(R.drawable.prism_album_katy_perry, "Prism","Double Rainbow"));
+        songList.add(new Songs(R.drawable.prism_album_katy_perry, "Prism","By the Grace of God"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

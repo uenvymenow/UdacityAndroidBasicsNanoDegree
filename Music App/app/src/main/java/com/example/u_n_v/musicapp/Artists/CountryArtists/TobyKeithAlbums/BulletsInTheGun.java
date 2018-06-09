@@ -24,16 +24,16 @@ public class BulletsInTheGun extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.bullets_in_the_gun_album_toby_keith, "Bullets in the Gun"));
-        songList.add(new Songs(R.mipmap.bullets_in_the_gun_album_toby_keith, "Somewhere Else"));
-        songList.add(new Songs(R.mipmap.bullets_in_the_gun_album_toby_keith, "Trailerhood"));
-        songList.add(new Songs(R.mipmap.bullets_in_the_gun_album_toby_keith, "In a Couple of Days"));
-        songList.add(new Songs(R.mipmap.bullets_in_the_gun_album_toby_keith, "Think About You All of the Time"));
-        songList.add(new Songs(R.mipmap.bullets_in_the_gun_album_toby_keith, "Kissin' in the Rain"));
-        songList.add(new Songs(R.mipmap.bullets_in_the_gun_album_toby_keith, "Drive it on Home"));
-        songList.add(new Songs(R.mipmap.bullets_in_the_gun_album_toby_keith, "Ain't Breakin' Nothin'"));
-        songList.add(new Songs(R.mipmap.bullets_in_the_gun_album_toby_keith, "Is That All You Got"));
-        songList.add(new Songs(R.mipmap.bullets_in_the_gun_album_toby_keith, "Get Out of My Car"));
+        songList.add(new Songs(R.drawable.bullets_in_the_gun_album_toby_keith, "Bullets in the Gun","Bullets in the Gun"));
+        songList.add(new Songs(R.drawable.bullets_in_the_gun_album_toby_keith, "Bullets in the Gun","Somewhere Else"));
+        songList.add(new Songs(R.drawable.bullets_in_the_gun_album_toby_keith, "Bullets in the Gun","Trailerhood"));
+        songList.add(new Songs(R.drawable.bullets_in_the_gun_album_toby_keith, "Bullets in the Gun","In a Couple of Days"));
+        songList.add(new Songs(R.drawable.bullets_in_the_gun_album_toby_keith, "Bullets in the Gun","Think About You All of the Time"));
+        songList.add(new Songs(R.drawable.bullets_in_the_gun_album_toby_keith, "Bullets in the Gun","Kissin' in the Rain"));
+        songList.add(new Songs(R.drawable.bullets_in_the_gun_album_toby_keith, "Bullets in the Gun","Drive it on Home"));
+        songList.add(new Songs(R.drawable.bullets_in_the_gun_album_toby_keith, "Bullets in the Gun","Ain't Breakin' Nothin'"));
+        songList.add(new Songs(R.drawable.bullets_in_the_gun_album_toby_keith, "Bullets in the Gun","Is That All You Got"));
+        songList.add(new Songs(R.drawable.bullets_in_the_gun_album_toby_keith, "Bullets in the Gun","Get Out of My Car"));
 
         SongAdapter songAdapter = new SongAdapter(this, songList);
 

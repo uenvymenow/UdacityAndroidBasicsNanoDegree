@@ -24,13 +24,13 @@ public class GiantSteps extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.giant_steps_album_john_coltrane, "Giant Steps"));
-        songList.add(new Songs(R.mipmap.giant_steps_album_john_coltrane, "Cousin Mary"));
-        songList.add(new Songs(R.mipmap.giant_steps_album_john_coltrane, "Countdown"));
-        songList.add(new Songs(R.mipmap.giant_steps_album_john_coltrane, "Spiral"));
-        songList.add(new Songs(R.mipmap.giant_steps_album_john_coltrane, "Syeeda's Song Flute"));
-        songList.add(new Songs(R.mipmap.giant_steps_album_john_coltrane, "Naima"));
-        songList.add(new Songs(R.mipmap.giant_steps_album_john_coltrane, "Mr. P.C."));
+        songList.add(new Songs(R.drawable.giant_steps_album_john_coltrane, "Giant Steps","Giant Steps"));
+        songList.add(new Songs(R.drawable.giant_steps_album_john_coltrane, "Giant Steps","Cousin Mary"));
+        songList.add(new Songs(R.drawable.giant_steps_album_john_coltrane, "Giant Steps","Countdown"));
+        songList.add(new Songs(R.drawable.giant_steps_album_john_coltrane, "Giant Steps","Spiral"));
+        songList.add(new Songs(R.drawable.giant_steps_album_john_coltrane, "Giant Steps","Syeeda's Song Flute"));
+        songList.add(new Songs(R.drawable.giant_steps_album_john_coltrane, "Giant Steps","Naima"));
+        songList.add(new Songs(R.drawable.giant_steps_album_john_coltrane, "Giant Steps","Mr. P.C."));
 
 
 

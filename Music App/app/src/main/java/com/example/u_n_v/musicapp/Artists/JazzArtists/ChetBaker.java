@@ -28,9 +28,9 @@ public class ChetBaker extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.mipmap.chet_album_chet_baker,"Chet")); // Image retrieved from https://en.wikipedia.org/wiki/Chet_(Chet_Baker_album)
-        albumList.add(new Albums(R.mipmap.she_was_too_good_to_me_album_chet_baker,"She Was Too Good to Me")); // Image retrieved from https://en.wikipedia.org/wiki/She_Was_Too_Good_to_Me
-        albumList.add(new Albums(R.mipmap.it_could_happen_to_you_album_chet_baker,"It Could Happen to You")); // Image retrieved from https://en.wikipedia.org/wiki/(Chet_Baker_Sings)_It_Could_Happen_to_You
+        albumList.add(new Albums(R.drawable.chet_album_chet_baker,"Chet")); // Image retrieved from https://en.wikipedia.org/wiki/Chet_(Chet_Baker_album)
+        albumList.add(new Albums(R.drawable.she_was_too_good_to_me_album_chet_baker,"She Was Too Good to Me")); // Image retrieved from https://en.wikipedia.org/wiki/She_Was_Too_Good_to_Me
+        albumList.add(new Albums(R.drawable.it_could_happen_to_you_album_chet_baker,"It Could Happen to You")); // Image retrieved from https://en.wikipedia.org/wiki/(Chet_Baker_Sings)_It_Could_Happen_to_You
 
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);

@@ -24,19 +24,19 @@ public class HaveANiceDay extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.have_a_nice_day_album_bon_jovi, "Have a Nice Day"));
-        songList.add(new Songs(R.mipmap.have_a_nice_day_album_bon_jovi, "I Want to Be Loved"));
-        songList.add(new Songs(R.mipmap.have_a_nice_day_album_bon_jovi, "Welcome to Wherever You Are"));
-        songList.add(new Songs(R.mipmap.have_a_nice_day_album_bon_jovi, "Who Says You Can't Go Home"));
-        songList.add(new Songs(R.mipmap.have_a_nice_day_album_bon_jovi, "Last Man Standing"));
-        songList.add(new Songs(R.mipmap.have_a_nice_day_album_bon_jovi, "Bells of Freedom"));
-        songList.add(new Songs(R.mipmap.have_a_nice_day_album_bon_jovi, "Wildflower"));
-        songList.add(new Songs(R.mipmap.have_a_nice_day_album_bon_jovi, "Last Cigarette"));
-        songList.add(new Songs(R.mipmap.have_a_nice_day_album_bon_jovi, "I Am"));
-        songList.add(new Songs(R.mipmap.have_a_nice_day_album_bon_jovi, "Complicated"));
-        songList.add(new Songs(R.mipmap.have_a_nice_day_album_bon_jovi, "Novocaine"));
-        songList.add(new Songs(R.mipmap.have_a_nice_day_album_bon_jovi, "Story of My Life"));
-        songList.add(new Songs(R.mipmap.have_a_nice_day_album_bon_jovi, "Who Says You Can't Go Home (duet version with Jennifer Nettles)"));
+        songList.add(new Songs(R.drawable.have_a_nice_day_album_bon_jovi, "Have a Nice Day","Have a Nice Day"));
+        songList.add(new Songs(R.drawable.have_a_nice_day_album_bon_jovi, "Have a Nice Day","I Want to Be Loved"));
+        songList.add(new Songs(R.drawable.have_a_nice_day_album_bon_jovi, "Have a Nice Day","Welcome to Wherever You Are"));
+        songList.add(new Songs(R.drawable.have_a_nice_day_album_bon_jovi, "Have a Nice Day","Who Says You Can't Go Home"));
+        songList.add(new Songs(R.drawable.have_a_nice_day_album_bon_jovi, "Have a Nice Day","Last Man Standing"));
+        songList.add(new Songs(R.drawable.have_a_nice_day_album_bon_jovi, "Have a Nice Day","Bells of Freedom"));
+        songList.add(new Songs(R.drawable.have_a_nice_day_album_bon_jovi, "Have a Nice Day","Wildflower"));
+        songList.add(new Songs(R.drawable.have_a_nice_day_album_bon_jovi, "Have a Nice Day","Last Cigarette"));
+        songList.add(new Songs(R.drawable.have_a_nice_day_album_bon_jovi, "Have a Nice Day","I Am"));
+        songList.add(new Songs(R.drawable.have_a_nice_day_album_bon_jovi, "Have a Nice Day","Complicated"));
+        songList.add(new Songs(R.drawable.have_a_nice_day_album_bon_jovi, "Have a Nice Day","Novocaine"));
+        songList.add(new Songs(R.drawable.have_a_nice_day_album_bon_jovi, "Have a Nice Day","Story of My Life"));
+        songList.add(new Songs(R.drawable.have_a_nice_day_album_bon_jovi, "Have a Nice Day","Who Says You Can't Go Home (duet version with Jennifer Nettles)"));
 
 
 

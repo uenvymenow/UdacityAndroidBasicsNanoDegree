@@ -24,20 +24,20 @@ public class Vitalogy extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.vitalogy_album_pearl_jam, "Vitalogy","Last Exit"));
-        songList.add(new Songs(R.mipmap.vitalogy_album_pearl_jam, "Vitalogy","Spin the Black Circle"));
-        songList.add(new Songs(R.mipmap.vitalogy_album_pearl_jam, "Vitalogy","Not for You"));
-        songList.add(new Songs(R.mipmap.vitalogy_album_pearl_jam, "Vitalogy","Tremor Christ"));
-        songList.add(new Songs(R.mipmap.vitalogy_album_pearl_jam, "Vitalogy","Nothingman"));
-        songList.add(new Songs(R.mipmap.vitalogy_album_pearl_jam, "Vitalogy","Whipping"));
-        songList.add(new Songs(R.mipmap.vitalogy_album_pearl_jam, "Vitalogy","Pry, To"));
-        songList.add(new Songs(R.mipmap.vitalogy_album_pearl_jam, "Vitalogy","Corduroy"));
-        songList.add(new Songs(R.mipmap.vitalogy_album_pearl_jam, "Vitalogy","Bugs"));
-        songList.add(new Songs(R.mipmap.vitalogy_album_pearl_jam, "Vitalogy","Satan's Bed"));
-        songList.add(new Songs(R.mipmap.vitalogy_album_pearl_jam, "Vitalogy","Better Man"));
-        songList.add(new Songs(R.mipmap.vitalogy_album_pearl_jam, "Vitalogy","Aye Davanita"));
-        songList.add(new Songs(R.mipmap.vitalogy_album_pearl_jam, "Vitalogy","Immortality"));
-        songList.add(new Songs(R.mipmap.vitalogy_album_pearl_jam, "Vitalogy","Hey Foxymophandlemama, That's Me"));
+        songList.add(new Songs(R.drawable.vitalogy_album_pearl_jam, "Vitalogy","Last Exit"));
+        songList.add(new Songs(R.drawable.vitalogy_album_pearl_jam, "Vitalogy","Spin the Black Circle"));
+        songList.add(new Songs(R.drawable.vitalogy_album_pearl_jam, "Vitalogy","Not for You"));
+        songList.add(new Songs(R.drawable.vitalogy_album_pearl_jam, "Vitalogy","Tremor Christ"));
+        songList.add(new Songs(R.drawable.vitalogy_album_pearl_jam, "Vitalogy","Nothingman"));
+        songList.add(new Songs(R.drawable.vitalogy_album_pearl_jam, "Vitalogy","Whipping"));
+        songList.add(new Songs(R.drawable.vitalogy_album_pearl_jam, "Vitalogy","Pry, To"));
+        songList.add(new Songs(R.drawable.vitalogy_album_pearl_jam, "Vitalogy","Corduroy"));
+        songList.add(new Songs(R.drawable.vitalogy_album_pearl_jam, "Vitalogy","Bugs"));
+        songList.add(new Songs(R.drawable.vitalogy_album_pearl_jam, "Vitalogy","Satan's Bed"));
+        songList.add(new Songs(R.drawable.vitalogy_album_pearl_jam, "Vitalogy","Better Man"));
+        songList.add(new Songs(R.drawable.vitalogy_album_pearl_jam, "Vitalogy","Aye Davanita"));
+        songList.add(new Songs(R.drawable.vitalogy_album_pearl_jam, "Vitalogy","Immortality"));
+        songList.add(new Songs(R.drawable.vitalogy_album_pearl_jam, "Vitalogy","Hey Foxymophandlemama, That's Me"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

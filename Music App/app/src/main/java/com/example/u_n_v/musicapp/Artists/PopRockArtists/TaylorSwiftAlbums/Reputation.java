@@ -23,21 +23,21 @@ public class Reputation extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.reputation_album_taylor_swift, "...Ready for it?"));
-        songList.add(new Songs(R.mipmap.reputation_album_taylor_swift, "End Game"));
-        songList.add(new Songs(R.mipmap.reputation_album_taylor_swift, "I Did Something Bad"));
-        songList.add(new Songs(R.mipmap.reputation_album_taylor_swift, "Don't Blame Me"));
-        songList.add(new Songs(R.mipmap.reputation_album_taylor_swift, "Delicate"));
-        songList.add(new Songs(R.mipmap.reputation_album_taylor_swift, "Look What You Made Me Do"));
-        songList.add(new Songs(R.mipmap.reputation_album_taylor_swift, "So It Goes..."));
-        songList.add(new Songs(R.mipmap.reputation_album_taylor_swift, "Gorgeous"));
-        songList.add(new Songs(R.mipmap.reputation_album_taylor_swift, "Getaway Car"));
-        songList.add(new Songs(R.mipmap.reputation_album_taylor_swift, "King of My Heart"));
-        songList.add(new Songs(R.mipmap.reputation_album_taylor_swift, "Dancing with Our Hands Tied"));
-        songList.add(new Songs(R.mipmap.reputation_album_taylor_swift, "Dress"));
-        songList.add(new Songs(R.mipmap.reputation_album_taylor_swift, "This Is Why We Can't Have Nice Things"));
-        songList.add(new Songs(R.mipmap.reputation_album_taylor_swift, "Call It What You Want"));
-        songList.add(new Songs(R.mipmap.reputation_album_taylor_swift, "New Year's Day"));
+        songList.add(new Songs(R.drawable.reputation_album_taylor_swift, "Reputation","...Ready for it?"));
+        songList.add(new Songs(R.drawable.reputation_album_taylor_swift, "Reputation","End Game"));
+        songList.add(new Songs(R.drawable.reputation_album_taylor_swift, "Reputation","I Did Something Bad"));
+        songList.add(new Songs(R.drawable.reputation_album_taylor_swift, "Reputation","Don't Blame Me"));
+        songList.add(new Songs(R.drawable.reputation_album_taylor_swift, "Reputation","Delicate"));
+        songList.add(new Songs(R.drawable.reputation_album_taylor_swift, "Reputation","Look What You Made Me Do"));
+        songList.add(new Songs(R.drawable.reputation_album_taylor_swift, "Reputation","So It Goes..."));
+        songList.add(new Songs(R.drawable.reputation_album_taylor_swift, "Reputation","Gorgeous"));
+        songList.add(new Songs(R.drawable.reputation_album_taylor_swift, "Reputation","Getaway Car"));
+        songList.add(new Songs(R.drawable.reputation_album_taylor_swift, "Reputation","King of My Heart"));
+        songList.add(new Songs(R.drawable.reputation_album_taylor_swift, "Reputation","Dancing with Our Hands Tied"));
+        songList.add(new Songs(R.drawable.reputation_album_taylor_swift, "Reputation","Dress"));
+        songList.add(new Songs(R.drawable.reputation_album_taylor_swift, "Reputation","This Is Why We Can't Have Nice Things"));
+        songList.add(new Songs(R.drawable.reputation_album_taylor_swift, "Reputation","Call It What You Want"));
+        songList.add(new Songs(R.drawable.reputation_album_taylor_swift, "Reputation","New Year's Day"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

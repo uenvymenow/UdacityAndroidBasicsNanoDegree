@@ -24,16 +24,16 @@ public class Pump extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.pump_album_aerosmith, "Pump","Young Lust"));
-        songList.add(new Songs(R.mipmap.pump_album_aerosmith, "Pump","F.I.N.E."));
-        songList.add(new Songs(R.mipmap.pump_album_aerosmith, "Pump","Going Down/Love in an Elevator"));
-        songList.add(new Songs(R.mipmap.pump_album_aerosmith, "Pump","Monkey on My Back"));
-        songList.add(new Songs(R.mipmap.pump_album_aerosmith, "Pump","Water Song/Janie's Got a Gun"));
-        songList.add(new Songs(R.mipmap.pump_album_aerosmith, "Pump","Dulcimer Stomp/The Other Side"));
-        songList.add(new Songs(R.mipmap.pump_album_aerosmith, "Pump","My Girl"));
-        songList.add(new Songs(R.mipmap.pump_album_aerosmith, "Pump","Don't Get Mad, Get Even"));
-        songList.add(new Songs(R.mipmap.pump_album_aerosmith, "Pump","Hoodoo/Voodoo Medicine Man"));
-        songList.add(new Songs(R.mipmap.pump_album_aerosmith, "Pump","What It Takes"));
+        songList.add(new Songs(R.drawable.pump_album_aerosmith, "Pump","Young Lust"));
+        songList.add(new Songs(R.drawable.pump_album_aerosmith, "Pump","F.I.N.E."));
+        songList.add(new Songs(R.drawable.pump_album_aerosmith, "Pump","Going Down/Love in an Elevator"));
+        songList.add(new Songs(R.drawable.pump_album_aerosmith, "Pump","Monkey on My Back"));
+        songList.add(new Songs(R.drawable.pump_album_aerosmith, "Pump","Water Song/Janie's Got a Gun"));
+        songList.add(new Songs(R.drawable.pump_album_aerosmith, "Pump","Dulcimer Stomp/The Other Side"));
+        songList.add(new Songs(R.drawable.pump_album_aerosmith, "Pump","My Girl"));
+        songList.add(new Songs(R.drawable.pump_album_aerosmith, "Pump","Don't Get Mad, Get Even"));
+        songList.add(new Songs(R.drawable.pump_album_aerosmith, "Pump","Hoodoo/Voodoo Medicine Man"));
+        songList.add(new Songs(R.drawable.pump_album_aerosmith, "Pump","What It Takes"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

@@ -24,19 +24,19 @@ public class ALoveSupreme extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.a_love_supreme_album_john_coltrane, "Acknowledgement"));
-        songList.add(new Songs(R.mipmap.a_love_supreme_album_john_coltrane, "Resolution"));
-        songList.add(new Songs(R.mipmap.a_love_supreme_album_john_coltrane, "Pursuance"));
-        songList.add(new Songs(R.mipmap.a_love_supreme_album_john_coltrane, "Psalm"));
-        songList.add(new Songs(R.mipmap.a_love_supreme_album_john_coltrane, "Introduction by André Francis"));
-        songList.add(new Songs(R.mipmap.a_love_supreme_album_john_coltrane, "Acknowledgement (Live)"));
-        songList.add(new Songs(R.mipmap.a_love_supreme_album_john_coltrane, "Resolution (Live)"));
-        songList.add(new Songs(R.mipmap.a_love_supreme_album_john_coltrane, "Pursuance (Live)"));
-        songList.add(new Songs(R.mipmap.a_love_supreme_album_john_coltrane, "Psalm (Live)"));
-        songList.add(new Songs(R.mipmap.a_love_supreme_album_john_coltrane, "Resolution (Alternate take)"));
-        songList.add(new Songs(R.mipmap.a_love_supreme_album_john_coltrane, "Resolution (Breakdown)"));
-        songList.add(new Songs(R.mipmap.a_love_supreme_album_john_coltrane, "Acknowledgement (Alternate take) Part 1"));
-        songList.add(new Songs(R.mipmap.a_love_supreme_album_john_coltrane, "Acknowledgement (Alternate take) Part 2"));
+        songList.add(new Songs(R.drawable.a_love_supreme_album_john_coltrane, "A Love Supreme","Acknowledgement"));
+        songList.add(new Songs(R.drawable.a_love_supreme_album_john_coltrane, "A Love Supreme","Resolution"));
+        songList.add(new Songs(R.drawable.a_love_supreme_album_john_coltrane, "A Love Supreme","Pursuance"));
+        songList.add(new Songs(R.drawable.a_love_supreme_album_john_coltrane, "A Love Supreme","Psalm"));
+        songList.add(new Songs(R.drawable.a_love_supreme_album_john_coltrane, "A Love Supreme","Introduction by André Francis"));
+        songList.add(new Songs(R.drawable.a_love_supreme_album_john_coltrane, "A Love Supreme","Acknowledgement (Live)"));
+        songList.add(new Songs(R.drawable.a_love_supreme_album_john_coltrane, "A Love Supreme","Resolution (Live)"));
+        songList.add(new Songs(R.drawable.a_love_supreme_album_john_coltrane, "A Love Supreme","Pursuance (Live)"));
+        songList.add(new Songs(R.drawable.a_love_supreme_album_john_coltrane, "A Love Supreme","Psalm (Live)"));
+        songList.add(new Songs(R.drawable.a_love_supreme_album_john_coltrane, "A Love Supreme","Resolution (Alternate take)"));
+        songList.add(new Songs(R.drawable.a_love_supreme_album_john_coltrane, "A Love Supreme","Resolution (Breakdown)"));
+        songList.add(new Songs(R.drawable.a_love_supreme_album_john_coltrane, "A Love Supreme","Acknowledgement (Alternate take) Part 1"));
+        songList.add(new Songs(R.drawable.a_love_supreme_album_john_coltrane, "A Love Supreme","Acknowledgement (Alternate take) Part 2"));
 
         SongAdapter songAdapter = new SongAdapter(this, songList);
 

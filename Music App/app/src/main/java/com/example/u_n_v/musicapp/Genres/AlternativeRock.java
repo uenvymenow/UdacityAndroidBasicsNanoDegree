@@ -27,9 +27,9 @@ public class AlternativeRock extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Artists> artistList = new ArrayList<>();
 
-        artistList.add(new Artists(R.mipmap.green_day, "Green Day")); // Image retrieved from https://www.grammy.com/grammys/artists/green-day
-        artistList.add(new Artists(R.mipmap.pearl_jam, "Pearl Jam")); // Image retrieved from https://consequenceofsound.net/2015/10/25-essential-pearl-jam-performances/
-        artistList.add(new Artists(R.mipmap.linkin_park, "Linkin Park")); // Image retrieved from http://www.blabbermouth.net/news/linkin-park-has-every-intention-of-continuing-says-mike-shinoda/
+        artistList.add(new Artists(R.drawable.green_day, "Green Day")); // Image retrieved from https://www.grammy.com/grammys/artists/green-day
+        artistList.add(new Artists(R.drawable.pearl_jam, "Pearl Jam")); // Image retrieved from https://consequenceofsound.net/2015/10/25-essential-pearl-jam-performances/
+        artistList.add(new Artists(R.drawable.linkin_park, "Linkin Park")); // Image retrieved from http://www.blabbermouth.net/news/linkin-park-has-every-intention-of-continuing-says-mike-shinoda/
 
         ArtistAdapter artistAdapter = new ArtistAdapter(this, artistList);
 

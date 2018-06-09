@@ -24,20 +24,20 @@ public class GetAGrip extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Get a Grip","Intro"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Get a Grip","Eat the Rich"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Get a Grip","Get a Grip"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Get a Grip","Fever"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Get a Grip","Livin' on the Edge"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Get a Grip","Flesh"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Get a Grip","Walk On Down"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Get a Grip","Shut Up and Dance"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Get a Grip","Cryin"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Get a Grip","Gotta Love It"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Get a Grip","Crazy"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Get a Grip","Line Up (featuring Lenny Kravitz)"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Get a Grip","Amazing"));
-        songList.add(new Songs(R.mipmap.meteora_album_linkin_park, "Get a Grip","Boogie Man (instrumental)"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Get a Grip","Intro"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Get a Grip","Eat the Rich"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Get a Grip","Get a Grip"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Get a Grip","Fever"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Get a Grip","Livin' on the Edge"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Get a Grip","Flesh"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Get a Grip","Walk On Down"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Get a Grip","Shut Up and Dance"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Get a Grip","Cryin"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Get a Grip","Gotta Love It"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Get a Grip","Crazy"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Get a Grip","Line Up (featuring Lenny Kravitz)"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Get a Grip","Amazing"));
+        songList.add(new Songs(R.drawable.meteora_album_linkin_park, "Get a Grip","Boogie Man (instrumental)"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

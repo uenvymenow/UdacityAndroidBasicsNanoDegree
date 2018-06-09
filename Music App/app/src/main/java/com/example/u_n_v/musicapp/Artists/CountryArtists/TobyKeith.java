@@ -29,9 +29,9 @@ public class TobyKeith extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.mipmap.bullets_in_the_gun_album_toby_keith,"Bullets in the Gun")); // Image retrieved from https://www.imdb.com/title/tt5931886/
-        albumList.add(new Albums(R.mipmap.big_dog_daddy_album_toby_keith,"Big Dog Daddy")); // Image retrieved from https://en.wikipedia.org/wiki/Big_Dog_Daddy
-        albumList.add(new Albums(R.mipmap.clancys_tavern_album_toby_keith,"Clancy's Tavern")); // Image retrieved from https://en.wikipedia.org/wiki/Clancy%27s_Tavern
+        albumList.add(new Albums(R.drawable.bullets_in_the_gun_album_toby_keith,"Bullets in the Gun")); // Image retrieved from https://www.imdb.com/title/tt5931886/
+        albumList.add(new Albums(R.drawable.big_dog_daddy_album_toby_keith,"Big Dog Daddy")); // Image retrieved from https://en.wikipedia.org/wiki/Big_Dog_Daddy
+        albumList.add(new Albums(R.drawable.clancys_tavern_album_toby_keith,"Clancy's Tavern")); // Image retrieved from https://en.wikipedia.org/wiki/Clancy%27s_Tavern
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 

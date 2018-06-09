@@ -24,17 +24,17 @@ public class BigDogDaddy extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "High Maintenance Woman"));
-        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "Love Me If You Can"));
-        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "White Rose"));
-        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "Get My Drink On"));
-        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "Wouldn't Wanna Be Ya"));
-        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "Big Dog Daddy"));
-        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "I Know She Hung the Moon"));
-        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "Pump Jack"));
-        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "Burnin' Moonlight"));
-        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "Walk It Off"));
-        songList.add(new Songs(R.mipmap.big_dog_daddy_album_toby_keith, "Hit It"));
+        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Big Dog Daddy","High Maintenance Woman"));
+        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Big Dog Daddy","Love Me If You Can"));
+        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Big Dog Daddy","White Rose"));
+        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Big Dog Daddy","Get My Drink On"));
+        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Big Dog Daddy","Wouldn't Wanna Be Ya"));
+        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Big Dog Daddy","Big Dog Daddy"));
+        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Big Dog Daddy","I Know She Hung the Moon"));
+        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Big Dog Daddy","Pump Jack"));
+        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Big Dog Daddy","Burnin' Moonlight"));
+        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Big Dog Daddy","Walk It Off"));
+        songList.add(new Songs(R.drawable.big_dog_daddy_album_toby_keith, "Big Dog Daddy","Hit It"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

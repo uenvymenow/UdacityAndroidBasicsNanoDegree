@@ -24,13 +24,13 @@ public class Presence extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.presence_album_led_zeppelin, "Achilles Last Stand"));
-        songList.add(new Songs(R.mipmap.presence_album_led_zeppelin, "For Your Life"));
-        songList.add(new Songs(R.mipmap.presence_album_led_zeppelin, "Royal Orleans"));
-        songList.add(new Songs(R.mipmap.presence_album_led_zeppelin, "Nobody's Fault but Mine"));
-        songList.add(new Songs(R.mipmap.presence_album_led_zeppelin, "Candy Store Rock"));
-        songList.add(new Songs(R.mipmap.presence_album_led_zeppelin, "Hots On for Nowhere"));
-        songList.add(new Songs(R.mipmap.presence_album_led_zeppelin, "Tea for One"));
+        songList.add(new Songs(R.drawable.presence_album_led_zeppelin, "Presence", "Achilles Last Stand"));
+        songList.add(new Songs(R.drawable.presence_album_led_zeppelin, "Presence","For Your Life"));
+        songList.add(new Songs(R.drawable.presence_album_led_zeppelin, "Presence","Royal Orleans"));
+        songList.add(new Songs(R.drawable.presence_album_led_zeppelin, "Presence","Nobody's Fault but Mine"));
+        songList.add(new Songs(R.drawable.presence_album_led_zeppelin, "Presence","Candy Store Rock"));
+        songList.add(new Songs(R.drawable.presence_album_led_zeppelin, "Presence","Hots On for Nowhere"));
+        songList.add(new Songs(R.drawable.presence_album_led_zeppelin, "Presence","Tea for One"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

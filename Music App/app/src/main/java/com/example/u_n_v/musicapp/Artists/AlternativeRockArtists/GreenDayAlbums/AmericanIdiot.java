@@ -23,19 +23,19 @@ public class AmericanIdiot extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.american_idiot_album_green_day, "American Idiot", "American Idiot"));
-        songList.add(new Songs(R.mipmap.american_idiot_album_green_day, "American Idiot","Jesus of Suburbia"));
-        songList.add(new Songs(R.mipmap.american_idiot_album_green_day, "American Idiot","Holiday"));
-        songList.add(new Songs(R.mipmap.american_idiot_album_green_day, "American Idiot","Boulevard of Broken Dreams"));
-        songList.add(new Songs(R.mipmap.american_idiot_album_green_day, "American Idiot","Are We the Waiting"));
-        songList.add(new Songs(R.mipmap.american_idiot_album_green_day, "American Idiot","St. Jimmy"));
-        songList.add(new Songs(R.mipmap.american_idiot_album_green_day, "American Idiot","Give Me Novacaine"));
-        songList.add(new Songs(R.mipmap.american_idiot_album_green_day, "American Idiot","She's a Rebel"));
-        songList.add(new Songs(R.mipmap.american_idiot_album_green_day, "American Idiot","Extraordinary Girl"));
-        songList.add(new Songs(R.mipmap.american_idiot_album_green_day, "American Idiot","Letterbomb"));
-        songList.add(new Songs(R.mipmap.american_idiot_album_green_day, "American Idiot","Wake Me Up When September Ends"));
-        songList.add(new Songs(R.mipmap.american_idiot_album_green_day, "American Idiot","Homecoming"));
-        songList.add(new Songs(R.mipmap.american_idiot_album_green_day, "American Idiot","Whatsername"));
+        songList.add(new Songs(R.drawable.american_idiot_album_green_day, "American Idiot", "American Idiot"));
+        songList.add(new Songs(R.drawable.american_idiot_album_green_day, "American Idiot","Jesus of Suburbia"));
+        songList.add(new Songs(R.drawable.american_idiot_album_green_day, "American Idiot","Holiday"));
+        songList.add(new Songs(R.drawable.american_idiot_album_green_day, "American Idiot","Boulevard of Broken Dreams"));
+        songList.add(new Songs(R.drawable.american_idiot_album_green_day, "American Idiot","Are We the Waiting"));
+        songList.add(new Songs(R.drawable.american_idiot_album_green_day, "American Idiot","St. Jimmy"));
+        songList.add(new Songs(R.drawable.american_idiot_album_green_day, "American Idiot","Give Me Novacaine"));
+        songList.add(new Songs(R.drawable.american_idiot_album_green_day, "American Idiot","She's a Rebel"));
+        songList.add(new Songs(R.drawable.american_idiot_album_green_day, "American Idiot","Extraordinary Girl"));
+        songList.add(new Songs(R.drawable.american_idiot_album_green_day, "American Idiot","Letterbomb"));
+        songList.add(new Songs(R.drawable.american_idiot_album_green_day, "American Idiot","Wake Me Up When September Ends"));
+        songList.add(new Songs(R.drawable.american_idiot_album_green_day, "American Idiot","Homecoming"));
+        songList.add(new Songs(R.drawable.american_idiot_album_green_day, "American Idiot","Whatsername"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

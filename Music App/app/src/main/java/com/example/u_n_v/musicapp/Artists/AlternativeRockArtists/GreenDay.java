@@ -29,9 +29,9 @@ public class GreenDay extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.mipmap.dookie_album_green_day,"Dookie")); // Image retrieved from https://en.wikipedia.org/wiki/Dookie
-        albumList.add(new Albums(R.mipmap.nimrod_album_green_day,"Nimrod")); // Image retrieved from https://en.wikipedia.org/wiki/Nimrod_(album)
-        albumList.add(new Albums(R.mipmap.american_idiot_album_green_day,"American Idiot")); // Image retrieved from https://en.wikipedia.org/wiki/American_Idiot
+        albumList.add(new Albums(R.drawable.dookie_album_green_day,"Dookie")); // Image retrieved from https://en.wikipedia.org/wiki/Dookie
+        albumList.add(new Albums(R.drawable.nimrod_album_green_day,"Nimrod")); // Image retrieved from https://en.wikipedia.org/wiki/Nimrod_(album)
+        albumList.add(new Albums(R.drawable.american_idiot_album_green_day,"American Idiot")); // Image retrieved from https://en.wikipedia.org/wiki/American_Idiot
 
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);

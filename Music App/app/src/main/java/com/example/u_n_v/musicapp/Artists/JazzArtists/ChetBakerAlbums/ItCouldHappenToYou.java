@@ -24,16 +24,16 @@ public class ItCouldHappenToYou extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.it_could_happen_to_you_album_chet_baker, "Do It the Hard Way"));
-        songList.add(new Songs(R.mipmap.it_could_happen_to_you_album_chet_baker, "I'm Old Fashioned"));
-        songList.add(new Songs(R.mipmap.it_could_happen_to_you_album_chet_baker, "You're Driving Me Crazy"));
-        songList.add(new Songs(R.mipmap.it_could_happen_to_you_album_chet_baker, "It Could Happen to You"));
-        songList.add(new Songs(R.mipmap.it_could_happen_to_you_album_chet_baker, "My Heart Stood Still"));
-        songList.add(new Songs(R.mipmap.it_could_happen_to_you_album_chet_baker, "The More I See You"));
-        songList.add(new Songs(R.mipmap.it_could_happen_to_you_album_chet_baker, "Everything Happens to Me"));
-        songList.add(new Songs(R.mipmap.it_could_happen_to_you_album_chet_baker, "Dancing on the Ceiling"));
-        songList.add(new Songs(R.mipmap.it_could_happen_to_you_album_chet_baker, "How Long Has This Been Going On?"));
-        songList.add(new Songs(R.mipmap.it_could_happen_to_you_album_chet_baker, "Old Devil Moon"));
+        songList.add(new Songs(R.drawable.it_could_happen_to_you_album_chet_baker, "It Could Happen To You","Do It the Hard Way"));
+        songList.add(new Songs(R.drawable.it_could_happen_to_you_album_chet_baker, "It Could Happen To You","I'm Old Fashioned"));
+        songList.add(new Songs(R.drawable.it_could_happen_to_you_album_chet_baker, "It Could Happen To You","You're Driving Me Crazy"));
+        songList.add(new Songs(R.drawable.it_could_happen_to_you_album_chet_baker, "It Could Happen To You","It Could Happen to You"));
+        songList.add(new Songs(R.drawable.it_could_happen_to_you_album_chet_baker, "It Could Happen To You","My Heart Stood Still"));
+        songList.add(new Songs(R.drawable.it_could_happen_to_you_album_chet_baker, "It Could Happen To You","The More I See You"));
+        songList.add(new Songs(R.drawable.it_could_happen_to_you_album_chet_baker, "It Could Happen To You","Everything Happens to Me"));
+        songList.add(new Songs(R.drawable.it_could_happen_to_you_album_chet_baker, "It Could Happen To You","Dancing on the Ceiling"));
+        songList.add(new Songs(R.drawable.it_could_happen_to_you_album_chet_baker, "It Could Happen To You","How Long Has This Been Going On?"));
+        songList.add(new Songs(R.drawable.it_could_happen_to_you_album_chet_baker, "It Could Happen To You","Old Devil Moon"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

@@ -30,9 +30,9 @@ public class Aerosmith extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.mipmap.toys_in_the_attic_album_aerosmith,"Toys in the Attic")); // Image retrieved from http://www.subjectivesounds.com/musicblog/2016/1/5/aerosmith-toys-in-the-attic
-        albumList.add(new Albums(R.mipmap.pump_album_aerosmith,"Pump")); // Image retrieved from https://en.wikipedia.org/wiki/Pump_(album)
-        albumList.add(new Albums(R.mipmap.get_a_grip_album_aerosmith,"Get a Grip")); // Image retrieved from https://en.wikipedia.org/wiki/Get_a_Grip
+        albumList.add(new Albums(R.drawable.toys_in_the_attic_album_aerosmith,"Toys in the Attic")); // Image retrieved from http://www.subjectivesounds.com/musicblog/2016/1/5/aerosmith-toys-in-the-attic
+        albumList.add(new Albums(R.drawable.pump_album_aerosmith,"Pump")); // Image retrieved from https://en.wikipedia.org/wiki/Pump_(album)
+        albumList.add(new Albums(R.drawable.get_a_grip_album_aerosmith,"Get a Grip")); // Image retrieved from https://en.wikipedia.org/wiki/Get_a_Grip
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 

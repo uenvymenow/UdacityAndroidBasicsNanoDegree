@@ -30,9 +30,9 @@ public class TimMcGraw extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Albums> albumList = new ArrayList<>();
 
-        albumList.add(new Albums(R.mipmap.let_it_go_album_tim_mcgraw,"Let It Go")); // Image retrieved from https://en.wikipedia.org/wiki/Let_It_Go_(Tim_McGraw_album)
-        albumList.add(new Albums(R.mipmap.two_lanes_of_freedom_album_tim_mcgraw,"Two Lanes of Freedom")); // Image retrieved from https://en.wikipedia.org/wiki/Two_Lanes_of_Freedom
-        albumList.add(new Albums(R.mipmap.sundown_heaven_town_album_tim_mcgraw,"Sundown Heaven Town")); // Image retrieved from https://en.wikipedia.org/wiki/Sundown_Heaven_Town
+        albumList.add(new Albums(R.drawable.let_it_go_album_tim_mcgraw,"Let It Go")); // Image retrieved from https://en.wikipedia.org/wiki/Let_It_Go_(Tim_McGraw_album)
+        albumList.add(new Albums(R.drawable.two_lanes_of_freedom_album_tim_mcgraw,"Two Lanes of Freedom")); // Image retrieved from https://en.wikipedia.org/wiki/Two_Lanes_of_Freedom
+        albumList.add(new Albums(R.drawable.sundown_heaven_town_album_tim_mcgraw,"Sundown Heaven Town")); // Image retrieved from https://en.wikipedia.org/wiki/Sundown_Heaven_Town
 
         AlbumAdapter albumAdapter = new AlbumAdapter(this, albumList);
 

@@ -24,17 +24,17 @@ public class LouisAndTheAngels extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.louis_and_the_angels_album_louis_armstrong, "When Did You Leave Heaven?"));
-        songList.add(new Songs(R.mipmap.louis_and_the_angels_album_louis_armstrong, "You're A Heavenly Thing"));
-        songList.add(new Songs(R.mipmap.louis_and_the_angels_album_louis_armstrong, "I Married An Angel"));
-        songList.add(new Songs(R.mipmap.louis_and_the_angels_album_louis_armstrong, "A Sinner Kissed An Angel"));
-        songList.add(new Songs(R.mipmap.louis_and_the_angels_album_louis_armstrong, "Angela Mia"));
-        songList.add(new Songs(R.mipmap.louis_and_the_angels_album_louis_armstrong, "Angel Child"));
-        songList.add(new Songs(R.mipmap.louis_and_the_angels_album_louis_armstrong, "And The Angels Sing"));
-        songList.add(new Songs(R.mipmap.louis_and_the_angels_album_louis_armstrong, "Fools Rush In"));
-        songList.add(new Songs(R.mipmap.louis_and_the_angels_album_louis_armstrong, "I'll String Along With You"));
-        songList.add(new Songs(R.mipmap.louis_and_the_angels_album_louis_armstrong, "Angel"));
-        songList.add(new Songs(R.mipmap.louis_and_the_angels_album_louis_armstrong, "The Prisoner's Song"));
+        songList.add(new Songs(R.drawable.louis_and_the_angels_album_louis_armstrong, "Louis and the Angels","When Did You Leave Heaven?"));
+        songList.add(new Songs(R.drawable.louis_and_the_angels_album_louis_armstrong, "Louis and the Angels","You're A Heavenly Thing"));
+        songList.add(new Songs(R.drawable.louis_and_the_angels_album_louis_armstrong, "Louis and the Angels","I Married An Angel"));
+        songList.add(new Songs(R.drawable.louis_and_the_angels_album_louis_armstrong, "Louis and the Angels","A Sinner Kissed An Angel"));
+        songList.add(new Songs(R.drawable.louis_and_the_angels_album_louis_armstrong, "Louis and the Angels","Angela Mia"));
+        songList.add(new Songs(R.drawable.louis_and_the_angels_album_louis_armstrong, "Louis and the Angels","Angel Child"));
+        songList.add(new Songs(R.drawable.louis_and_the_angels_album_louis_armstrong, "Louis and the Angels","And The Angels Sing"));
+        songList.add(new Songs(R.drawable.louis_and_the_angels_album_louis_armstrong, "Louis and the Angels","Fools Rush In"));
+        songList.add(new Songs(R.drawable.louis_and_the_angels_album_louis_armstrong, "Louis and the Angels","I'll String Along With You"));
+        songList.add(new Songs(R.drawable.louis_and_the_angels_album_louis_armstrong, "Louis and the Angels","Angel"));
+        songList.add(new Songs(R.drawable.louis_and_the_angels_album_louis_armstrong, "Louis and the Angels","The Prisoner's Song"));
 
         SongAdapter songAdapter = new SongAdapter(this, songList);
 

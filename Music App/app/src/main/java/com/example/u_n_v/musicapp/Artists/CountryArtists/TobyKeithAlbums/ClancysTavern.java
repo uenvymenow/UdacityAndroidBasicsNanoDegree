@@ -23,17 +23,17 @@ public class ClancysTavern extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.clancys_tavern_album_toby_keith, "Made in America"));
-        songList.add(new Songs(R.mipmap.clancys_tavern_album_toby_keith, "I Need to Hear a Country Song"));
-        songList.add(new Songs(R.mipmap.clancys_tavern_album_toby_keith, "Clancy's Tavern"));
-        songList.add(new Songs(R.mipmap.clancys_tavern_album_toby_keith, "Tryin' to Fall in Love"));
-        songList.add(new Songs(R.mipmap.clancys_tavern_album_toby_keith, "Just Another Sundown"));
-        songList.add(new Songs(R.mipmap.clancys_tavern_album_toby_keith, "Beers Ago"));
-        songList.add(new Songs(R.mipmap.clancys_tavern_album_toby_keith, "South of You"));
-        songList.add(new Songs(R.mipmap.clancys_tavern_album_toby_keith, "Club Zydeco Moon"));
-        songList.add(new Songs(R.mipmap.clancys_tavern_album_toby_keith, "I Won't Let You Down"));
-        songList.add(new Songs(R.mipmap.clancys_tavern_album_toby_keith, "Red Solo Cup"));
-        songList.add(new Songs(R.mipmap.clancys_tavern_album_toby_keith, "Chill-Axin'"));
+        songList.add(new Songs(R.drawable.clancys_tavern_album_toby_keith, "Clancy's Tavern","Made in America"));
+        songList.add(new Songs(R.drawable.clancys_tavern_album_toby_keith, "Clancy's Tavern","I Need to Hear a Country Song"));
+        songList.add(new Songs(R.drawable.clancys_tavern_album_toby_keith, "Clancy's Tavern","Clancy's Tavern"));
+        songList.add(new Songs(R.drawable.clancys_tavern_album_toby_keith, "Clancy's Tavern","Tryin' to Fall in Love"));
+        songList.add(new Songs(R.drawable.clancys_tavern_album_toby_keith, "Clancy's Tavern","Just Another Sundown"));
+        songList.add(new Songs(R.drawable.clancys_tavern_album_toby_keith, "Clancy's Tavern","Beers Ago"));
+        songList.add(new Songs(R.drawable.clancys_tavern_album_toby_keith, "Clancy's Tavern","South of You"));
+        songList.add(new Songs(R.drawable.clancys_tavern_album_toby_keith, "Clancy's Tavern","Club Zydeco Moon"));
+        songList.add(new Songs(R.drawable.clancys_tavern_album_toby_keith, "Clancy's Tavern","I Won't Let You Down"));
+        songList.add(new Songs(R.drawable.clancys_tavern_album_toby_keith, "Clancy's Tavern","Red Solo Cup"));
+        songList.add(new Songs(R.drawable.clancys_tavern_album_toby_keith, "Clancy's Tavern","Chill-Axin'"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

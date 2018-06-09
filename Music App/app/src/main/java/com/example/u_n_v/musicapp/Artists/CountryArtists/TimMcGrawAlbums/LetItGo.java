@@ -24,20 +24,20 @@ public class LetItGo extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.let_it_go_album_tim_mcgraw, "Last Dollar (Fly Away)"));
-        songList.add(new Songs(R.mipmap.let_it_go_album_tim_mcgraw, "I'm Workin"));
-        songList.add(new Songs(R.mipmap.let_it_go_album_tim_mcgraw, "Let It Go"));
-        songList.add(new Songs(R.mipmap.let_it_go_album_tim_mcgraw, "Whiskey and You"));
-        songList.add(new Songs(R.mipmap.let_it_go_album_tim_mcgraw, "Suspicions"));
-        songList.add(new Songs(R.mipmap.let_it_go_album_tim_mcgraw, "Kristofferson"));
-        songList.add(new Songs(R.mipmap.let_it_go_album_tim_mcgraw, "Put Your Lovin' on Me"));
-        songList.add(new Songs(R.mipmap.let_it_go_album_tim_mcgraw, "Nothin' to Die For"));
-        songList.add(new Songs(R.mipmap.let_it_go_album_tim_mcgraw, "Between the River and Me"));
-        songList.add(new Songs(R.mipmap.let_it_go_album_tim_mcgraw, "Train #10"));
-        songList.add(new Songs(R.mipmap.let_it_go_album_tim_mcgraw, "I Need You"));
-        songList.add(new Songs(R.mipmap.let_it_go_album_tim_mcgraw, "Comin' Home"));
-        songList.add(new Songs(R.mipmap.let_it_go_album_tim_mcgraw, "Shotgun Rider"));
-        songList.add(new Songs(R.mipmap.let_it_go_album_tim_mcgraw, "If You're Reading This"));
+        songList.add(new Songs(R.drawable.let_it_go_album_tim_mcgraw, "Let It Go","Last Dollar (Fly Away)"));
+        songList.add(new Songs(R.drawable.let_it_go_album_tim_mcgraw, "Let It Go","I'm Workin"));
+        songList.add(new Songs(R.drawable.let_it_go_album_tim_mcgraw, "Let It Go","Let It Go"));
+        songList.add(new Songs(R.drawable.let_it_go_album_tim_mcgraw, "Let It Go","Whiskey and You"));
+        songList.add(new Songs(R.drawable.let_it_go_album_tim_mcgraw, "Let It Go","Suspicions"));
+        songList.add(new Songs(R.drawable.let_it_go_album_tim_mcgraw, "Let It Go","Kristofferson"));
+        songList.add(new Songs(R.drawable.let_it_go_album_tim_mcgraw, "Let It Go","Put Your Lovin' on Me"));
+        songList.add(new Songs(R.drawable.let_it_go_album_tim_mcgraw, "Let It Go","Nothin' to Die For"));
+        songList.add(new Songs(R.drawable.let_it_go_album_tim_mcgraw, "Let It Go","Between the River and Me"));
+        songList.add(new Songs(R.drawable.let_it_go_album_tim_mcgraw, "Let It Go","Train #10"));
+        songList.add(new Songs(R.drawable.let_it_go_album_tim_mcgraw, "Let It Go","I Need You"));
+        songList.add(new Songs(R.drawable.let_it_go_album_tim_mcgraw, "Let It Go","Comin' Home"));
+        songList.add(new Songs(R.drawable.let_it_go_album_tim_mcgraw, "Let It Go","Shotgun Rider"));
+        songList.add(new Songs(R.drawable.let_it_go_album_tim_mcgraw, "Let It Go","If You're Reading This"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

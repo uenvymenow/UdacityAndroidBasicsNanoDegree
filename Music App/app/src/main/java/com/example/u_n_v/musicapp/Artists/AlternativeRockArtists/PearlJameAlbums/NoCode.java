@@ -23,19 +23,19 @@ public class NoCode extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.no_code_album_pearl_jam, "No Code","Sometimes"));
-        songList.add(new Songs(R.mipmap.no_code_album_pearl_jam, "No Code","Hail, Hail"));
-        songList.add(new Songs(R.mipmap.no_code_album_pearl_jam, "No Code","Who You Are"));
-        songList.add(new Songs(R.mipmap.no_code_album_pearl_jam, "No Code","In My Tree"));
-        songList.add(new Songs(R.mipmap.no_code_album_pearl_jam, "No Code","Smile"));
-        songList.add(new Songs(R.mipmap.no_code_album_pearl_jam, "No Code","Off He Goes"));
-        songList.add(new Songs(R.mipmap.no_code_album_pearl_jam, "No Code","Habit"));
-        songList.add(new Songs(R.mipmap.no_code_album_pearl_jam, "No Code","Red Mosquito"));
-        songList.add(new Songs(R.mipmap.no_code_album_pearl_jam, "No Code","Lukin"));
-        songList.add(new Songs(R.mipmap.no_code_album_pearl_jam, "No Code","Present Tense"));
-        songList.add(new Songs(R.mipmap.no_code_album_pearl_jam, "No Code","Mankind"));
-        songList.add(new Songs(R.mipmap.no_code_album_pearl_jam, "No Code","I'm Open"));
-        songList.add(new Songs(R.mipmap.no_code_album_pearl_jam, "No Code","Around the Bend"));
+        songList.add(new Songs(R.drawable.no_code_album_pearl_jam, "No Code","Sometimes"));
+        songList.add(new Songs(R.drawable.no_code_album_pearl_jam, "No Code","Hail, Hail"));
+        songList.add(new Songs(R.drawable.no_code_album_pearl_jam, "No Code","Who You Are"));
+        songList.add(new Songs(R.drawable.no_code_album_pearl_jam, "No Code","In My Tree"));
+        songList.add(new Songs(R.drawable.no_code_album_pearl_jam, "No Code","Smile"));
+        songList.add(new Songs(R.drawable.no_code_album_pearl_jam, "No Code","Off He Goes"));
+        songList.add(new Songs(R.drawable.no_code_album_pearl_jam, "No Code","Habit"));
+        songList.add(new Songs(R.drawable.no_code_album_pearl_jam, "No Code","Red Mosquito"));
+        songList.add(new Songs(R.drawable.no_code_album_pearl_jam, "No Code","Lukin"));
+        songList.add(new Songs(R.drawable.no_code_album_pearl_jam, "No Code","Present Tense"));
+        songList.add(new Songs(R.drawable.no_code_album_pearl_jam, "No Code","Mankind"));
+        songList.add(new Songs(R.drawable.no_code_album_pearl_jam, "No Code","I'm Open"));
+        songList.add(new Songs(R.drawable.no_code_album_pearl_jam, "No Code","Around the Bend"));
 
 
         SongAdapter songAdapter = new SongAdapter(this, songList);

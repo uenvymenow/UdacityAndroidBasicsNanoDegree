@@ -23,20 +23,20 @@ public class Dookie extends AppCompatActivity {
         // Create the Artist Array List object
         final ArrayList<Songs> songList = new ArrayList<>();
 
-        songList.add(new Songs(R.mipmap.dookie_album_green_day, "Dookie", "Burnout"));
-        songList.add(new Songs(R.mipmap.dookie_album_green_day, "Dookie","Having A Blast"));
-        songList.add(new Songs(R.mipmap.dookie_album_green_day, "Dookie","Chump"));
-        songList.add(new Songs(R.mipmap.dookie_album_green_day, "Dookie","Longview"));
-        songList.add(new Songs(R.mipmap.dookie_album_green_day, "Dookie","Welcome to Paradise"));
-        songList.add(new Songs(R.mipmap.dookie_album_green_day, "Dookie","Pulling Teeth"));
-        songList.add(new Songs(R.mipmap.dookie_album_green_day, "Dookie","Basket Case"));
-        songList.add(new Songs(R.mipmap.dookie_album_green_day, "Dookie","She"));
-        songList.add(new Songs(R.mipmap.dookie_album_green_day, "Dookie","Sassafras Roots"));
-        songList.add(new Songs(R.mipmap.dookie_album_green_day, "Dookie","When I Come Around"));
-        songList.add(new Songs(R.mipmap.dookie_album_green_day, "Dookie","Coming Clean"));
-        songList.add(new Songs(R.mipmap.dookie_album_green_day, "Dookie","Emenius Sleepus"));
-        songList.add(new Songs(R.mipmap.dookie_album_green_day, "Dookie","In the End"));
-        songList.add(new Songs(R.mipmap.dookie_album_green_day, "Dookie","F.O.D./All by Myself"));
+        songList.add(new Songs(R.drawable.dookie_album_green_day, "Dookie", "Burnout"));
+        songList.add(new Songs(R.drawable.dookie_album_green_day, "Dookie","Having A Blast"));
+        songList.add(new Songs(R.drawable.dookie_album_green_day, "Dookie","Chump"));
+        songList.add(new Songs(R.drawable.dookie_album_green_day, "Dookie","Longview"));
+        songList.add(new Songs(R.drawable.dookie_album_green_day, "Dookie","Welcome to Paradise"));
+        songList.add(new Songs(R.drawable.dookie_album_green_day, "Dookie","Pulling Teeth"));
+        songList.add(new Songs(R.drawable.dookie_album_green_day, "Dookie","Basket Case"));
+        songList.add(new Songs(R.drawable.dookie_album_green_day, "Dookie","She"));
+        songList.add(new Songs(R.drawable.dookie_album_green_day, "Dookie","Sassafras Roots"));
+        songList.add(new Songs(R.drawable.dookie_album_green_day, "Dookie","When I Come Around"));
+        songList.add(new Songs(R.drawable.dookie_album_green_day, "Dookie","Coming Clean"));
+        songList.add(new Songs(R.drawable.dookie_album_green_day, "Dookie","Emenius Sleepus"));
+        songList.add(new Songs(R.drawable.dookie_album_green_day, "Dookie","In the End"));
+        songList.add(new Songs(R.drawable.dookie_album_green_day, "Dookie","F.O.D./All by Myself"));
 
         SongAdapter songAdapter = new SongAdapter(this, songList);
 

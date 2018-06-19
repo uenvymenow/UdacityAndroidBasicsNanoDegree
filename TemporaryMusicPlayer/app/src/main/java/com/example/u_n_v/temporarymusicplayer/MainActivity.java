@@ -5,6 +5,7 @@ import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,9 +20,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void PlayButton(View view){
         song.start();
+        song.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                Toast.makeText(MainActivity.this, "I'm Done", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     public void PauseButton(View view){
         song.pause();
     }
+
+
 }

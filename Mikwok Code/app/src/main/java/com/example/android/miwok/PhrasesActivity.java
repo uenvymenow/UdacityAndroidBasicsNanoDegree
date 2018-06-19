@@ -14,6 +14,17 @@ public class PhrasesActivity extends AppCompatActivity {
     // Initiates mWordPlaying variable for MediaPlayer object
     MediaPlayer mWordPlaying;
 
+    /**
+     * This listener gets triggered when the {@link MediaPlayer} has completed
+     * playing the audio file
+     */
+    private MediaPlayer.OnCompletionListener mCompletionListener = new MediaPlayer.OnCompletionListener() {
+        @Override
+        public void onCompletion(MediaPlayer mp) {
+            releaseMediaPlayer();
+        }
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,12 +71,38 @@ public class PhrasesActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // Gets position of current word and assigns it to new word object
                 Word word = words.get(position);
+
+                // Release the media player if it currently exists because we are about to
+                // play a different sound file
+                releaseMediaPlayer();
+
                 // Creates a new MediaPlayer object and passes in the 'getmAudioResourceID Variable
                 // and assigns it to the mWordPlaying variable
                 mWordPlaying = MediaPlayer.create(PhrasesActivity.this, word.getmAudioResourceID());
                 // Starts music player variable
                 mWordPlaying.start();
+
+                // Setup a listener on the media player, so that we can stop and release the
+                // media player once the sounds has finished playing
+                mWordPlaying.setOnCompletionListener(mCompletionListener);
             }
         });
+    }
+
+    /**
+     * Clean up the media player by releasing its resources.
+     */
+    private void releaseMediaPlayer(){
+        // If the media player is not null, then it may be currently playing a sound.
+        if (mWordPlaying != null) {
+            // Regardless of the current state of the media player, release its resources
+            // because we no longer need it.
+            mWordPlaying.release();
+
+            // Set the media player back to null. For our code, we've decided that
+            // setting the media player to null is an easy way to tell that the media player
+            // is not configured to play an audio file at the moment.
+            mWordPlaying = null;
+        }
     }
 }
